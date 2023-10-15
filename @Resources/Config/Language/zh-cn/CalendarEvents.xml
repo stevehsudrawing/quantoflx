@@ -1,0 +1,81 @@
+ <EventFile Repeat="Year">
+	<Variable Name="DayNumber" Select="86400"/>
+	<Set Month="1">
+		<Event Day="1">元旦</Event>
+		<Event Day="10">中国人民警察节</Event>
+	</Set>
+	<Set Month="2">
+		<Event Day="7" Year="1923" Anniversary="true">二七纪念日</Event>
+	</Set>
+	<Set Month="3">
+		<Event Day="5" Year="1898" Anniversary="true">周恩来同志诞辰纪念日</Event>
+		<Event Day="5" Year="1963" Anniversary="true">学雷锋纪念日</Event>
+		<Event Day="8">国际妇女节</Event>
+		<Event Day="12">植树节</Event>
+	</Set>
+	<Set Month="4">
+		<Event Day="15">全民国家安全教育日</Event>
+		<Event Day="5" Year="1949" Anniversary="true">中国人民海军成立日</Event>
+		<Event Day="24">中国航天日</Event>
+	</Set>
+	<Set Month="5">
+		<Event Day="1">国际劳动节</Event>
+		<Event Day="4" Year="1919" Anniversary="true">五四运动纪念日</Event>
+		<Event Day="4">青年节</Event>
+		<Event Day="5" Year="1818" Anniversary="true">马克思诞辰纪念日</Event>
+		<Event Day="5" Year="1922" Anniversary="true">中国共产主义青年团成立日</Event>
+		<Event Day="10">中国品牌日</Event>
+		<Event Day="12">国际护士节</Event>
+		<Event Day="12">全国防灾减灾日</Event>
+		<Event Day="19">中国旅游日</Event>
+		<Event Day="30">全国科技工作者日</Event>
+		<Event Day="30" Year="1925" Anniversary="true">五卅纪念日</Event>
+		<Event Day="{$ThirdSun}">全国助残日</Event>
+	</Set>
+	<Set Month="6">
+		<Event Day="1">国际儿童节</Event>
+		<Event Day="5">环境日</Event>
+		<Event Day="25">全国土地日</Event>
+		<Event Day="{$SecondSat}">文化和自然遗产日</Event>
+	</Set>
+	<Set Month="7">
+		<Event Day="1" Year="1921" Anniversary="true">中国共产党建党日</Event>
+		<Event Day="1" Year="1997" Anniversary="true">香港回归纪念日</Event>
+		<Event Day="7" Year="1937" Anniversary="true">七七抗战纪念日</Event>
+		<Event Day="11">中国航海日</Event>
+	</Set>
+	<Set Month="8">
+		<Event Day="1">中国人民解放军建军节</Event>
+		<Event Day="8">全民健身日</Event>
+		<Event Day="19">中国医师节</Event>
+		<Event Day="25">残疾预防日</Event>
+	</Set>
+	<Set Month="9">
+		<Event Day="3" Year="1945" Anniversary="true">中国人民抗日战争胜利纪念日</Event>
+		<Event Day="10">教师节</Event>
+		<Event Day="18" Year="1931" Anniversary="true">九一八纪念日</Event>
+		<Event Day="30">烈士纪念日</Event>
+		<Event Day="{$ThirdSat}">全民国防教育日</Event>
+	</Set>
+	<Set Month="10">
+		<Event Day="1" Year="1949" Anniversary="true">国庆节</Event>
+		<Event Day="10" Year="1911" Anniversary="true">辛亥革命纪念日</Event>
+		<Event Day="13" Year="1949" Anniversary="true">中国少年先锋队建队日</Event>
+		<Event Day="15" Year="1950" Anniversary="true">中国人民志愿军抗美援朝出国作战纪念日</Event>
+		<Event Day="17">国家扶贫日</Event>
+	</Set>
+	<Set Month="11">
+		<Event Day="8">记者节</Event>
+		<Event Day="11" Year="1949" Anniversary="true">中国人民空军成立日</Event>
+	</Set>
+	<Set Month="12">
+		<Event Day="2">全国交通安全日</Event>
+		<Event Day="9" Year="1935" Anniversary="true">一二·九运动纪念日</Event>
+		<Event Day="4">国家宪法日</Event>
+		<Event Day="4">全国法制宣传日</Event>
+		<Event Day="12" Year="1936" Anniversary="true">西安事变纪念日</Event>
+		<Event Day="13" Year="1937" Anniversary="true">南京大屠杀死难者国家公祭日</Event>
+		<Event Day="20" Year="1999" Anniversary="true">澳门回归纪念日</Event>
+		<Event Day="26" Year="1893" Anniversary="true">毛泽东同志诞辰纪念日</Event>
+	</Set>
+</EventFile>
