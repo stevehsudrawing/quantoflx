@@ -57,6 +57,7 @@ DynamicVariables=1
 Shape=Rectangle #Pn.Zn.Gn# | #Da.Sk# | Fill Color #Cl.Gn.Bg.Da#,(#Em#=0?(255*#An0#):255)
 DynamicVariables=1
 Hidden=#Em#
+Group=AnGp
 
 [St.Zn]
 Shape=Rectangle #Pn.Zn.Gn# | #Da.Sk#
@@ -75,13 +76,14 @@ Type=[#Bl.Md_[#Bl.Bg.Md].Ty_[#Bl.Bg.Ty]]
 Border=[#Bl.Md_[#Bl.Bg.Md].Bd_[#Bl.Bg.Bd]]
 Corner=[#Bl.Md_[#Bl.Bg.Md].Cn_[#Bl.Bg.Cn]]
 DynamicVariables=1
+; Special thanks to theAzack9
 
 [Ms.An]
-; Animation Measure for selecting window
+; Animation Measure
 Measure=Plugin
 Plugin=ActionTimer
-ActionList1=Repeat FI,1,5
-ActionList2=Repeat FO,1,5
-FI=[!SetVariable An0 "(Clamp((#An0#+0.2),0,1))"][!UpdateMeasure Ms.An][!Update][!Redraw]
-FO=[!SetVariable An0 "(Clamp((#An0#-0.2),0,1))"][!UpdateMeasure Ms.An][!Update][!Redraw]
+ActionList1=Repeat FI,1,10
+ActionList2=Repeat FO,1,10
+FI=[!SetVariable An0 "(Clamp((#An0#+0.1),0,1))"][!UpdateMeasure Ms.An][!UpdateMeterGroup AnGp][!Redraw]
+FO=[!SetVariable An0 "(Clamp((#An0#-0.1),0,1))"][!UpdateMeasure Ms.An][!UpdateMeterGroup AnGp][!Redraw]
 DynamicVariables=1
