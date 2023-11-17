@@ -1,6 +1,10 @@
 [Variables]
+; Allow gradient background (0/1)
+AllwGdnt=1
+; Allow combination (0/1)
+AllwCbnt=1
 ; Quantity of lines on display. Up to 15
-Ln=9
+Ln=6
 
 ; Display name
 ; If not needed, leave it blank
@@ -80,6 +84,7 @@ Mt.Op.15-----=
 ; 06 - Choose a File
 ; 07 - Choose a Image
 ; 08 - Open Folder/File
+; 09 - Pick a Color
 ; 99 - Other Action
 Mt.Op.01------=02
 Mt.Op.02------=02

@@ -8,30 +8,6 @@ Fl.Cl.Bg=Fill Color #Cl.Gn.Bg.Gn#,(#Bl.Bg.Md#=0?255:(255*#Op.Bg#))
 Fl.Cl.Le=Fill Color 255,255,255,(255*#Le.St#)
 Fl.Cl.Da=Fill Color #Cl.Gn.Bg.Da#,(#Em#=0?(255*#An0#):255)
 
-Bl.Md_0.Ty_0=None
-Bl.Md_0.Ty_1=None
-Bl.Md_1.Ty_0=None
-Bl.Md_1.Ty_1=None
-Bl.Md_2.Ty_0=Blur
-Bl.Md_2.Ty_1=Acrylic
-
-Bl.Md_0.Bd_0=None
-Bl.Md_0.Bd_1=None
-Bl.Md_1.Bd_0=None
-Bl.Md_1.Bd_1=None
-Bl.Md_2.Bd_0=None
-Bl.Md_2.Bd_1=All
-
-Bl.Md_0.Cn_0=None
-Bl.Md_0.Cn_1=None
-Bl.Md_0.Cn_2=None
-Bl.Md_1.Cn_0=None
-Bl.Md_1.Cn_1=None
-Bl.Md_1.Cn_2=None
-Bl.Md_2.Cn_0=None
-Bl.Md_2.Cn_1=Round
-Bl.Md_2.Cn_2=RoundSmall
-
 Fa.Em_0=[!Update][!CommandMeasure "Ms.An" "Execute 2"][!Redraw]
 Ua.Em_0=[!Update][!CommandMeasure "Ms.An" "Execute 1"][!Redraw]
 Fa.Em_1=[!HideMeter Mt.Da][!Redraw]
