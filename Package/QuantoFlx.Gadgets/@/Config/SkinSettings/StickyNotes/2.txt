@@ -1,0 +1,3 @@
+Double-click me to edit the content. Also, double-click the title to edit the title.
+When you start editing, your text editor will open. After your editing is complete, save it (in UTF-8 encoding) and refresh this skin.
+Open Skin Settings to see more options.

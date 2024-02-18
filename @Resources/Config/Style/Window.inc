@@ -14,7 +14,7 @@ Fa.Em_1=[!HideMeter Mt.Da][!Redraw]
 Ua.Em_1=[!ShowMeter Mt.Da][!Redraw]
 
 [Rainmeter]
-Group=Quanto|Quanto_Windows
+Group=Quanto_Flx|Quanto_Flx_Windows
 Blur=([#Bl.Bg.Md]=1?1:0)
 BlurRegion=2,0,0,(64*#Sc#*#PW#),(64*#Sc#*#PH#),(#Cr#*2),(#Cr#*2)
 DefaultSnapEdges=0

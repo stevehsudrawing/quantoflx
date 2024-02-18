@@ -8,15 +8,15 @@ If you are interested in translation, please read the following.
 
 There are files you need to translate or localize:
 
-* `quanto2\@Resources\Config\Language\en-us\*.inc` and `CalendarEvents.xml`
+* `quantoflx\@Resources\Config\Language\en-us\*.inc` and `CalendarEvents.xml`
 
-* `quanto2\*\*\@\Config\Language\en-us\*.inc`
+* `quantoflx\*\*\@\Config\Language\en-us\*.inc`
 
 You can duplicate these `en-us` folder and rename it as a code in [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) and [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) format, such as `en-us` represents `English (United States)` and `fr-fr` represents `Français (France)`.
 
 You can edit these with any text editor. Please save your files with `UTF-16 LE` or `UTF-16 LE with BOM` encoding to avoid garbled characters.
 
-When you need to **test your translation**, please modify `Lg` Key Value in `quanto2\@Resources\Config\Settings.inc` as the code of the language what you're translating, then refresh all skins.
+When you need to **test your translation**, please modify `Lg` Key Value in `quantoflx\@Resources\Config\Settings.inc` as the code of the language what you're translating, then refresh all skins.
 
 ## Description of language files
 

@@ -1,3 +1,0 @@
-You can modify what this skin shows. Tip: Right-click to expand the context menu.
-When you start editing content, a text document opens. After editing is complete, save it (in UTF-8 encoding) and refresh this skin.
-Open Skin Settings to see more options.

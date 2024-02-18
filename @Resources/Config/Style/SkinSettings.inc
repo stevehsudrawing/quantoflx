@@ -1,7 +1,8 @@
 [Variables]
-@include=#@#Config\Language\#Lg#\SkinSettingsTerms.inc
-@include2=#Pk@#Config\Language\en-us\List.inc
-@include3=#Pk@#Config\Language\#Lg#\List.inc
+@include=#@#Config\Parameter\SystemDefault.inc
+@include2=#@#Config\Language\#Lg#\SkinSettingsTerms.inc
+@include3=#Pk@#Config\Language\en-us\List.inc
+@include4=#Pk@#Config\Language\#Lg#\List.inc
 Mt.Op.00---=#Tm.Combination#*
 Mt.Op.00----=Null
 Mt.Op.00-----=
@@ -27,7 +28,7 @@ Vb.SuTt.Mt.Op.14--=14
 Vb.SuTt.Mt.Op.15--=15
 
 [Rainmeter]
-Group=Quanto|Quanto_Panels
+Group=Quanto_Flx|Quanto_Flx_Panels
 SkinWidth=(256*#Sc#)
 SkinHeight=(32*#Sc#*((Clamp((Trunc(#Ln#)),0,15))+4))
 
@@ -1217,7 +1218,7 @@ InputNumber=1
 [Ms.FlCs]
 Measure=Plugin
 Plugin=FileChoose
-UseNewStyle=0
+UseNewStyle=[#Dv.Sy_[#Sy.Vr].FlCs.UNS]
 GetTarget=1
 AllowNonstorageFolder=1
 CopyLink=1
@@ -1226,9 +1227,8 @@ GetIcon=0
 IconCache=#@#Cache\Icon
 IconSize=3
 ReturnValue=Path
-FolderInitialDirectory=C:\
-FileInitialDirectory=C:\
-ImageInitialDirectory=C:\
+FileInitialDirectory=%HOMEDRIVE%\
+ImageInitialDirectory=%HOMEDRIVE%%HOMEPATH%\Pictures
 Command1=[!WriteKeyValue Variables "[#Mt.Op.01----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
 Command2=[!WriteKeyValue Variables "[#Mt.Op.02----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
 Command3=[!WriteKeyValue Variables "[#Mt.Op.03----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
