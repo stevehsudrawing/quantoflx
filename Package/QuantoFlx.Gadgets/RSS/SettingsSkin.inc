@@ -68,7 +68,7 @@ Mt.Op.15-----=
 ; 04 - Check Box
 ; 05 - Choose a Folder
 ; 06 - Choose a File
-; 07 - Choose a Image
+; 07 - Choose an Image
 ; 08 - Open Folder/File
 ; 09 - Pick a Color
 ; 99 - Other Action

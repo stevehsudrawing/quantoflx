@@ -52,7 +52,7 @@ DynamicVariables=1
 
 [Mt.MainIc]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl
+MeterStyle=St.ZnCt|St.Mi|St.Sl
 ImageName=#Pk@#Image\MonoIcons\20\#Sk.Nm#
 W=(20*#sc#)
 H=(20*#sc#)
@@ -60,7 +60,7 @@ X=(16*#sc#)
 Y=(22*#sc#)
 [Mt.MainNmDc]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Ww|St.Ft.Sl
+MeterStyle=St.ZnCt|St.Ft|St.Ft.Ww|St.Sl
 StringAlign=LeftCenter
 Text=[#OpLs.[#Sk.Nm].Nm]#CRLF#[#OpLs.[#Sk.Nm].Dc]
 X=((16*2+20)*#sc#)
@@ -85,7 +85,7 @@ LeftMouseUpAction=#Ac.Variants#
 DynamicVariables=1
 [Mt.CloseIc]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl
+MeterStyle=St.ZnCt|St.Mi|St.Sl
 ImageName=#@#Image\MonoIcons\12\Close.png
 W=(12*#sc#)
 H=(12*#sc#)
@@ -156,7 +156,7 @@ FontSize=(9*#Sc#*#Ft.Sc.Gn#)
 Text=[#[#CURRENTSECTION]----]
 FontColor=#Cl.Gn.Fg.Gn#,128
 StringAlign=RightCenter
-LeftMouseUpAction=[!WriteKeyValue "Variables" "[#[#CURRENTSECTION]---]" "(1-[#[#[#CURRENTSECTION]---]])" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+LeftMouseUpAction=[!WriteKeyValue "Variables" "[#[#CURRENTSECTION]---]" "(1-[#[#[#CURRENTSECTION]---]])" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#[#CURRENTSECTION]--------][!Refresh]
 MouseActionCursor=1
 MouseActionCursorName=HAND
 ToolTipText=#St.SkSt_Actions.0003##CRLF##Tm.Option#: [#[#CURRENTSECTION]--]#CRLF##Tm.Current_value#: [#[#CURRENTSECTION]----]
@@ -349,216 +349,216 @@ Hidden=1
 
 [Mt.Op.00]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.St.Tx.01
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.St.Tx.01
 ToolTipText=#St.SkSt_Actions.0000#
 [Mt.Op.01]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.02]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.03]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.04]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.05]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.06]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.07]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.08]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.09]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.10]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.11]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.12]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.13]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.14]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 [Mt.Op.15]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.01|St.Po.Op.Nx
 
 [Mt.Op.00-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.St.Tx.02
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.St.Tx.02
 W=((256-16-8*4)*#sc#-[Mt.Op.00:W])
 [Mt.Op.01-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.01:W])
 [Mt.Op.02-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.02:W])
 [Mt.Op.03-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.03:W])
 [Mt.Op.04-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.04:W])
 [Mt.Op.05-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.05:W])
 [Mt.Op.06-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.06:W])
 [Mt.Op.07-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.07:W])
 [Mt.Op.08-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.08:W])
 [Mt.Op.09-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.09:W])
 [Mt.Op.10-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.10:W])
 [Mt.Op.11-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.11:W])
 [Mt.Op.12-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.12:W])
 [Mt.Op.13-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.13:W])
 [Mt.Op.14-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.14:W])
 [Mt.Op.15-]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Ft|St.Sl|St.Cstm.Tx.02.[#[#CURRENTSECTION]-----]|St.Po.Op.Nx
 W=((256-16-8*4)*#sc#-[Mt.Op.15:W])
 
 [Mt.Op.00--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.St.Ic.01
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.St.Ic.01
 [Mt.Op.01--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.02--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.03--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.04--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.05--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.06--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.07--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.08--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.09--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.10--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.11--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.12--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.13--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.14--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 [Mt.Op.15--]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.01.[#[#CURRENTSECTION]----]|St.Po.Op.Nx
 
 [Mt.Op.00---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.St.Ic.02
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.St.Ic.02
 [Mt.Op.01---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.02---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.03---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.04---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.05---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.06---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.07---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.08---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.09---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.10---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.11---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.12---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.13---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.14---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 [Mt.Op.15---]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.02.[#[#CURRENTSECTION]---]|St.Po.Op.Nx
 
 [HMt.Op.00]
 Meter=Shape
@@ -672,7 +672,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.01----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.01----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.01----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.01---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.01--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -690,7 +690,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.02----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.02----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.02----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.02---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.02--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -708,7 +708,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.03----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.03----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.03----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.03---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.03--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -726,7 +726,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.04----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.04----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.04----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.04---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.04--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -744,7 +744,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.05----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.05----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.05----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.05---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.05--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -762,7 +762,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.06----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.06----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.06----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.06---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.06--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -780,7 +780,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.07----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.07----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.07----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.07---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.07--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -798,7 +798,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.08----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.08----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.08----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.08---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.08--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -816,7 +816,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.09----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.09----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.09----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.09---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.09--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -834,7 +834,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.10----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.10----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.10----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.10---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.10--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -852,7 +852,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.11----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.11----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.11----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.11---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.11--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -870,7 +870,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.12----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.12----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.12----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.12---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.12--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -888,7 +888,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.13----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.13----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.13----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.13---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.13--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -906,7 +906,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.14----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.14----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.14----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.14---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.14--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -924,7 +924,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.15----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.15----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.15----]" "$UserInput$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.15---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.15--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -943,7 +943,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.01----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.01----]" "(Clamp($UserInput$,[#Mt.Op.01-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.01----]" "(Clamp($UserInput$,[#Mt.Op.01-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.01---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.01--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -962,7 +962,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.02----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.02----]" "(Clamp($UserInput$,[#Mt.Op.02-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.02----]" "(Clamp($UserInput$,[#Mt.Op.02-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.02---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.02--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -981,7 +981,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.03----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.03----]" "(Clamp($UserInput$,[#Mt.Op.03-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.03----]" "(Clamp($UserInput$,[#Mt.Op.03-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.03---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.03--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1000,7 +1000,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.04----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.04----]" "(Clamp($UserInput$,[#Mt.Op.04-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.04----]" "(Clamp($UserInput$,[#Mt.Op.04-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.04---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.04--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1019,7 +1019,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.05----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.05----]" "(Clamp($UserInput$,[#Mt.Op.05-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.05----]" "(Clamp($UserInput$,[#Mt.Op.05-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.05---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.05--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1038,7 +1038,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.06----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.06----]" "(Clamp($UserInput$,[#Mt.Op.06-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.06----]" "(Clamp($UserInput$,[#Mt.Op.06-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.06---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.06--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1057,7 +1057,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.07----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.07----]" "(Clamp($UserInput$,[#Mt.Op.07-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.07----]" "(Clamp($UserInput$,[#Mt.Op.07-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.07---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.07--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1076,7 +1076,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.08----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.08----]" "(Clamp($UserInput$,[#Mt.Op.08-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.08----]" "(Clamp($UserInput$,[#Mt.Op.08-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.08---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.08--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1095,7 +1095,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.09----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.09----]" "(Clamp($UserInput$,[#Mt.Op.09-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.09----]" "(Clamp($UserInput$,[#Mt.Op.09-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.09---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.09--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1114,7 +1114,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.10----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.10----]" "(Clamp($UserInput$,[#Mt.Op.10-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.10----]" "(Clamp($UserInput$,[#Mt.Op.10-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.10---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.10--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1133,7 +1133,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.11----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.11----]" "(Clamp($UserInput$,[#Mt.Op.11-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.11----]" "(Clamp($UserInput$,[#Mt.Op.11-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.11---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.11--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1152,7 +1152,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.12----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.12----]" "(Clamp($UserInput$,[#Mt.Op.12-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.12----]" "(Clamp($UserInput$,[#Mt.Op.12-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.12---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.12--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1171,7 +1171,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.13----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.13----]" "(Clamp($UserInput$,[#Mt.Op.13-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.13----]" "(Clamp($UserInput$,[#Mt.Op.13-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.13---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.13--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1190,7 +1190,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.14----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.14----]" "(Clamp($UserInput$,[#Mt.Op.14-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.14----]" "(Clamp($UserInput$,[#Mt.Op.14-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.14---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.14--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1209,7 +1209,7 @@ W=((256-8*2)*#sc#)
 H=(20*#Sc#)
 FocusDismiss=1
 DefaultValue=[#[#Mt.Op.15----]]
-Command1=[!WriteKeyValue "Variables" "[#Mt.Op.15----]" "(Clamp($UserInput$,[#Mt.Op.15-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue "Variables" "[#Mt.Op.15----]" "(Clamp($UserInput$,[#Mt.Op.15-------]))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.15---------][!Refresh]
 OnDismissAction=[!HideMeter "CMt.Op.15--"][!Redraw]
 UpdateDivider=-1
 DynamicVariables=1
@@ -1229,21 +1229,21 @@ IconSize=3
 ReturnValue=Path
 FileInitialDirectory=%HOMEDRIVE%\
 ImageInitialDirectory=%HOMEDRIVE%%HOMEPATH%\Pictures
-Command1=[!WriteKeyValue Variables "[#Mt.Op.01----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command2=[!WriteKeyValue Variables "[#Mt.Op.02----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command3=[!WriteKeyValue Variables "[#Mt.Op.03----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command4=[!WriteKeyValue Variables "[#Mt.Op.04----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command5=[!WriteKeyValue Variables "[#Mt.Op.05----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command6=[!WriteKeyValue Variables "[#Mt.Op.06----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command7=[!WriteKeyValue Variables "[#Mt.Op.07----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command8=[!WriteKeyValue Variables "[#Mt.Op.08----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command9=[!WriteKeyValue Variables "[#Mt.Op.09----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command10=[!WriteKeyValue Variables "[#Mt.Op.10----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command11=[!WriteKeyValue Variables "[#Mt.Op.11----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command12=[!WriteKeyValue Variables "[#Mt.Op.12----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command13=[!WriteKeyValue Variables "[#Mt.Op.13----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command14=[!WriteKeyValue Variables "[#Mt.Op.14----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
-Command15=[!WriteKeyValue Variables "[#Mt.Op.15----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+Command1=[!WriteKeyValue Variables "[#Mt.Op.01----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.01---------][!Refresh]
+Command2=[!WriteKeyValue Variables "[#Mt.Op.02----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.02---------][!Refresh]
+Command3=[!WriteKeyValue Variables "[#Mt.Op.03----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.03---------][!Refresh]
+Command4=[!WriteKeyValue Variables "[#Mt.Op.04----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.04---------][!Refresh]
+Command5=[!WriteKeyValue Variables "[#Mt.Op.05----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.05---------][!Refresh]
+Command6=[!WriteKeyValue Variables "[#Mt.Op.06----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.06---------][!Refresh]
+Command7=[!WriteKeyValue Variables "[#Mt.Op.07----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.07---------][!Refresh]
+Command8=[!WriteKeyValue Variables "[#Mt.Op.08----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.08---------][!Refresh]
+Command9=[!WriteKeyValue Variables "[#Mt.Op.09----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.09---------][!Refresh]
+Command10=[!WriteKeyValue Variables "[#Mt.Op.10----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.10---------][!Refresh]
+Command11=[!WriteKeyValue Variables "[#Mt.Op.11----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.11---------][!Refresh]
+Command12=[!WriteKeyValue Variables "[#Mt.Op.12----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.12---------][!Refresh]
+Command13=[!WriteKeyValue Variables "[#Mt.Op.13----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.13---------][!Refresh]
+Command14=[!WriteKeyValue Variables "[#Mt.Op.14----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.14---------][!Refresh]
+Command15=[!WriteKeyValue Variables "[#Mt.Op.15----]" "$Path$" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][#Mt.Op.15---------][!Refresh]
 ; Special thanks to Setsukka
 
 [St.Cstm.Ic.Bn.01]
@@ -1268,7 +1268,7 @@ H=(16*#Sc#)
 ImageTint=#Cl.Ac.Fg.Gn#
 [Mt.Op.00.Cstm.01.01]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.Bn.01|St.Bt.Gn
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.Bn.01|St.Bt.Gn
 ImageName=#@#Image\MonoIcons\16\Combination_Left
 X=((256-4-20*4)*#Sc#)
 ToolTipText=#Tm.Left#
@@ -1276,7 +1276,7 @@ LeftMouseUpAction=[!WriteKeyValue "Variables" "Bnd.L" "(1-#Bnd.L#)" "#Pk@#Config
 Hidden=(1-#AllwCbnt#)
 [Mt.Op.00.Cstm.02.01]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.Bn.01|St.Bt.Gn
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.Bn.01|St.Bt.Gn
 ImageName=#@#Image\MonoIcons\16\Combination_Right
 X=(20*#Sc#)r
 ToolTipText=#Tm.Right#
@@ -1284,7 +1284,7 @@ LeftMouseUpAction=[!WriteKeyValue "Variables" "Bnd.R" "(1-#Bnd.R#)" "#Pk@#Config
 Hidden=(1-#AllwCbnt#)
 [Mt.Op.00.Cstm.03.01]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.Bn.01|St.Bt.Gn
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.Bn.01|St.Bt.Gn
 ImageName=#@#Image\MonoIcons\16\Combination_Top
 X=(20*#Sc#)r
 ToolTipText=#Tm.Top#
@@ -1292,7 +1292,7 @@ LeftMouseUpAction=[!WriteKeyValue "Variables" "Bnd.T" "(1-#Bnd.T#)" "#Pk@#Config
 Hidden=(1-#AllwCbnt#)
 [Mt.Op.00.Cstm.04.01]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ic.Bn.01|St.Bt.Gn
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ic.Bn.01|St.Bt.Gn
 ImageName=#@#Image\MonoIcons\16\Combination_Bottom
 X=(20*#Sc#)r
 ToolTipText=#Tm.Bottom#
@@ -1336,25 +1336,25 @@ X=(20*#Sc#)r
 Hidden=(1-#Bnd.B#)
 [Mt.Op.00.Cstm.01.03]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ci.Bn.01
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ci.Bn.01
 ImageName=#@#Image\MonoIcons\16\Combination_Left
 X=((256-4-20*4)*#Sc#)
 Hidden=(1-#Bnd.L#)
 [Mt.Op.00.Cstm.02.03]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ci.Bn.01
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ci.Bn.01
 ImageName=#@#Image\MonoIcons\16\Combination_Right
 X=(20*#Sc#)r
 Hidden=(1-#Bnd.R#)
 [Mt.Op.00.Cstm.03.03]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ci.Bn.01
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ci.Bn.01
 ImageName=#@#Image\MonoIcons\16\Combination_Top
 X=(20*#Sc#)r
 Hidden=(1-#Bnd.T#)
 [Mt.Op.00.Cstm.04.03]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl|St.Cstm.Ci.Bn.01
+MeterStyle=St.ZnCt|St.Mi|St.Sl|St.Cstm.Ci.Bn.01
 ImageName=#@#Image\MonoIcons\16\Combination_Bottom
 X=(20*#Sc#)r
 Hidden=(1-#Bnd.B#)
@@ -1378,7 +1378,7 @@ Shape=Rectangle 0,0,(256*#sc#),(32*#sc#) | #da.sk# | Extend Hover
 Hover=Fill Color 0,0,0,0
 [Mt.Gdnt.00.01]
 Meter=String
-MeterStyle=St.ZnCt|St.Ft|St.Ft.Sl
+MeterStyle=St.ZnCt|St.Ft|St.Sl
 Text=#Tm.Gradient_Background#
 X=(8*#sc#)
 Y=((64+16)*#sc#)
@@ -1387,7 +1387,7 @@ StringAlign=LeftCenter
 
 [Mt.Gdnt.01]
 Meter=Image
-MeterStyle=St.ZnCt|St.Mi|St.Mi.Sl
+MeterStyle=St.ZnCt|St.Mi|St.Sl
 ImageName=#@#Image\MonoIcons\16\CheckBox#PnGdnt.Enab#
 ImageTint=[#Cl.Cb.[#PnGdnt.Enab]]
 X=((256-4-20*4)*#Sc#)
