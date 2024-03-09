@@ -1438,10 +1438,34 @@ Shape4=Rectangle 0,0,(1),(8),(1/2),(1/2)
 Shape5=Combine Shape3 | Union Shape4 | Rotate 135,0,0 | Offset (8),(1/2)
 Shape6=Combine Shape2 | Union Shape5 | Rotate (#PnGdnt.Ag#),(7.5),(5) | Scale #sc#,#sc#,(3*#sc#),(3*#sc#)
 DynamicVariables=1
-LeftMouseUpAction=[]
+LeftMouseUpAction=[!CommandMeasure "Ms.Mt.Gdnt.04" "ExecuteBatch 1"][!ShowMeter "CMt.Gdnt.04"][!Redraw]
 MouseActionCursor=1
 MouseActionCursorName=HAND
 Hidden=(1-#AllwGdnt#)
+[CMt.Gdnt.04]
+Meter=Shape
+MeterStyle=St.ZnCt|St.Cstm.Ch.01|St.Po.Op.St.Hv.01
+Y=(64*#sc#)
+
+[Ms.Mt.Gdnt.04]
+Measure=Plugin
+Plugin=InputText
+SolidColor=#Cl.Gn.Bg.Ti#
+FontFace=#Ft.Fc.Gn#
+FontColor=#Cl.Gn.Fg.Gn#
+FontSize=(10*#sc#*#Ft.Sc.Gn#/(#Sy.Dpi#/96))
+AntiAlias=1
+X=(8*#sc#)
+Y=((70)*#sc#)
+W=((256-8*2)*#sc#)
+H=(20*#Sc#)
+FocusDismiss=1
+DefaultValue=[#PnGdnt.Ag]
+Command1=[!WriteKeyValue "Variables" "PnGdnt.Ag" "(Clamp($UserInput$,0,360))" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
+OnDismissAction=[!HideMeter "CMt.Gdnt.04"][!Redraw]
+UpdateDivider=-1
+DynamicVariables=1
+InputNumber=1
 
 [Mt.Gdnt.NA]
 Meter=String

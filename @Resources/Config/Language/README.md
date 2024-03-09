@@ -35,7 +35,7 @@ Every key has a name and a value, delimited by an equals sign (=), and the name 
 
 `#CRLF#` or `[#CRLF]` means "wrap the text to the next line".
 
-There are **something you shouldn't translate**, such as names of variable keys (nouns enclosed in brackets（[]) or Tic Tac Letters(#)) and "%x".
+There are **something you shouldn't translate**, such as names of variable keys (nouns enclosed in brackets ([]) or Tic Tac Letters(#)) and "%x".
 
 # How to upload
 
