@@ -11,3 +11,20 @@
   <a href="https://www.patreon.com/quantoseries">Patreon</a>
 
 </div>
+
+# Special Thanks
+
+| Author | Credit |
+|-|-|
+| Brian | [HotKey Plugin](https://github.com/brianferguson/HotKey.dll) |
+| Brian | [SysColor Plugin](https://github.com/brianferguson/SysColor.dll/) |
+| death.crafter | [TrayIcon Plugin](https://github.com/deathcrafter/PluginTrayIcon) |
+| JSMorley | [ConfigActive Plugin](https://github.com/jsmorley/ConfigActive) |
+| JSMorley | [ImageSize Plugin](https://forum.rainmeter.net/viewtopic.php?p=101884) |
+| JSMorley | [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215) |
+| NighthawkSLO | [Mouse Plugin](https://github.com/NighthawkSLO/Mouse.dll/) |
+| Setsukka | [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079) |
+| smurfier | [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288) |
+| Socks the Fox | [Chameleon Plugin](https://github.com/socks-the-fox/chameleon) |
+| theAzack9 | [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass) |
+| tjhrulz | [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter) |
