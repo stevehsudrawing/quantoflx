@@ -38,5 +38,6 @@ If you encounter problems during the experience or have better suggestions, plea
 | Setsukka | [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079) |
 | smurfier | [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288) |
 | Socks the Fox | [Chameleon Plugin](https://github.com/socks-the-fox/chameleon) |
+| theAzack9 | [Drag&Drop Plugin](https://github.com/TheAzack9/Drag-Drop) |
 | theAzack9 | [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass) |
 | tjhrulz | [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter) |
