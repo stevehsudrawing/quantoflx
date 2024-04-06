@@ -10,15 +10,17 @@
 
   <a href="https://www.patreon.com/posts/94576967">Introduction on Patreon</a>
 
+  <a href="https://www.patreon.com/posts/101822562">Changelog of 24w14a</a>
+
 </div>
 
 # How to Install
 
 First, you need to [install the latest version of Rainmeter](https://www.rainmeter.net/).
 
-**Currently, Quanto Flx is still in the EARLY BETA version, so there is no visual installation package for the time being. Its stability cannot be guaranteed, and it cannot replace Quanto Original temporarily.**
+**Currently, Quanto Flx is still in the EARLY BETA version. Its stability cannot be guaranteed, and it cannot replace Quanto Original temporarily. Since QFPDS is still under construction, the function of "restoring from an backup from old version" is unavailable.**
 
-However, you can still [download Quanto Flx here](https://github.com/SteveHsuDrawing/quantoflx/archive/refs/heads/main.zip) and install it manually (Copy/unzip `@Resources` and `Package` folder to `%HOMEPATH%\Documents\Rainmeter\Skins\QuantoFlx`. You will need to create `QuantoFlx` folder in `%HOMEPATH%\Documents\Rainmeter\Skins`).
+However, you can still [download Quanto Flx here](https://github.com/SteveHsuDrawing/quantoflx/archive/refs/heads/main.zip) and install/update it manually (Copy/unzip (and overwrite) `@Resources` and `Package` folder to `%HOMEPATH%\Documents\Rainmeter\Skins\QuantoFlx`. You will need to create `QuantoFlx` folder in `%HOMEPATH%\Documents\Rainmeter\Skins` if it doesn't exist).
 
 The Plugins that need to be installed are listed in the "Special Thanks" list below. You can view the Plugins you have installed in `%APPDATA%\Rainmeter\Plugins`.
 
@@ -30,14 +32,15 @@ If you encounter problems during the experience or have better suggestions, plea
 |-|-|
 | Brian | [HotKey Plugin](https://github.com/brianferguson/HotKey.dll) |
 | Brian | [SysColor Plugin](https://github.com/brianferguson/SysColor.dll/) |
-| death.crafter | [TrayIcon Plugin](https://github.com/deathcrafter/PluginTrayIcon) |
+| Cfixd | [Backlight Plugin](https://forum.rainmeter.net/viewtopic.php?p=103782) |
+| Death.crafter | [TrayIcon Plugin](https://github.com/deathcrafter/PluginTrayIcon) |
 | JSMorley | [ConfigActive Plugin](https://github.com/jsmorley/ConfigActive) |
 | JSMorley | [ImageSize Plugin](https://forum.rainmeter.net/viewtopic.php?p=101884) |
 | JSMorley | [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215) |
+| Khanhas | [AppVolume Plugin](https://github.com/khanhas/AppVolumePlugin) |
 | NighthawkSLO | [Mouse Plugin](https://github.com/NighthawkSLO/Mouse.dll/) |
 | Setsukka | [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079) |
-| smurfier | [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288) |
+| Smurfier | [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288) |
 | Socks the Fox | [Chameleon Plugin](https://github.com/socks-the-fox/chameleon) |
-| theAzack9 | [Drag&Drop Plugin](https://github.com/TheAzack9/Drag-Drop) |
-| theAzack9 | [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass) |
-| tjhrulz | [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter) |
+| TheAzack9 | [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass) |
+| Tjhrulz | [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter) |
