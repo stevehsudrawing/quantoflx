@@ -3,26 +3,29 @@
 AllwGdnt=1
 ; Allow combination (0/1)
 AllwCbnt=1
-; Quantity of lines on display. Up to 15
-Ln=9
+; Quantity of lines on display. Up to 16
+Ln=8
+HelpBttn=1
+HelpLink=https://github.com/SteveHsuDrawing/quantoflx/wiki/Manual-of-%22Quanto-Flx-Gadgets%22-Package#rss
 
 ; Display name
 ; If not needed, leave it blank
 Mt.Op.01---=#Tm.Quantity#
 Mt.Op.02---=URL
 Mt.Op.03---=#Tm.URL_title#
-Mt.Op.04---=#Tm.Grab_more_headers#
+Mt.Op.04---=#Tm.Grab_more_Titles#
 Mt.Op.05---=#Tm.Link_at_first_format#
 Mt.Op.06---=#Tm.Update_rate#
 Mt.Op.07---=#Tm.Code_Page#
 Mt.Op.08---=#Tm.Proxy_Server#
 Mt.Op.09---=#Tm.User_Agent#
-Mt.Op.10---=#St.Question.0001#
+Mt.Op.10---=
 Mt.Op.11---=
 Mt.Op.12---=
 Mt.Op.13---=
 Mt.Op.14---=
 Mt.Op.15---=
+Mt.Op.16---=
 
 ; Related Variables
 ; If not needed, write "Null"
@@ -41,6 +44,7 @@ Mt.Op.12----=Null
 Mt.Op.13----=Null
 Mt.Op.14----=Null
 Mt.Op.15----=Null
+Mt.Op.16----=Null
 
 ; Values on display
 ; If not needed, leave it blank
@@ -53,12 +57,13 @@ Mt.Op.06-----=[#UpdateRate]s
 Mt.Op.07-----=[#CodePage]
 Mt.Op.08-----=[#ProxyServer]
 Mt.Op.09-----=[#UserAgent]
-Mt.Op.10-----=#Project.Name# Wiki
+Mt.Op.10-----=
 Mt.Op.11-----=
 Mt.Op.12-----=
 Mt.Op.13-----=
 Mt.Op.14-----=
 Mt.Op.15-----=
+Mt.Op.16-----=
 
 ; Option type
 ; 00 - None / Disable
@@ -81,12 +86,13 @@ Mt.Op.06------=02
 Mt.Op.07------=01
 Mt.Op.08------=01
 Mt.Op.09------=01
-Mt.Op.10------=99
+Mt.Op.10------=00
 Mt.Op.11------=00
 Mt.Op.12------=00
 Mt.Op.13------=00
 Mt.Op.14------=00
 Mt.Op.15------=00
+Mt.Op.16------=00
 
 ; Numeric Value - Minimum & Maximum Value
 ; Format: (Min Value),(Max Value)
@@ -108,6 +114,7 @@ Mt.Op.12-------=0,1
 Mt.Op.13-------=0,1
 Mt.Op.14-------=0,1
 Mt.Op.15-------=0,1
+Mt.Op.16-------=0,1
 
 ; Numeric Value - Increase & Decrease Value
 ; Write a numeric value. This can be an integer or a floating-point number.
@@ -131,6 +138,7 @@ Mt.Op.12--------=0
 Mt.Op.13--------=0
 Mt.Op.14--------=0
 Mt.Op.15--------=0
+Mt.Op.16--------=0
 
 ; "Other Action"
 ; When "Option type" is set to "Other Action"(99), when you click on an option, it will perform the action you specified.
@@ -150,17 +158,18 @@ Mt.Op.12---------=[]
 Mt.Op.13---------=[]
 Mt.Op.14---------=[]
 Mt.Op.15---------=[]
+Mt.Op.16---------=[]
 
 ; Context Menu List
 ; If you set a option as "Context Menu"(03), a context menu list is required for this option.
 ;
 ; Format:
 ;     Title Line:
-;         CmLs.(Skin name, as same as the value of "Sk.Nm").CMSS_Mt.Op.(Option serial number, 00 - 10, 2 digits)--.TXX(00 to 25, 2 digits)=(Display name)
+;         CmLs.(Skin name, as same as the value of "Sk.Nm").CMSS_Mt.Op.(Option serial number, 01 - 16, 2 digits)--.TXX(00 to 25, 2 digits)=(Display name)
 ;         Write "-" to make a dividing line
 ;         If not needed, leave it blank
 ;     Action Line:
-;         CmLs.(Skin name, as same as the value of "Sk.Nm").CMSS_Mt.Op.(Option serial number, 00 - 10, 2 digits)--.AXX(00 to 25, 2 digits)=(Action)
+;         CmLs.(Skin name, as same as the value of "Sk.Nm").CMSS_Mt.Op.(Option serial number, 01 - 16, 2 digits)--.AXX(00 to 25, 2 digits)=(Action)
 ;         If not needed / title line is a dividing line, write "[]"
 ;   
 ; Example: 

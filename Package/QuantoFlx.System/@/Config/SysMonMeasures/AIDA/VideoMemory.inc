@@ -1,11 +1,22 @@
 [Variables]
 TotalVM=1
 
+SMLs.FreeVideoMemoryPer.Show=0
+SMLs.FreeVideoMemoryPer.RSKN=
+SMLs.FreeVideoMemoryPer.Sbtt=
+SMLs.FreeVideoMemoryPer.Sufx=
+
+SMLs.UsedVideoMemoryPer.Show=0
+SMLs.UsedVideoMemoryPer.RSKN=
+SMLs.UsedVideoMemoryPer.Sbtt=
+SMLs.UsedVideoMemoryPer.Sufx=
+
 [Ms.Registry.FreeVideoMemory]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=Software\FinalWire\AIDA[#Is64bit_[#Is64bit]]\SensorValues
 RegValue=#SMLs.FreeVideoMemory.RSKN#
+RegExpSubstitute=1
 Substitute=#SMLs.FreeVideoMemory.Sbtt#
 Paused=(1-#SMLs.FreeVideoMemory.Show#)
 Disabled=(1-#SMLs.FreeVideoMemory.Show#)
@@ -16,6 +27,7 @@ Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=Software\FinalWire\AIDA[#Is64bit_[#Is64bit]]\SensorValues
 RegValue=#SMLs.UsedVideoMemory.RSKN#
+RegExpSubstitute=1
 Substitute=#SMLs.UsedVideoMemory.Sbtt#
 Paused=(1-#SMLs.UsedVideoMemory.Show#)
 Disabled=(1-#SMLs.UsedVideoMemory.Show#)
@@ -26,6 +38,7 @@ Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=Software\FinalWire\AIDA[#Is64bit_[#Is64bit]]\SensorValues
 RegValue=#SMLs.TotalVideoMemory.RSKN#
+RegExpSubstitute=1
 Substitute=#SMLs.TotalVideoMemory.Sbtt#
 Paused=(1-#SMLs.TotalVideoMemory.Show#)
 Disabled=(1-#SMLs.TotalVideoMemory.Show#)
@@ -36,6 +49,7 @@ Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=Software\FinalWire\AIDA[#Is64bit_[#Is64bit]]\SensorValues
 RegValue=#SMLs.FreeVideoMemoryPer.RSKN#
+RegExpSubstitute=1
 Substitute=#SMLs.FreeVideoMemoryPer.Sbtt#
 Paused=(1-#SMLs.FreeVideoMemoryPer.Show#)
 Disabled=(1-#SMLs.FreeVideoMemoryPer.Show#)
@@ -46,6 +60,7 @@ Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=Software\FinalWire\AIDA[#Is64bit_[#Is64bit]]\SensorValues
 RegValue=#SMLs.UsedVideoMemoryPer.RSKN#
+RegExpSubstitute=1
 Substitute=#SMLs.UsedVideoMemoryPer.Sbtt#
 Paused=(1-#SMLs.UsedVideoMemoryPer.Show#)
 Disabled=(1-#SMLs.UsedVideoMemoryPer.Show#)

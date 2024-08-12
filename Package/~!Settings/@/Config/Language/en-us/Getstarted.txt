@@ -1,0 +1,20 @@
+Welcome
+Nice to meet you! Quanto Flx is a desktop customization tool based on Rainmeter.
+Next, this wizard will introduce the basic usage of Quanto Flx. Click "Next" below to continue.
+
+Skins
+Quanto Flx's "skin" may have many forms, such as panels that follow a certain size and other components without background.
+When your cursor is pointing to a skin, hold down the left button and drag to move it. To batch move skins, hold Ctrl+Alt to select skins on screen and drag them.
+Middle-click to switch its scale/style (if available).
+
+Context Menu & Skin Settings
+Right-click to display the context menu. The context menu generally complements the usage of the skin and is the entry point to the Skin Settings, which is an important part of understanding the usage of the skin and customizing it.
+Not satisfied with preset styles and settings? You can open the Skin Settings to adjust the parameters of this skin.
+Through the skin settings, you can change the background color of this skin, and you can also use the "Combination" function to organize your layout.
+
+Quanto Flx Manager
+You can open the Quanto Flx Manager, which is the control center of Quanto Flx, through the context menu or by clicking the "gear" icon on the "Control Bar". Quanto Flx Manager provides the installed Package information, including the skin list and the global settings of the skin in the Package. The left side is the Package list, and the upper is the function entrance.
+
+Quanto Flx Wiki
+Got a problem? You can find the solution on the Quanto Flx Wiki (on Github).
+You can click the "Help" button above the "Quanto Flx Manager" to go to the Quanto Flx Wiki, or find the "Help" option in the context menu of the skin to view the corresponding entry in the Wiki.

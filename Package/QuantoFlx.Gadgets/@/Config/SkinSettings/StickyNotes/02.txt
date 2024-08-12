@@ -1,0 +1,6 @@
+Noticed? You can __style your text__! **Double-click here** to learn how it works.
+//Italic//		**Bold**
+__Underline__	--Strikethrough--
+``Monospaced``	^^Uppercased^^
+@@Colored@@		__**@@Nested Style!@@**__
+++Large!++ ++++Large!++++ ++++++Large!++++++

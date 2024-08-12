@@ -21,7 +21,7 @@ Pn.Im.Tltt=
 ;   1 - Yes
 Pn.Im.Enab=0
 
-; The action that is taken when the icon is tapped
+; The action that is taken when the icon is clicked
 ; If it's not needed, write "[]"
 Pn.Im.LMUA=[]
 
@@ -231,17 +231,17 @@ Pn.DsplyDtd.15.P1=
 Pn.DsplyDtd.15.P2=
 Pn.DsplyDtd.15.AS=0
 
-; =========================== Histogram Information ===========================
-; Tx - The text that appears next to the histogram. It can be any text
+; =========================== Line Chart Information ===========================
+; Tx - The text that appears next to the line chart. It can be any text
 ; AS - Automatically scales the measure values or not
-; If set to 1, the histogram will be automatically scaled so that the largest 
+; If set to 1, the line chart will be automatically scaled so that the largest 
 ; value is visible in the meter.
 
-; Quantity of histogram(s)
-; It must be 1 or 2, even if the skin don't need to have a style with histogram
+; Quantity of Line Chart(s)
+; It must be 1 or 2, even if the skin don't need to have a style with Line Chart
 Pn.DplHisto.Qtt=1
 
-; The measure displayed in the 1st histogram
+; The measure displayed in the 1st Line Chart
 Pn.DplHisto.01.Ms=Ms.PrgBCalc
 Pn.DplHisto.01.AS=0
 Pn.DplHisto.01.Tx.Tt=#Tm.Utilization#
@@ -250,7 +250,7 @@ Pn.DplHisto.01.Tx.P1=
 Pn.DplHisto.01.Tx.P2=
 Pn.DplHisto.01.Tx.AS=0
 
-; The measure displayed in the 2nd histogram
+; The measure displayed in the 2nd Line Chart
 Pn.DplHisto.02.Ms=
 Pn.DplHisto.02.AS=0
 Pn.DplHisto.02.Tx.Tt=

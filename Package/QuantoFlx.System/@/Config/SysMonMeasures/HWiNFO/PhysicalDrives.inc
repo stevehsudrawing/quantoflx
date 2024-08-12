@@ -14,6 +14,7 @@ Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=Software\HWiNFO[#Is64bit_[#Is64bit]]\VSB
 RegValue=ValueRaw#SMLs.Temperature.RSKN#
+RegExpSubstitute=1
 Substitute=#SMLs.Temperature.Sbtt#
 Paused=(1-#SMLs.Temperature.Show#)
 Disabled=(1-#SMLs.Temperature.Show#)
