@@ -10,7 +10,7 @@
 
   <a href="https://www.patreon.com/posts/94576967">Introduction on Patreon</a>
 
-  <a href="https://www.patreon.com/posts/111645302">Join the discussion about upcoming Beta releases!</a>
+  <a href="https://www.patreon.com/posts/111645302">Join the discussion about upcoming Beta version (Build 1011) for FREE!</a>
 
 </div>
 
