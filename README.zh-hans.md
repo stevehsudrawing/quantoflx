@@ -8,7 +8,7 @@
 
   <a href="https://www.patreon.com/posts/111645302">免费参与即将到来的 Beta 版本 (Build 1011) 的讨论！</a>
 
-  <p>本介绍的其他语言: <a href="/README.md"><kbd>English</kbd></a> <a href="/README.zh-hant.md"><kbd>中文 (繁體)</kbd></a></p>
+  <p>本介绍的其他语言: <a href="/README.md"><kbd>English</kbd></a></p>
 
   <p></p>
 
@@ -17,6 +17,20 @@
 # ¿Quanto? ¡Mucho!
 
 > 此内容尚在编写中，请参照英语版本对应内容。
+
+## 修修补补、齐齐整整
+
+## 量大料亦足
+
+### Quanto Flx 小工具
+
+### Quanto Flx 杂项
+
+### Quanto Flx 快捷方式
+
+### Quanto Flx 系统实用工具
+
+## 自定义，由你自己
 
 # 如何安装
 
