@@ -8,7 +8,7 @@
 
   <a href="https://www.patreon.com/posts/111645302">Join the discussion about upcoming Beta version (Build 1011) for FREE!</a>
 
-  <p>View the introduction in <a href="/README.zh-hans.md"><kbd>中文 (简体)</kbd></a></p>
+  <p>View this page in <a href="/README.zh-hans.md"><kbd>中文 (简体)</kbd></a></p>
 
 </div>
 
