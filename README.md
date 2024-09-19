@@ -4,7 +4,7 @@
   
   <p>A desktop customization tool based on Rainmeter (<b>EARLY BETA</b>)</p>
 
-  <img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&link=https%3A%2F%2Fx.com%2Fquantoseries">
+  <a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X"></a>
 
   <a href="https://www.patreon.com/posts/94576967">Introduction on Patreon</a>
 

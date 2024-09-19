@@ -4,7 +4,7 @@
   
   <p>一套基于 Rainmeter 的桌面自定义工具 (<b>早期 BETA 版本</b>)</p>
 
-  <img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&link=https%3A%2F%2Fx.com%2Fquantoseries">
+  <a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X"></a>
 
   <a href="https://www.patreon.com/posts/94576967">在 Patreon 上的介绍</a>
 
