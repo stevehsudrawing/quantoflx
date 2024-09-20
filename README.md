@@ -4,9 +4,11 @@
   
   <p>A desktop customization tool based on Rainmeter (<b>EARLY BETA</b>)</p>
 
-  <a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X"></a>
+  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/SteveHsuDrawing/quantoflx?sort=date&display_name=release&style=flat">
+ <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SteveHsuDrawing/quantoflx?style=flat">
 
-  <a href="https://www.patreon.com/posts/94576967">Introduction on Patreon</a>
+  <a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X"></a><a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon">
+</a>
 
   <a href="https://www.patreon.com/posts/111645302">Join the discussion about upcoming Beta version (Build 1011) for FREE!</a>
 
