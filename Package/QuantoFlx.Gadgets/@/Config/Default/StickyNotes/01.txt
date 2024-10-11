@@ -1,0 +1,6 @@
+**Double-click** me to __edit the content__. Also, **double-click the title** to __edit the title__.
+When you start editing, __your text editor will open__. After your editing is complete, __**save** it (in **^^@@``UTF-8 encoding``@@^^**) and **refresh** this skin__.
+//Open __Skin Settings__ to see more options.//
+
+For more information about Sticky Notes, go to:
+__@@ https://github.com/SteveHsuDrawing/quantoflx/wiki/Manual-of-%22Quanto-Flx-Gadgets%22-Package#Sticky-Notes @@__

@@ -9,6 +9,6 @@ HdNtBt=0
 NtBtTx=#Tm.Next#
 NtBtAc=[!WriteKeyValue "Variables" "Page" "06" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
 
-|Mt.Text.01|.LUMA=["https://github.com/SteveHsuDrawing/quantoflx/wiki/Manual-of-%22Quanto-Flx-System%22-Package#before-you-use-them"]
-|Mt.Text.01|.MAC=1
+|Mt.Text.01|.LUMA=[]
+|Mt.Text.01|.MAC=0
 |Mt.Text.01|.MACN=HAND

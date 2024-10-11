@@ -6,8 +6,8 @@ CfBtAc_0=[]
 CfBtAc_1=[]
 
 HdNtBt=0
-NtBtTx=#Tm.OK#
-NtBtAc=[!WriteKeyValue "Variables" "Page" "00" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!DeactivateConfig "#CURRENTCONFIG#"]
+NtBtTx=#Tm.Next#
+NtBtAc=[!WriteKeyValue "Variables" "Page" "07" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
 
 |Mt.Text.01|.LUMA=[]
 |Mt.Text.01|.MAC=0
