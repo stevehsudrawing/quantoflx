@@ -17,12 +17,18 @@
 
 First, you need to [install the latest version of Rainmeter](https://www.rainmeter.net/).
 
-Then [download Quanto Flx here](https://codeload.github.com/stevehsudrawing/quantoflx/zip/refs/heads/snapshot) and install/update it manually (Copy/unzip (and overwrite) `@Resources` and `Package` folder to `%HOMEPATH%\Documents\Rainmeter\Skins\QuantoFlx`. You will need to create `QuantoFlx` folder in `%HOMEPATH%\Documents\Rainmeter\Skins` if it doesn't exist).
+Then [download Quanto Flx here](https://codeload.github.com/stevehsudrawing/quantoflx/zip/refs/heads/snapshot) and install/update it manually:
 
-The Plugins that need to be installed are listed below. You can view the Plugins you have installed in `%APPDATA%\Rainmeter\Plugins`.
+- The Plugins that need to be installed are listed below. You can view the Plugins you have installed in `%APPDATA%\Rainmeter\Plugins`. If some of these plugins do not exist on your device, click the hyperlink and download the latest version.
 
 | Plugin | Plugin | Plugin | Plugin |
 |-|-|-|-|
-| HotKey | SysColor | Backlight | TrayIcon |
-| ConfigActive | ImageSize | AppVolume | Mouse |
-| FileChoose | Chameleon | FrostedGlass | WebNowPlaying |
+| [HotKey](https://github.com/brianferguson/HotKey.dll) | [SysColor](https://github.com/brianferguson/SysColor.dll) | [Backlight](https://forum.rainmeter.net/viewtopic.php?p=103782) | [TrayIcon](https://github.com/deathcrafter/PluginTrayIcon) |
+| [ConfigActive](https://github.com/jsmorley/ConfigActive) | [ImageSize](https://forum.rainmeter.net/viewtopic.php?p=101884) | [AppVolume](https://github.com/khanhas/AppVolumePlugin) | [Mouse](https://github.com/NighthawkSLO/Mouse.dll) |
+| [FileChoose](https://forum.rainmeter.net/viewtopic.php?p=167079) | [Chameleon](https://github.com/socks-the-fox/chameleon) | [FrostedGlass](https://github.com/TheAzack9/FrostedGlass) | [WebNowPlaying](https://github.com/keifufu/WebNowPlaying-Rainmeter) |
+
+- Copy/unzip (and overwrite) `@Resources` and `Package` folders to `%HOMEPATH%\Documents\Rainmeter\Skins\QuantoFlx` (you may will need to create `QuantoFlx` folder in `%HOMEPATH%\Documents\Rainmeter\Skins` if it doesn't exist).
+
+- Copy/unzip (and overwrite) `QuantoFlx` and `QuantoFlx_Setup` folders in `Layouts` folder to `%APPDATA%\Rainmeter\Layouts`.
+
+Finally, refresh or restart Rainmeter and load the `QuantoFlx_Setup` layout in the Layouts page of the Rainmeter Manager. Enjoy!
