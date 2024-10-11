@@ -32,3 +32,6 @@ Then [download Quanto Flx here](https://codeload.github.com/stevehsudrawing/quan
 - Copy/unzip (and overwrite) `QuantoFlx` and `QuantoFlx_Setup` folders in `Layouts` folder to `%APPDATA%\Rainmeter\Layouts`.
 
 Finally, refresh or restart Rainmeter and load the `QuantoFlx_Setup` layout in the Layouts page of the Rainmeter Manager. Enjoy!
+
+> [!WARNING]
+> It should be noted that you **should not use the snapshot versions of Quanto Flx as normal tools**, nor should you modify too many settings in these versions or try to restore settings from your backups, because the internal details of snapshot versions may change at any time, and restoring settings from old backups may cause major problems. We are not responsible for problems caused by trying to restore settings from old backups.
