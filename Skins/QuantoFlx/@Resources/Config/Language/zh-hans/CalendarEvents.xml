@@ -1,5 +1,4 @@
- <EventFile Repeat="Year">
-	<Variable Name="DayNumber" Select="86400"/>
+<EventFile Repeat="Year">
 	<Set Month="1">
 		<Event Day="1">元旦</Event>
 		<Event Day="10">中国人民警察节</Event>
