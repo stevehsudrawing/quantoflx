@@ -45,7 +45,7 @@ Text=#St.Setup.0104#
 [Mt.Op.00]
 Meter=Shape
 MeterStyle=St.ZnCt|St.Bt.Sp|St.Option|St.Ps.Tx.YN.02F
-LeftMouseUpAction=[!WriteKeyValue "Variables" "Sl.Pk" "~!Settings" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "Prcs" "0" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "MDGS" "1" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!Delay 16][!ActivateConfig "#ROOTCONFIG#\Package\~!Settings\BackupAndRestore" "Process.ini"][!Move 0 0 "#ROOTCONFIG#\Package\~!Settings\BackupAndRestore"]
+LeftMouseUpAction=[!WriteKeyValue "Variables" "RestoreFromDefault" "0" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "Sl.Pk" "~!Settings" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "Prcs" "0" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "MDGS" "1" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!Delay 16][!ActivateConfig "#ROOTCONFIG#\Package\~!Settings\BackupAndRestore" "Process.ini"][!Move 0 0 "#ROOTCONFIG#\Package\~!Settings\BackupAndRestore"]
 [Mt.Op.00.01]
 Meter=Image
 MeterStyle=St.ZnCt|St.Mi|St.NextArrowIcon
@@ -295,7 +295,7 @@ Y=(48*#sc#)r
 
 [St.Cstm.Sp.01]
 Shape=Rectangle 0,0,([Mt.List:W]),(47*#sc#) | #da.sk# | Extend Hover
-LeftMouseUpAction=[!WriteKeyValue "Variables" "Sl.Pk" "[&Ms.Fv.Index.[#CURRENTSECTION].FN]" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "Prcs" "0" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "MDGS" "0" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!Delay 16][!ActivateConfig "#ROOTCONFIG#\Package\~!Settings\BackupAndRestore" "Process.ini"][!Move (#CURRENTCONFIGX#) (#CURRENTCONFIGY#) "#ROOTCONFIG#\Package\~!Settings\BackupAndRestore"]
+LeftMouseUpAction=[!WriteKeyValue "Variables" "RestoreFromDefault" "0" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "Sl.Pk" "[&Ms.Fv.Index.[#CURRENTSECTION].FN]" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "Prcs" "0" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!WriteKeyValue "Variables" "MDGS" "0" "#Pk@#Config\SkinSettings\BackupAndRestore.inc"][!Delay 16][!ActivateConfig "#ROOTCONFIG#\Package\~!Settings\BackupAndRestore" "Process.ini"][!Move (#CURRENTCONFIGX#) (#CURRENTCONFIGY#) "#ROOTCONFIG#\Package\~!Settings\BackupAndRestore"]
 DynamicVariables=1
 Group=Gp.Mt.Cstm.List
 [01]
