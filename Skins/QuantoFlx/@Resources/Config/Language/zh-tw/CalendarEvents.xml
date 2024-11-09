@@ -1,3 +1,0 @@
- <EventFile Repeat="Year">
-	<Variable Name="DayNumber" Select="86400"/>
-</EventFile>

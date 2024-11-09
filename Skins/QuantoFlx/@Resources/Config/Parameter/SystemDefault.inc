@@ -28,3 +28,8 @@ Dv.Sy_11.FlCs.UNS=1
 Dv.Sy_10.FlCs.UNS=1
 Dv.Sy_8.FlCs.UNS=0
 Dv.Sy_7.FlCs.UNS=0
+
+Dv.Sy_11.IcFt=Segoe Fluent Icons
+Dv.Sy_10.IcFt=Segoe MDL2 Assets
+Dv.Sy_8.IcFt=Segoe UI Symbol
+Dv.Sy_7.IcFt=Segoe UI Symbol

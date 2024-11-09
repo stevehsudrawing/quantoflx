@@ -9,6 +9,6 @@ HdNtBt=0
 NtBtTx=#Tm.Next#
 NtBtAc=[!WriteKeyValue "Variables" "Page" "04" "#Pk@#Config\SkinSettings\#Sk.Nm#.inc"][!Refresh]
 
-|Mt.Text.01|.LUMA=#Ac.Manage_Project#
-|Mt.Text.01|.MAC=1
+|Mt.Text.01|.LUMA=[]
+|Mt.Text.01|.MAC=0
 |Mt.Text.01|.MACN=HAND
