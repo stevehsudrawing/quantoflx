@@ -137,21 +137,19 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 
 # 特别鸣谢
 
-| 作者		| 提供										|
-|---------------|-------------------------------------------------------------------------------|
-| Brian		| [HotKey Plugin](https://github.com/brianferguson/HotKey.dll)			|
-| Brian		| [SysColor Plugin](https://github.com/brianferguson/SysColor.dll/)		|
-| Cfixd		| [Backlight Plugin](https://forum.rainmeter.net/viewtopic.php?p=103782)	|
-| Death.crafter	| [TrayIcon Plugin](https://github.com/deathcrafter/PluginTrayIcon)		|
-| JSMorley	| [ConfigActive Plugin](https://github.com/jsmorley/ConfigActive)		|
-| JSMorley	| [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215)			|
-| Khanhas	| [AppVolume Plugin](https://github.com/khanhas/AppVolumePlugin)		|
-| NighthawkSLO	| [Mouse Plugin](https://github.com/NighthawkSLO/Mouse.dll/)			|
-| Setsukka	| [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079)	|
-| Smurfier	| [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288)		|
-| Socks the Fox	| [Chameleon Plugin](https://github.com/socks-the-fox/chameleon)		|
-| TheAzack9	| [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass)		|
-| Tjhrulz	| [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|
+| 作者		| 提供										| 提供										|
+|---------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Brian		| [HotKey Plugin](https://github.com/brianferguson/HotKey.dll)			| [SysColor Plugin](https://github.com/brianferguson/SysColor.dll/)		|
+| Cfixd		| [Backlight Plugin](https://forum.rainmeter.net/viewtopic.php?p=103782)	|										|
+| Death.crafter	| [TrayIcon Plugin](https://github.com/deathcrafter/PluginTrayIcon)		|										|
+| JSMorley	| [ConfigActive Plugin](https://github.com/jsmorley/ConfigActive)		| [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215)			|
+| Khanhas	| [AppVolume Plugin](https://github.com/khanhas/AppVolumePlugin)		|										|
+| NighthawkSLO	| [Mouse Plugin](https://github.com/NighthawkSLO/Mouse.dll/)			|										|
+| Setsukka	| [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079)	|										|
+| Smurfier	| [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288)		|										|
+| Socks the Fox	| [Chameleon Plugin](https://github.com/socks-the-fox/chameleon)		|										|
+| TheAzack9	| [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass)		|										|
+| Tjhrulz	| [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|										|
 
 [^1]: AIMP、foobar2000、iTunes、J. River Media Center、Media Jukebox、MusicBee、Winamp 和旧版 Windows Media Player。
 [^2]: 使用 Windows 10/11 时，您可以使用此 Plugin 连接到一些受支持的[桌面音乐播放器](/ModernFlyouts-Community/ModernFlyouts/blob/main/docs/GSMTC-Support-And-Popular-Apps.md)或[基于浏览器的播放器](https://wnp.keifufu.dev/supported-sites)（需要先安装[浏览器扩展](https://wnp.keifufu.dev/quickstart#install-the-browser-extension)）。
