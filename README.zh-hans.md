@@ -104,19 +104,19 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 
 ## 自动安装
 
-1. 下载并安装最新版本的 Rainmeter。
+1. 下载并安装最新版本的 [Rainmeter](https://www.rainmeter.net/)。
 
-2. 前往发布页面下载最新版本的 Quanto Flx 安装包。
+2. 前往[发布页面](https://github.com/stevehsudrawing/quantoflx/releases)下载最新版本的 Quanto Flx 安装包。
 
-3. 单击「安装」，然后按照提示进行初始化即可。这篇文章可能对您有帮助。
+3. 单击「安装」，然后按照提示进行初始化即可。[这篇文章](https://github.com/SteveHsuDrawing/quantoflx/wiki/Guide-for-New-Users)可能对您有帮助。
 
 4. 享用吧！
 
 ## 手动安装
 
-首先，您需要安装最新版本的 Rainmeter。
+首先，您需要[安装最新版本的 Rainmeter](https://www.rainmeter.net/)。
 
-然后在此处下载 Quanto Flx 并手动安装/更新：
+然后[在此处下载 Quanto Flx ](https://codeload.github.com/stevehsudrawing/quantoflx/zip/refs/heads/main)并手动安装/更新：
 
 - 下面列出了需要安装的 Plugin。您可以在 `%APPDATA%\Rainmeter\Plugins` 中查看已安装的 Plugin。如果您的设备上不存在其中某些 Plugin，请单击超链接并下载最新版本。
 
@@ -133,7 +133,7 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 最后，刷新或重新启动 Rainmeter 并在 Rainmeter 管理器的布局页面中加载`QuantoFlx_Setup`布局。享用吧！
 
 > [!TIP]
-> 如果您想先睹为快，请查看`snapshot`分支。
+> 如果您想先睹为快，请查看[`snapshot`分支](https://github.com/stevehsudrawing/quantoflx/tree/snapshot)。
 
 # 特别鸣谢
 
@@ -153,3 +153,7 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 | Socks the Fox | [Chameleon Plugin](https://github.com/socks-the-fox/chameleon) |
 | TheAzack9 | [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass) |
 | Tjhrulz | [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter) |
+
+[^1]: AIMP、foobar2000、iTunes、J. River Media Center、Media Jukebox、MusicBee、Winamp 和旧版 Windows Media Player。
+[^2]: 使用 Windows 10/11 时，您可以使用此 Plugin 连接到一些受支持的[桌面音乐播放器](/ModernFlyouts-Community/ModernFlyouts/blob/main/docs/GSMTC-Support-And-Popular-Apps.md)或[基于浏览器的播放器](https://wnp.keifufu.dev/supported-sites)（需要先安装[浏览器扩展](https://wnp.keifufu.dev/quickstart#install-the-browser-extension)）。
+[^3]: 仅适用于 Windows 7。
