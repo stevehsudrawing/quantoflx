@@ -5,9 +5,9 @@
 		一套基于 Rainmeter 的桌面自定义工具
 	</p><br><a>
 		<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat">
-	</a><a href="/stevehsudrawing/quantoflx/releases">
+	</a><a href="https://github.com/stevehsudrawing/quantoflx/releases">
 		<img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat">
-	</a><a href="/stevehsudrawing/quantoflx/issues">
+	</a><a href="https://github.com/stevehsudrawing/quantoflx/issues">
 		<img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx">
 	</a><br><a href="https://x.com/quantoseries">
 		<img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X">
@@ -131,7 +131,7 @@ Quanto Flx 目前支持以下语言：
 
 1. 下载并安装最新版本的 [Rainmeter](https://www.rainmeter.net/)。
 
-2. 前往[发布页面](/stevehsudrawing/quantoflx/releases)下载最新版本的 Quanto Flx 安装包。
+2. 前往[发布页面](https://github.com/stevehsudrawing/quantoflx/releases)下载最新版本的 Quanto Flx 安装包。
 
 3. 单击「安装」，然后按照提示进行初始化即可。[这篇文章](/stevehsudrawing/quantoflx/wiki/Guide-for-New-Users)可能对您有帮助。
 
