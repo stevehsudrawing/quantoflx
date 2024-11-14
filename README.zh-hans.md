@@ -1,18 +1,17 @@
 <!-- Turn off automatic wrapping, change the indentation method to Tab, and adjust the Tab Size to 8 to avoid typographical confusion. -->
 
 <div align="center">
-	<img width="540" src="https://github.com/stevehsudrawing/quantoflx/blob/main/.github/images/Misc/Main.png?raw=true">
+	<img width="540" src=".github/images/Misc/Main.png">
 	<p>一套基于 Rainmeter 的桌面自定义工具</p>
 	<img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat">
-	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SteveHsuDrawing/quantoflx?style=flat">
-	<img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"> <br>
+	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat">
+	<img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"><br>
 	<a href="https://x.com/quantoseries">
 		<img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X">
-	</a>
-	<a href="https://www.patreon.com/quantoseries">
+	</a><a href="https://www.patreon.com/quantoseries">
 		<img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon">
-	</a> <br>
-	<a href="https://www.patreon.com/posts/115660646">Join the discussion about upcoming Gamma version (Build 1100) for FREE!</a> <br>
+	</a><br>
+	<a href="https://www.patreon.com/posts/115660646">Join the discussion about upcoming Gamma version (Build 1100) for FREE!</a><br>
 	<p>
 		本页的其他语言: <a href="/README.md">
 			<kbd>English</kbd>
@@ -46,7 +45,7 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/RSS_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/RSS_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.Gadgets/IconSquare/RSS_0.png" width="32">		</picture>	| RSS 源		| 从你的 RSS 源中关注最新资讯。	| 自定义大小										| 支持读取符合 Atom 规范的 RSS 源。一次可以读取 15/30 个标题。最多可以同时存在 8 个克隆皮肤。												|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Search_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Search_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.Gadgets/IconSquare/Search_0.png" width="32">		</picture>	| 开始按钮		| 点击以显示开始菜单/屏幕。		| 自定义大小										| 您可以选择百度、Google、微软必应、维基百科、雅虎或 Yandex 作为搜索引擎。														|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Start_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Start_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.Gadgets/IconSquare/Start_0.png" width="32">		</picture>	| 搜索		| 简单的桌面搜索栏。			| `1x1` `4x1` & 自定义大小									| 可定制的开始图标。																				|
-| <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/StickyNotes_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/StickyNotes_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/StickyNotes_0.png" width="32">	</picture>	| 便笺		| 用以记录的简单工具。		| 自定义大小										| 这些皮肤通过读取文本文件来实现其功能，并且还支持[文本格式化](/SteveHsuDrawing/quantoflx/wiki/Manual-of-%22Quanto-Flx-Gadgets%22-Package#text-formatting)。最多可同时存在 16 个克隆皮肤。	|
+| <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/StickyNotes_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/StickyNotes_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/StickyNotes_0.png" width="32">	</picture>	| 便笺		| 用以记录的简单工具。		| 自定义大小										| 这些皮肤通过读取文本文件来实现其功能，并且还支持[文本格式化](/stevehsudrawing/quantoflx/wiki/Manual-of-%22Quanto-Flx-Gadgets%22-Package#text-formatting)。最多可同时存在 16 个克隆皮肤。	|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/ToDoList_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/ToDoList_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/ToDoList_0.png" width="32">	</picture>	| 待办列表		| 用以记录待办事件的实用工具。		| 自定义大小										| 最多可以同时存在 8 个克隆皮肤。																		|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Weather_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Weather_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/Weather_0.png" width="32">	</picture>	| 天气		| 查看世界各地的天气。		| 当前/今天：`1x1` `2x2` `4x1` `4x2` `4x4`<br>每天/每小时：`2x2` `4x1` `4x2*2` `4x4*2` `8x4`	| 它分为四个部分：「当前」、「每日」、「每小时」和「今天」。无需 API 密钥。														|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/WorldClock_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/WorldClock_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/WorldClock_0.png" width="32">	</picture>	| 世界时钟		| 查看世界各地的时间。		| `4x2` `4x4` `8x4`									| - 																					|
@@ -76,9 +75,9 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 该软件包附带 260 个预设快捷方式，最多可设置 240 个自定义快捷方式。
 
 <picture>
-	<source media="(prefers-color-scheme: light)" srcset="https://github.com/SteveHsuDrawing/quantoflx/assets/122773837/51856ed9-3192-4f60-9d4d-af693151eb03">
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/SteveHsuDrawing/quantoflx/assets/122773837/1efe80ad-8c52-4821-b287-a457c9e04f39">
-	<img alt="Shortcut Overview" src="https://github.com/SteveHsuDrawing/quantoflx/assets/122773837/51856ed9-3192-4f60-9d4d-af693151eb03" width="830">
+	<source media="(prefers-color-scheme: light)" srcset=".github/images/QuantoFlx.Shortcuts/Images/Overview_0.png">
+	<source media="(prefers-color-scheme: dark)" srcset=".github/images/QuantoFlx.Shortcuts/Images/Overview_1.png">
+	<img alt="Shortcut Overview" src=".github/images/QuantoFlx.Shortcuts/Images/Overview_0.png" width="830">
 </picture>
 
 快捷方式皮肤的样式有`1x1`、`2x2`、`4x1`、`4x2`。
@@ -87,7 +86,7 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 
 这些皮肤依靠系统监控软件（例如 AIDA 或 HWiNFO）来提供有关系统资源使用情况的统一且详细的报告。
 
-[配置您的系统性能监控软件](https://github.com/SteveHsuDrawing/quantoflx/wiki/Manual-of-%22Quanto-Flx-System%22-Package#before-you-use-them)以获得更多功能。
+[配置您的系统性能监控软件](/stevehsudrawing/quantoflx/wiki/Manual-of-%22Quanto-Flx-System%22-Package#before-you-use-them)以获得更多功能。
 
 | 图标																																																| 名称			| 描述					| 可用大小/风格				| 特色										|
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|---------------------------------------|---------------------------------------|-------------------------------------------------------------------------------|
@@ -108,6 +107,18 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 | <picture>	<source srcset=".github/images/QuantoFlx.System/IconSquare/VideoMemory_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.System/IconSquare/VideoMemory_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.System/IconSquare/VideoMemory_0.png" width="32">		</picture>	| 视频运存			| 显示当前视频运存的占用情况。			| `1x1` `2x2` `4x1` `4x2`		| 通用系统监控皮肤之一。								|
 | <picture>	<source srcset=".github/images/QuantoFlx.System/IconSquare/Volume_0.png" media="(prefers-color-scheme: light)">			<source srcset=".github/images/QuantoFlx.System/IconSquare/Volume_1.png" media="(prefers-color-scheme: dark)">			<img src=".github/images/QuantoFlx.System/IconSquare/Volume_0.png" width="32">			</picture>	| 音量			| 调整整体音量以及各应用程序的音量。		| `4x1` 和自定义尺寸			| 用于调整全局音量或每个应用程序音量的选项。						|
 
+## 多语言支持
+
+Quanto Flx 目前支持以下语言：
+
+| 语言代码		| 语言名称		| 贡献者		|
+|---------------|---------------|---------------|
+| `en-us`	| English	| Steve Hsu	|
+| `zh-hans`	| 中文 (简体)	| Steve Hsu	|
+| `zh-hant`	| 中文 (繁體)	| Steve Hsu	|
+
+随时欢迎您的贡献！如果您想贡献翻译，请阅读[本文档](Skins/QuantoFlx/%40Resources/Config/Language/README.md)。
+
 # 如何安装
 
 > [!WARNING]
@@ -117,9 +128,9 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 
 1. 下载并安装最新版本的 [Rainmeter](https://www.rainmeter.net/)。
 
-2. 前往[发布页面](https://github.com/stevehsudrawing/quantoflx/releases)下载最新版本的 Quanto Flx 安装包。
+2. 前往[发布页面](/stevehsudrawing/quantoflx/releases)下载最新版本的 Quanto Flx 安装包。
 
-3. 单击「安装」，然后按照提示进行初始化即可。[这篇文章](https://github.com/SteveHsuDrawing/quantoflx/wiki/Guide-for-New-Users)可能对您有帮助。
+3. 单击「安装」，然后按照提示进行初始化即可。[这篇文章](/stevehsudrawing/quantoflx/wiki/Guide-for-New-Users)可能对您有帮助。
 
 4. 享用吧！
 
@@ -127,15 +138,15 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 
 首先，您需要[安装最新版本的 Rainmeter](https://www.rainmeter.net/)。
 
-然后[在此处下载 Quanto Flx ](https://codeload.github.com/stevehsudrawing/quantoflx/zip/refs/heads/main)并手动安装/更新：
+然后[在此处下载 Quanto Flx](/stevehsudrawing/quantoflx/archive/refs/heads/main.zip) 并手动安装/更新：
 
 - 下面列出了需要安装的 Plugin。您可以在 `%APPDATA%\Rainmeter\Plugins` 中查看已安装的 Plugin。如果您的设备上不存在其中某些 Plugin，请单击超链接并下载最新版本。
 
 | Plugin								| Plugin								| Plugin								| Plugin								|
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [AppVolume](https://github.com/khanhas/AppVolumePlugin)		| [Backlight](https://forum.rainmeter.net/viewtopic.php?p=103782)	| [Chameleon](https://github.com/socks-the-fox/chameleon)		| [ConfigActive](https://github.com/jsmorley/ConfigActive)		|
-| [FileChoose](https://forum.rainmeter.net/viewtopic.php?p=167079)	| [FrostedGlass](https://github.com/TheAzack9/FrostedGlass)		| [HotKey](https://github.com/brianferguson/HotKey.dll)			| [Mouse](https://github.com/NighthawkSLO/Mouse.dll)			|
-| [SysColor](https://github.com/brianferguson/SysColor.dll)		| [TrayIcon](https://github.com/deathcrafter/PluginTrayIcon)		| [WebNowPlaying](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|									|
+| [AppVolume](/khanhas/AppVolumePlugin)					| [Backlight](https://forum.rainmeter.net/viewtopic.php?p=103782)	| [Chameleon](/socks-the-fox/chameleon)					| [ConfigActive](/jsmorley/ConfigActive)				|
+| [FileChoose](https://forum.rainmeter.net/viewtopic.php?p=167079)	| [FrostedGlass](/TheAzack9/FrostedGlass)				| [HotKey](/brianferguson/HotKey.dll)					| [Mouse](/NighthawkSLO/Mouse.dll)					|
+| [SysColor](/brianferguson/SysColor.dll)				| [TrayIcon](/deathcrafter/PluginTrayIcon)				| [WebNowPlaying](/keifufu/WebNowPlaying-Rainmeter)			|									|
 
 - 将`Skins`文件夹中的`QuantoFlx`文件夹复制/解压（并覆盖）到`%HOMEPATH%\Documents\Rainmeter\Skins`。
 
@@ -144,23 +155,23 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 最后，刷新或重新启动 Rainmeter 并在 Rainmeter 管理器的布局页面中加载`QuantoFlx_Setup`布局。享用吧！
 
 > [!TIP]
-> 如果您想先睹为快，请查看[`snapshot`分支](https://github.com/stevehsudrawing/quantoflx/tree/snapshot)。
+> 如果您想先睹为快，请查看[`snapshot`分支](/stevehsudrawing/quantoflx/tree/snapshot)。
 
 # 特别鸣谢
 
 | 作者		| 提供										| 提供										|
 |---------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| Brian		| [HotKey Plugin](https://github.com/brianferguson/HotKey.dll)			| [SysColor Plugin](https://github.com/brianferguson/SysColor.dll/)		|
+| Brian		| [HotKey Plugin](/brianferguson/HotKey.dll)					| [SysColor Plugin](/brianferguson/SysColor.dll/)				|
 | Cfixd		| [Backlight Plugin](https://forum.rainmeter.net/viewtopic.php?p=103782)	|										|
-| Death.crafter	| [TrayIcon Plugin](https://github.com/deathcrafter/PluginTrayIcon)		|										|
-| JSMorley	| [ConfigActive Plugin](https://github.com/jsmorley/ConfigActive)		| [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215)			|
-| Khanhas	| [AppVolume Plugin](https://github.com/khanhas/AppVolumePlugin)		|										|
-| NighthawkSLO	| [Mouse Plugin](https://github.com/NighthawkSLO/Mouse.dll/)			|										|
+| Death.crafter	| [TrayIcon Plugin](/deathcrafter/PluginTrayIcon)				|										|
+| JSMorley	| [ConfigActive Plugin](/jsmorley/ConfigActive)					| [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215)			|
+| Khanhas	| [AppVolume Plugin](/khanhas/AppVolumePlugin)					|										|
+| NighthawkSLO	| [Mouse Plugin](/NighthawkSLO/Mouse.dll/)					|										|
 | Setsukka	| [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079)	|										|
 | Smurfier	| [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288)		|										|
-| Socks the Fox	| [Chameleon Plugin](https://github.com/socks-the-fox/chameleon)		|										|
-| TheAzack9	| [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass)		|										|
-| Tjhrulz	| [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|										|
+| Socks the Fox	| [Chameleon Plugin](/socks-the-fox/chameleon)					|										|
+| TheAzack9	| [FrostedGlass Plugin](/TheAzack9/FrostedGlass)				|										|
+| Tjhrulz	| [WebNowPlaying Plugin](/keifufu/WebNowPlaying-Rainmeter)			|										|
 
 [^1]: AIMP、foobar2000、iTunes、J. River Media Center、Media Jukebox、MusicBee、Winamp 和旧版 Windows Media Player。
 [^2]: 使用 Windows 10/11 时，您可以使用此 Plugin 连接到一些受支持的[桌面音乐播放器](/ModernFlyouts-Community/ModernFlyouts/blob/main/docs/GSMTC-Support-And-Popular-Apps.md)或[基于浏览器的播放器](https://wnp.keifufu.dev/supported-sites)（需要先安装[浏览器扩展](https://wnp.keifufu.dev/quickstart#install-the-browser-extension)）。
