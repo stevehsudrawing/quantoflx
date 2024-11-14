@@ -1,18 +1,21 @@
 <!-- Turn off automatic wrapping, change the indentation method to Tab, and adjust the Tab Size to 8 to avoid typographical confusion. -->
 
 <div align="center">
-	<img width="540" src=".github/images/Misc/Main.png">
-	<p>一套基于 Rainmeter 的桌面自定义工具</p>
-	<img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat">
-	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat">
-	<img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"><br>
-	<a href="https://x.com/quantoseries">
+	<img width="540" src=".github/images/Misc/Main.png"><br><p>
+		一套基于 Rainmeter 的桌面自定义工具
+	</p><br><a>
+		<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat">
+	</a><a href="/stevehsudrawing/quantoflx/releases">
+		<img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat">
+	</a><a href="/stevehsudrawing/quantoflx/issues">
+		<img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx">
+	</a><br><a href="https://x.com/quantoseries">
 		<img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X">
 	</a><a href="https://www.patreon.com/quantoseries">
 		<img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon">
-	</a><br>
-	<a href="https://www.patreon.com/posts/115660646">Join the discussion about upcoming Gamma version (Build 1100) for FREE!</a><br>
-	<p>
+	</a><br><a href="https://www.patreon.com/posts/115660646">
+		Join the discussion about upcoming Gamma version (Build 1100)!
+	</a><br><p>
 		本页的其他语言: <a href="/README.md">
 			<kbd>English</kbd>
 		</a>
