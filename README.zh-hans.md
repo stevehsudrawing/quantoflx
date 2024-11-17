@@ -7,12 +7,12 @@
 		一套基于 Rainmeter 的桌面自定义工具
 	</p>
 	<p>
-		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub 下载数量" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub 发布版本" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat"></a>
-		<a><img alt="GitHub 存储库收藏数" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub 议题" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"></a>
-		<a href="https://x.com/quantoseries"><img alt="X 关注" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
-		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon 订阅" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon&label=subscribe"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"></a>
+		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
+		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon&label=subscribe"></a>
 		<br>
 		<a href="https://www.patreon.com/posts/115660646">Join the discussion about upcoming Gamma version (Build 1100)!</a>
 	</p>
