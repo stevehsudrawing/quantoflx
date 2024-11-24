@@ -2,7 +2,7 @@
 
 <div align="center">
 	<p>
-		<img width="540" src=".github/images/Misc/Main.png">
+		<img width="540" alt="Quanto Flx" src=".github/images/Misc/Main.png">
 		<br>
 		一套基于 Rainmeter 的桌面自定义工具
 	</p>
@@ -63,7 +63,7 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|---------------------------------------|-------------------------------|---------------------------------------------------------------------------------------|
 | <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Background_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Background_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/Background_0.png" width="32">	</picture>	| 背景		| 用以容纳面板。				| 全屏、固定宽度或高度或可定制尺寸	| 使用固定宽度或高度样式皮肤周围的「折叠」按钮将其用作侧边栏。最多可以同时存在 8 个克隆皮肤。			|
 | <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/ControlBar_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/ControlBar_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/ControlBar_0.png" width="32">	</picture>	| 控制栏		| 于指掌间控制面板或系统。			| 垂直或水平			| 显示或隐藏用户图像图标或/和开始图标；两端可分别着色；可以设置背景颜色。					|
-| <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/BlankPanel_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/BlankPanel_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/BlankPanel_0.png" width="32">	</picture>	| 空面板		| 制作一个面板吧。				| 自定义大小			| 您可以编写自己的仪表/措施。最多可同时存在 16 个克隆皮肤。						|
+| <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/BlankPanel_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/BlankPanel_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/BlankPanel_0.png" width="32">	</picture>	| 空面板		| 制作一个面板吧。				| 自定义大小			| 您可以编写自己的 Meters 或 Measures。最多可同时存在 16 个克隆皮肤。				|
 | <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Customization_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Customization_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/Customization_0.png" width="32">	</picture>	| 自定义图片皮肤	| ｢贴｣ 张图片在桌面上。			| 自定义大小			| 可以用作快捷方式。最多可同时存在 16 个克隆皮肤。							|
 | <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/CustomText_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/CustomText_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/CustomText_0.png" width="32">	</picture>	| 自定义文字	| 为你的桌面加上几句溢美之词。			| 自定义大小			| 最多可同时存在 16 个克隆皮肤。								|
 | <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/DigitalClock_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/DigitalClock_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/DigitalClock_0.png" width="32">	</picture>	| 数字时钟		| 你可以使用完整的数字时钟，也可以自行组装一个。	| 自定义大小			| 该系列皮肤提供了足够的独立组件供用户定制数字时钟。您也可以直接使用集成数字时钟。				|
@@ -71,7 +71,7 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 | <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Ruler_0.png" media="(prefers-color-scheme: light)">			<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Ruler_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.Misc/IconSquare/Ruler_0.png" width="32">		</picture>	| 尺子		| 协助用户放置皮肤的工具。			| 自定义大小			| 这些皮肤利用 Rainmeter 的自动皮肤对齐功能来帮助用户放置皮肤。最多可以同时存在 4 个克隆皮肤。		|
 | <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/SkeuomorphicClock_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/SkeuomorphicClock_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/SkeuomorphicClock_0.png" width="32">	</picture>	| 拟物时钟		| 桌面拟物时钟。				| 自定义大小			| 显示或隐藏秒数或 AM/PM 指示器；是否将秒数显示为指针而不是圆圈；可定制的钟面；Aero 背景[^3]等。		|
 | <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/TextOptions_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/TextOptions_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/TextOptions_0.png" width="32">	</picture>	| 文字选项		| 可自定义的快捷方式或超链接。			| 自定义大小			| 一款皮肤可以同时显示 4 个条目。最多可以同时存在 8 个克隆皮肤。					|
-| <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Visualiser_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Visualiser_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/Visualiser_0.png" width="32">	</picture>	| 可视化器（频谱）	| 让音乐踊动于屏幕上。			| 水平、垂直、放射状 4 种样式		| 您可以自定义宽度和高度或半径，并设置水平或垂直样式的反射。可视化工具的外观也可以翻转。			|
+| <picture>	<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Visualiser_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Misc/IconSquare/Visualiser_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Misc/IconSquare/Visualiser_0.png" width="32">	</picture>	| 可视化器（频谱）	| 让音乐踊动于屏幕上。			| 水平、垂直、放射状 4 种样式		| 您可以自定义宽度和高度或半径，并设置水平或垂直样式的镜像。可视化器的外观也可以翻转。			|
 
 ### Quanto Flx 快捷方式
 
@@ -126,6 +126,10 @@ Quanto Flx 目前支持以下语言：
 
 随时欢迎您的贡献！如果您想贡献翻译，请阅读[本文档](Skins/QuantoFlx/%40Resources/Config/Language/README.md)。
 
+## 兼容性
+
+Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安装最新版本的 Rainmeter，那就同样可以使用 Quanto Flx！
+
 # 如何安装
 
 > [!WARNING]
@@ -174,6 +178,7 @@ Quanto Flx 目前支持以下语言：
 | JSMorley	| [ConfigActive Plugin](https://github.com/jsmorley/ConfigActive)		| [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215)			|
 | Khanhas	| [AppVolume Plugin](https://github.com/khanhas/AppVolumePlugin)		|										|
 | NighthawkSLO	| [Mouse Plugin](https://github.com/NighthawkSLO/Mouse.dll/)			|										|
+| Open-Metero	| [气象预报 API](https://github.com/open-meteo/open-meteo)				| [空气质量 API](https://github.com/open-meteo/open-meteo)				|
 | Setsukka	| [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079)	|										|
 | Smurfier	| [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288)		|										|
 | Socks the Fox	| [Chameleon Plugin](https://github.com/socks-the-fox/chameleon)		|										|
