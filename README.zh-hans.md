@@ -8,8 +8,8 @@
 	</p>
 	<p>
 		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"></a>
 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon&label=subscribe"></a>
@@ -145,7 +145,7 @@ Quanto Flx 目前支持以下语言：
 
 首先，您需要[安装最新版本的 Rainmeter](https://www.rainmeter.net/)。
 
-然后[在此处下载 Quanto Flx](https://github.com/stevehsudrawing/quantoflx/archive/refs/heads/main.zip) 并手动安装/更新：
+然后，通过 Git 或 GitHub Desktop **将此存储库克隆到本地计算机**（而不是下载 ZIP 文件），然后手动安装：
 
 - 下面列出了需要安装的 Plugin。您可以在 `%APPDATA%\Rainmeter\Plugins` 中查看已安装的 Plugin。如果您的设备上不存在其中某些 Plugin，请单击超链接并下载最新版本。
 
