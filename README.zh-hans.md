@@ -130,6 +130,10 @@ Quanto Flx 目前支持以下语言：
 
 Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安装最新版本的 Rainmeter，那就同样可以使用 Quanto Flx！
 
+<div align="center">
+	<img width="400" alt="Quanto Flx Demo 概览" src=".github/images/Misc/Demo/Overview.png">
+</div>
+
 # 如何安装
 
 > [!WARNING]
