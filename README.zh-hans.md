@@ -2,6 +2,12 @@
 
 <div align="center">
 	<p>
+		<img width="400" alt="Quanto Flx Demo #1" src=".github/images/Misc/Demo/0000.png">
+		<img width="400" alt="Quanto Flx Demo #2" src=".github/images/Misc/Demo/0001.png">
+		<img width="400" alt="Quanto Flx Demo #3" src=".github/images/Misc/Demo/0002.png">
+		<img width="400" alt="Quanto Flx Demo #4" src=".github/images/Misc/Demo/0003.png">
+	</p>
+	<p>
 		<img width="540" alt="Quanto Flx" src=".github/images/Misc/Main.png">
 		<br>
 		一套基于 Rainmeter 的桌面自定义工具
