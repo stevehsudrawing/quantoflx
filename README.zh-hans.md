@@ -2,12 +2,6 @@
 
 <div align="center">
 	<p>
-		<img width="400" alt="Quanto Flx Demo #1" src=".github/images/Misc/Demo/0000.png">
-		<img width="400" alt="Quanto Flx Demo #2" src=".github/images/Misc/Demo/0001.png">
-		<img width="400" alt="Quanto Flx Demo #3" src=".github/images/Misc/Demo/0002.png">
-		<img width="400" alt="Quanto Flx Demo #4" src=".github/images/Misc/Demo/0003.png">
-	</p>
-	<p>
 		<img width="540" alt="Quanto Flx" src=".github/images/Misc/Main.png">
 		<br>
 		一套基于 Rainmeter 的桌面自定义工具
@@ -177,6 +171,15 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 
 > [!TIP]
 > 如果您想先睹为快，请查看[`snapshot`分支](https://github.com/stevehsudrawing/quantoflx/tree/snapshot)。
+
+# 截图演示
+
+<div align="center">
+	<img width="400" alt="Quanto Flx 截图演示 #1" src=".github/images/Misc/Demo/0000.png">
+	<img width="400" alt="Quanto Flx 截图演示 #2" src=".github/images/Misc/Demo/0001.png">
+	<img width="400" alt="Quanto Flx 截图演示 #3" src=".github/images/Misc/Demo/0002.png">
+	<img width="400" alt="Quanto Flx 截图演示 #4" src=".github/images/Misc/Demo/0003.png">
+</div>
 
 # 特别鸣谢
 
