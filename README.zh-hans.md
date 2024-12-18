@@ -114,6 +114,16 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 | <picture>	<source srcset=".github/images/QuantoFlx.System/IconSquare/VideoMemory_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.System/IconSquare/VideoMemory_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.System/IconSquare/VideoMemory_0.png" width="32">		</picture>	| 视频运存			| 显示当前视频运存的占用情况。			| `1x1` `2x2` `4x1` `4x2`		| 通用系统监控皮肤之一。								|
 | <picture>	<source srcset=".github/images/QuantoFlx.System/IconSquare/Volume_0.png" media="(prefers-color-scheme: light)">			<source srcset=".github/images/QuantoFlx.System/IconSquare/Volume_1.png" media="(prefers-color-scheme: dark)">			<img src=".github/images/QuantoFlx.System/IconSquare/Volume_0.png" width="32">			</picture>	| 音量			| 调整整体音量以及各应用程序的音量。		| `4x1` 和自定义尺寸			| 用于调整全局音量或每个应用程序音量的选项。						|
 
+## 帮助与支持
+
+<div align="right">
+	<img alt="Quanto Flx Wiki" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/07.png" width="400">
+</div>
+
+我们编写了 [Quanto Flx Wiki](https://github.com/stevehsudrawing/quantoflx/wiki)，因此，如果您在使用此软件包时遇到任何问题，或者只是想了解演示是如何实现的，您可以随时查阅它。
+
+同时，我们还提供了 [Quanto Flx 规范](https://github.com/stevehsudrawing/quantoflx/wiki/QFS)，帮助您学习如何编写 Quanto Flx 皮肤或制作 Quanto Flx 包。
+
 ## 多语言支持
 
 Quanto Flx 目前支持以下语言：
