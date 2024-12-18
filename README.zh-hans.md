@@ -116,9 +116,9 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 
 ## 帮助与支持
 
-<div align="right">
-	<img alt="Quanto Flx Wiki" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/07.png" width="400">
-</div>
+<picture>
+	<img alt="Quanto Flx Wiki" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/07.png" align="right" width="400">
+</picture>
 
 我们编写了 [Quanto Flx Wiki](https://github.com/stevehsudrawing/quantoflx/wiki)，因此，如果您在使用此软件包时遇到任何问题，或者只是想了解演示是如何实现的，您可以随时查阅它。
 
