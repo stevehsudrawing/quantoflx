@@ -28,8 +28,6 @@
 
 <!-- ## 修修补补、齐齐整整 -->
 
-<!-- ## 自定义，由你自己 -->
-
 ## 量大料足
 
 Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或尺寸的独特皮肤**！
@@ -113,6 +111,28 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 | <picture>	<source srcset=".github/images/QuantoFlx.System/IconSquare/TopProcess_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.System/IconSquare/TopProcess_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.System/IconSquare/TopProcess_0.png" width="32">		</picture>	| 占用最高进程		| 显示占用最消耗资源的进程。			| 自定义尺寸				| 最多可以同时存在 4 个克隆皮肤（CPU、GPU、I/O、RAM）。					|
 | <picture>	<source srcset=".github/images/QuantoFlx.System/IconSquare/VideoMemory_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.System/IconSquare/VideoMemory_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.System/IconSquare/VideoMemory_0.png" width="32">		</picture>	| 视频运存			| 显示当前视频运存的占用情况。			| `1x1` `2x2` `4x1` `4x2`		| 通用系统监控皮肤之一。								|
 | <picture>	<source srcset=".github/images/QuantoFlx.System/IconSquare/Volume_0.png" media="(prefers-color-scheme: light)">			<source srcset=".github/images/QuantoFlx.System/IconSquare/Volume_1.png" media="(prefers-color-scheme: dark)">			<img src=".github/images/QuantoFlx.System/IconSquare/Volume_0.png" width="32">			</picture>	| 音量			| 调整整体音量以及各应用程序的音量。		| `4x1` 和自定义尺寸			| 用于调整全局音量或每个应用程序音量的选项。						|
+
+## 彰显你的个性
+
+<picture>
+	<img alt="皮肤设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/03.png" align="right" width="400">
+</picture>
+
+除了上述功能外，每个皮肤还可以使用「组合」、渐变背景或不透明度等功能，使布局更加整齐，或展现您的个性。
+
+同时，您还可以方便地使用「样式剪贴板」复制皮肤的样式并将其应用到其他皮肤上。
+
+<picture>
+	<img alt="Quanto Flx 全局设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/05.png" align="right" width="400">
+</picture>
+
+Quanto Flx 全局设置提供了丰富的参数，允许您调整外观的许多细节，例如字体的大小或粗细、面板之间的间距以及全局外观的圆角大小。
+
+不知道从哪里开始？从 Quanto Flx 提供的预设主题着手吧！
+
+<div align="center">
+	<img alt="Quanto Flx Preset Themes" src=".github/images/Misc/ThemePreview.png" width="400">
+</div>
 
 ## 帮助与支持
 
