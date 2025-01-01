@@ -114,10 +114,10 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 
 ## 彰显你的个性
 
-<picture>
-	<img alt="皮肤设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/02.png" align="right" width="400"><br>
-	<img alt="Quanto Flx 全局设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/05.png" align="right" width="400">
-</picture>
+<div align="center">
+	<img alt="皮肤设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/02.png" width="400">
+	<img alt="Quanto Flx 全局设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/05.png" width="400">
+</div>
 
 除了上述功能外，每个皮肤还可以使用「组合」、渐变背景或不透明度等功能，使布局更加整齐，或展现你的个性。
 
@@ -134,12 +134,20 @@ Quanto Flx 全局设置提供了丰富的参数，允许您调整外观的许多
 ## 轻松上手
 
 <picture>
+	<img alt="轻松上手" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/03.png" align="right" width="400">
+</picture>
+
+不需要知晓太多的细节，Quanto Flx 为你提供一套用户友好的操作界面，让你轻松上手。
+
+Quanto Flx 提供了一些自动化功能，比如根据时间安排更换主题、根据壁纸更换强调色和前景色；还提供了一些实用功能，比如触摸屏模式、选择皮肤时显示背景、控制所有皮肤的位置层或锁定所有皮肤的位置等。这些功能将为您提供更便捷的客制化。
+
+<picture>
 	<img alt="Quanto Flx Wiki" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/07.png" align="right" width="400">
 </picture>
 
 遇到问题？我们编写了 [Quanto Flx Wiki](https://github.com/stevehsudrawing/quantoflx/wiki)，因此，如果您在使用此套件时遇到任何问题，或者只是想了解演示是如何实现的，您可以随时查阅它。
 
-同时，我们还提供了 [Quanto Flx 规范](https://github.com/stevehsudrawing/quantoflx/wiki/QFS)，帮助您学习如何编写 Quanto Flx 皮肤或制作 Quanto Flx 包。
+Quanto Flx 采用模块化设计，这意味着你可以编写 Quanto Flx 封包来进行拓展。我们还提供了 [Quanto Flx 规范](https://github.com/stevehsudrawing/quantoflx/wiki/QFS)，帮助您学习如何编写 Quanto Flx 皮肤或制作 Quanto Flx 封包。
 
 ## 多语言支持
 
@@ -174,13 +182,16 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 
 3. 单击「安装」，然后按照提示进行初始化即可。[这篇文章](https://github.com/stevehsudrawing/quantoflx/wiki/Guide-for-New-Users)可能对您有帮助。
 
-4. 享用吧！
+4. 尽情享用吧！
 
 ## 手动安装
 
 首先，您需要[安装最新版本的 Rainmeter](https://www.rainmeter.net/)。
 
 然后，通过 Git 或 GitHub Desktop **将此存储库克隆到本地计算机**（而不是下载 ZIP 文件），然后手动安装：
+
+> [!WARNING]
+> 下载本存储库的 ZIP 文件来安装可能会导致文字乱码。
 
 - 下面列出了需要安装的 Plugin。您可以在 `%APPDATA%\Rainmeter\Plugins` 中查看已安装的 Plugin。如果您的设备上不存在其中某些 Plugin，请单击超链接并下载最新版本。
 
@@ -194,7 +205,7 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 
 - 将`Layouts`文件夹中的`QuantoFlx`和`QuantoFlx_Setup`文件夹复制/解压缩（并覆盖）到`%APPDATA%\Rainmeter\Layouts`。
 
-最后，刷新或重新启动 Rainmeter 并在 Rainmeter 管理器的布局页面中加载`QuantoFlx_Setup`布局。享用吧！
+最后，刷新或重新启动 Rainmeter 并在 Rainmeter 管理器的布局页面中加载`QuantoFlx_Setup`布局。尽情享用吧！
 
 > [!TIP]
 > 如果您想先睹为快，请查看[`snapshot`分支](https://github.com/stevehsudrawing/quantoflx/tree/snapshot)。
@@ -202,10 +213,10 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 # 截图演示
 
 <div align="center">
-	<img width="400" alt="Quanto Flx 截图演示 #1" src=".github/images/Misc/Demo/0000.png">
-	<img width="400" alt="Quanto Flx 截图演示 #2" src=".github/images/Misc/Demo/0001.png">
-	<img width="400" alt="Quanto Flx 截图演示 #3" src=".github/images/Misc/Demo/0002.png">
-	<img width="400" alt="Quanto Flx 截图演示 #4" src=".github/images/Misc/Demo/0003.png">
+	<img alt="Quanto Flx 截图演示 #1" src=".github/images/Misc/Demo/0000.png" width="400">
+	<img alt="Quanto Flx 截图演示 #2" src=".github/images/Misc/Demo/0001.png" width="400">
+	<img alt="Quanto Flx 截图演示 #3" src=".github/images/Misc/Demo/0002.png" width="400">
+	<img alt="Quanto Flx 截图演示 #4" src=".github/images/Misc/Demo/0003.png" width="400">
 </div>
 
 # 特别鸣谢
