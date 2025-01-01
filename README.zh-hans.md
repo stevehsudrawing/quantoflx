@@ -115,10 +115,10 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 ## 彰显你的个性
 
 <picture>
-	<img alt="皮肤设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/03.png" align="right" width="400">
+	<img alt="皮肤设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/02.png" align="right" width="400">
 </picture>
 
-除了上述功能外，每个皮肤还可以使用「组合」、渐变背景或不透明度等功能，使布局更加整齐，或展现您的个性。
+除了上述功能外，每个皮肤还可以使用「组合」、渐变背景或不透明度等功能，使布局更加整齐，或展现你的个性。
 
 同时，您还可以方便地使用「样式剪贴板」复制皮肤的样式并将其应用到其他皮肤上。
 
@@ -126,9 +126,9 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 	<img alt="Quanto Flx 全局设置" src="Skins/QuantoFlx/Package/~!Settings/%40/Image/GetStarted/05.png" align="right" width="400">
 </picture>
 
-Quanto Flx 全局设置提供了丰富的参数，允许您调整外观的许多细节，例如字体的大小或粗细、面板之间的间距以及全局外观的圆角大小。
+Quanto Flx 全局设置提供了丰富的参数，允许您调整外观的许多细节，例如字体的大小或粗细、面板位置微调、面板之间的间距、光照设定以及全局外观的圆角大小等。
 
-不知道从哪里开始？从 Quanto Flx 提供的预设主题着手吧！
+无从下手？从 Quanto Flx 提供的预设主题着手吧！在设置时，Quanto Flx 可以提供即时预览，而不需要在设定完毕之后刷新皮肤才能看到效果。
 
 <div align="center">
 	<img alt="Quanto Flx Preset Themes" src=".github/images/Misc/ThemePreview.png" width="400">
