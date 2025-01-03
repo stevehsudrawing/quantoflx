@@ -13,8 +13,8 @@
 		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"></a>
 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon&label=subscribe"></a>
-		<br>
-		<a href="https://www.patreon.com/posts/115660646">Join the discussion about upcoming Gamma version (Build 1100)!</a>
+<!-- 		<br>
+		<a href="https://www.patreon.com/posts/115660646">Join the discussion about upcoming Gamma version (Build 1100)!</a> -->
 	</p>
 	<p>
 		本页的其他语言:
