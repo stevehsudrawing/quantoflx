@@ -1,0 +1,60 @@
+﻿Compare with Build 1011
+
+
+++3**New**++3
+
+-  Added a "Before You Update" wizard that helps you make necessary backups before updating Quanto Flx.
+
+-  Added some preset paths for local music players.
+
+-  Added "Render icons and images" feature to the "QF Shortcuts" package.
+
+-  When the skin setting window exceeds the screen, the skin setting window will be automatically moved so as not to overflow the screen.
+
+-  Added a hierarchical volume and screen brightness adjustment style to the Volume Control and Screen Brightness skin.
+
+-  Added a button to expand all pages list of the Package in QF Manager.
+
+-  Added random tips to the "General" page of Global Settings.
+
+-  Added a new "Shorten" function to "Divider" so that its line endpoints are in the center of the grid instead of the grid edge.
+
+-  Added more part of "Weather".
+
+-  Changelogs in QF are now displayed using QFCTF.
+
+
+++3**Modified/Improved**++3
+
+-  Modified the appearance of most details to be more rounded with the same corner radius settings.
+
+-  Version compatibility is now detected when using a user's backup to restore a setting.
+
+-  **[ ! ]** Change the version number naming rules of snapshot versions so that these versions can normally receive updates to the next release version.
+
+-  Volume Control skin now can adjust the volume of up to 7 applications.
+
+-  For the automatic update detection function, two new update detection situations are added: "API response read exception" and "too advanced version".
+
+-  "Dividing Line" skins are renamed as "Divider".
+
+-  "Drive" skins are renamed as "Logical Drive".
+
+-  There is now a distance between the QF Manager and the preview window.
+
+-  Optimized crystal effects.
+
+-  Skin settings files and skin content files for "Blank Panel" are now separated.
+
+-  Changed the way files are excluded when performing a restore operation.
+
+
+++3**Fixed/Solved**++3
+
+-  Weather information now loads as expected when Rainmeter launches.
+
+-  Fixed a bug that could occur when restoring the default settings for all skins within a package.
+
+-  For HWiNFO's configuration files, added the missing "CustomName" variable setting.
+
+-  The Recycle Bin skin will now refresh automatically.
