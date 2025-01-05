@@ -2,7 +2,7 @@
 	<p>
 		<img width="540" alt="Quanto Flx" src="https://github.com/stevehsudrawing/quantoflx/blob/main/.github/images/Misc/Main.png">
 		<br>
-		A desktop customization tool based on Rainmeter (<b>SNAPSHOT -> Gamma</b>)
+		A desktop customization tool based on Rainmeter (<b>SNAPSHOT -> <a href="https://www.patreon.com/posts/119206461">Delta</a></b>)
 	</p>
 	<p>
 		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat"></a>
