@@ -1,4 +1,4 @@
-# About translation
+﻿# About translation
 
 Welcome your contributions of translation!
 
@@ -44,7 +44,9 @@ When translating, please **modify the key value, not its name**.
 
 `#CRLF#` or `[#CRLF]` means "wrap the text to the next line".
 
-There are **something you shouldn't translate**, such as names of variable keys (nouns enclosed in brackets `[]` or Tic Tac Letters `#`) and `%x`.
+There may be some [QFCTF identifiers](https://github.com/stevehsudrawing/quantoflx/wiki/QFS-%E2%80%90-QFSDI-%E2%80%90-current-skin-path-%E2%80%90-skin-config-%E2%80%90-for-all-skin-types#with-quanto-flx-common-text-formats-support) in the text (such as `**`, `//`, `__`, etc). When translating, these identifiers should be added at the corresponding positions in the text.
+
+There are **something you shouldn't translate**, such as names of variable keys (nouns enclosed in brackets `[]` or Tic Tac Letters `#`) , `%x`, and some proper noun (such as "Quanto Flx").
 
 # I want to contribute to the translation, but how should I do?
 
