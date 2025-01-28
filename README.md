@@ -2,7 +2,7 @@
 	<p>
 		<img width="540" alt="Quanto Flx" src="https://github.com/stevehsudrawing/quantoflx/blob/main/.github/images/Misc/Main.png">
 		<br>
-		A desktop customization tool based on Rainmeter (<b>SNAPSHOT -> <a href="https://www.patreon.com/posts/119206461">Delta</a></b>)
+		A desktop customization tool based on Rainmeter (<b>GLOBALIZATION READY BRANCH</b>)
 	</p>
 	<p>
 		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat"></a>
@@ -13,6 +13,10 @@
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon&label=subscribe"></a>
 	</p>
 </div>
+
+# What is the significance of this branch?
+
+This branch provides the latest snapshot or release that can be used for translation. If you want to start translating, please use the files in this branch.
 
 # How to Install
 
@@ -39,3 +43,7 @@ Finally, refresh or restart Rainmeter and load the `QuantoFlx_Setup` layout in t
 
 > [!WARNING]
 > It should be noted that you **should not use the snapshot versions of Quanto Flx as normal tools**, nor should you modify too many settings in these versions or try to restore settings from your backups, because the internal details of snapshot versions may change at any time, and restoring settings from old backups may cause major problems. We are not responsible for problems caused by trying to restore settings from old backups.
+
+# How to translate
+
+Please read [this article](https://github.com/stevehsudrawing/quantoflx/wiki/Guide-of-Translating-Quanto-Flx) to learn more.
