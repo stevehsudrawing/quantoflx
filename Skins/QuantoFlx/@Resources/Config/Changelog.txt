@@ -20,7 +20,7 @@
 
 - Added some preset paths for local music players. This will be reflected after using the NowPlaying Plugin and selecting the player type. However, it should be noted that there is not a one-to-one relationship between the player type and the corresponding player, and the default path provided is for reference only. You need to set the location of the player according to the actual situation.
 
-- Added "Render icons and images" feature to the "QF Shortcuts" package. There are 3 options: "None", "Using accent color", "In grayscale"
+- Added "Render icons and images" feature to the "QF Shortcuts" Package. There are 3 options: "None", "Using accent color", "In grayscale"
 
 - When the skin setting window exceeds the screen, the skin setting window will be automatically moved so as not to overflow the screen. But it should be noted that if the skin itself overflows the screen, it will automatically move back into the screen.
 
@@ -66,7 +66,7 @@
 
 - Weather information now loads as expected when Rainmeter launches.
 
-- Fixed a bug that could occur when restoring the default settings for all skins within a package.
+- Fixed a bug that could occur when restoring the default settings for all skins within a Package.
 
 - For HWiNFO's configuration files, added the missing "CustomName" variable setting.
 
@@ -83,7 +83,7 @@
 
 - Style Clipboard: It is a quick way to apply the same style to multiple skins. After setting the style on a panel, click "Copy" to copy it to the Style Clipboard, and then you can "paste" this style to this panel when you open the settings of another skin.
 
-- Backup & Restoration Wizard: These two wizards can help you quickly backup or restore the skin settings of all packages.
+- Backup & Restoration Wizard: These two wizards can help you quickly backup or restore the skin settings of all Packages.
 
 - Providing real-time preview when setting appearance: With the preview, you can more easily view the effects of the appearance settings without having to refresh all skins.
 
@@ -95,7 +95,7 @@
 
 - **@^9!!!@^9 Added the global feature of "Reset the position of the skin after unloading it".** When this feature is enabled, the skin will automatically move to the top left corner of the screen when you unload it, which is the default position when the skin is first loaded.
 
-- Added a tooltip with the package internal name to the package list on the left side of the QF manager.
+- Added a tooltip with the Package internal name to the Package list on the left side of the QF manager.
 
 - The "Sticky Notes" skin (of "QF Gadgets") now semi-automatically refreshes changes. After modifying the text file, move the cursor to the corresponding skin to automatically update it.
 
@@ -115,7 +115,7 @@
 
 - Added the global function of "Lock the layout".
 
-- **@^9!!!@^9 Added "Restore the Default Settings" function for each package and skin.**
+- **@^9!!!@^9 Added "Restore the Default Settings" function for each Package and skin.**
 
 
 ++2**Modified/Improved++2**
@@ -134,7 +134,7 @@
 
 -  When exiting the skin settings, the skin will directly switches to the original skin style without manual selection.
 
--  Renamed "Shortcut Groups (Skins)" as "Shortcut Group Drawers" (of "QF Shortcuts" package).
+-  Renamed "Shortcut Groups (Skins)" as "Shortcut Group Drawers" (of "QF Shortcuts" Package).
 
 -  The minimum global scaling now can be adjusted to 0.5x.
 
@@ -146,7 +146,7 @@
 
 -  **@^9!!!@^9 Now the Z-pos of the skin is fixed and can be set by "Skin depth layer on screen" function.** When opening the "Skin Settings", it will be at the top level first and then drop to the normal position, so that you don't have to move the window position in some cases. After closing the skin settings, it will return to the preset Z-pos. When performing "Quick Resizing", the skin position will always be on the top layer, and the skin will return to the preset Z-pos after adjustment. It will be not recommended to adjust the Z-pos of the skin externally through Rainmeter Manager or other means.
 
--  **@^9!!!@^9 Now a package can have 10 tabs.**
+-  **@^9!!!@^9 Now a Package can have 10 tabs.**
 
 -  **@^9!!!@^9 Modified the "Custom Component" of the Digital Clock (of "QF Misc").** Now its content will be completely customizable by the user, including text styling and formatting and its content (including clock/date format)
 
