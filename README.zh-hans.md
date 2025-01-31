@@ -14,8 +14,8 @@
 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe_%40quantoseries-_-%23999999?logo=patreon&label=subscribe"></a>
 		<br>
-		<a href="https://www.patreon.com/posts/115660646"><kbd>View the changelog of Gamma (Build 1100)</kbd></a><br>
-		<a href="https://www.patreon.com/posts/119206461"><kbd>Learn about the latest news of upcoming Delta (Build 1101)</kbd></a><br>
+		<a href="https://www.patreon.com/posts/119206461"><kbd>Quanto Flx 2.00 Delta (构建 1101) 的更新日志</kbd></a><br>
+		<!-- <a href="https://www.patreon.com/posts/119206461"><kbd>Learn about the latest news of upcoming Delta (Build 1101)</kbd></a><br> -->
 	</p>
 	<p>
 		其他语言:

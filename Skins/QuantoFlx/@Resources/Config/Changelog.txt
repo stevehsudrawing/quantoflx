@@ -1,60 +1,265 @@
-﻿Compare with Build 1011
+﻿++3**Version 2.00 Delta (Build 1101) ++3**January 31, 2025
+
+++2**New++2**
+
+- A new button to lock or unlock the layout has been added to the Control Bar.
+
+- Added the "Theme Setting Wizard" so that when saving a theme you can specify the name and parameters to save.
+
+- **@^9!!!@^9** **Added a new setting "Receive the latest pre-release" to the "Automatic check upgrade" feature.**
 
 
-++3**New**++3
+++2**Modified/Improved++2**
 
--  Added a "Before You Update" wizard that helps you make necessary backups before updating Quanto Flx.
+- Now, no pop-up window will appear when backing up settings using the Backup Wizard.
 
--  Added some preset paths for local music players.
+- **@^9!!!@^9** **Options in the skin settings now allows adding hover tooltips.**
 
--  Added "Render icons and images" feature to the "QF Shortcuts" package.
+- The window for setting the foreground color is now inside the QF Manager's window to avoid situations where the close button is not visible.
 
--  When the skin setting window exceeds the screen, the skin setting window will be automatically moved so as not to overflow the screen.
+- **@^9!!!@^9** **"Themes" can now store more parameters about appearance, such as accent and foreground colors, blur modes, font settings, and more.** This involves changes in the theme format, so themes saved previously will not be preserved in the new version.
 
--  Added a hierarchical volume and screen brightness adjustment style to the Volume Control and Screen Brightness skin.
+- In the Restoration Wizard, when in the Setup state, the "Restore to Defaults" option is unavailable.
 
--  Added a button to expand all pages list of the Package in QF Manager.
+- The changelog dates back to version Build 1001.
 
--  Added random tips to the "General" page of Global Settings.
+- Modified some details of the "High Contrast" color mode. (1) Now shows the border of buttons when hovering over them instead of changing the color of the buttons. (2) Reduced the brightness of option and button borders.
 
--  Added a new "Shorten" function to "Divider" so that its line endpoints are in the center of the grid instead of the grid edge.
+- Modified some details of the QF Manager interface. (1) The Package list on the left side of the QF Manager can now be expanded to show its name. (2) The buttons in the skin list now have a hover effect. (3) Now no scrollbars appear when hovering over the tab list. (4) The tooltip displayed when you first hover over the tab list is now a tooltip about the "Expand" button on the right.
 
--  Added more part of "Weather".
+- Modified some details of the QF Setup interface. The "Select the initial appearance" step now displays 8 themes, including the "High Contrast" theme.
 
--  Changelogs in QF are now displayed using QFCTF.
+- Modified some details of the appearance when the "Intensity of the Crystal Effect" is not 0. Modified the hover effects.
 
+- Improved hover effects for some small buttons.
 
-++3**Modified/Improved**++3
-
--  Modified the appearance of most details to be more rounded with the same corner radius settings.
-
--  Version compatibility is now detected when using a user's backup to restore a setting.
-
--  **[ ! ]** Change the version number naming rules of snapshot versions so that these versions can normally receive updates to the next release version.
-
--  Volume Control skin now can adjust the volume of up to 7 applications.
-
--  For the automatic update detection function, two new update detection situations are added: "API response read exception" and "too advanced version".
-
--  "Dividing Line" skins are renamed as "Divider".
-
--  "Drive" skins are renamed as "Logical Drive".
-
--  There is now a distance between the QF Manager and the preview window.
-
--  Optimized crystal effects.
-
--  Skin settings files and skin content files for "Blank Panel" are now separated.
-
--  Changed the way files are excluded when performing a restore operation.
+- Modified some texts.
 
 
-++3**Fixed/Solved**++3
+++2**Fixed/Solved++2**
 
--  Weather information now loads as expected when Rainmeter launches.
+- Prompts are now displayed correctly when the recorded system settings differ from the actual situation.
 
--  Fixed a bug that could occur when restoring the default settings for all skins within a package.
+- Fixed an issue where opening skin settings would be covered by other skins when the skin's depth layer was at "Bottom" or "On Desktop".
 
--  For HWiNFO's configuration files, added the missing "CustomName" variable setting.
+- Fixed the issue with italic style not taking effect in the "Sticky Notes" skin.
 
--  The Recycle Bin skin will now refresh automatically.
+- Fixed some links to the Quanto Flx Wiki.
+
+
+@^7.......................................................................................................................................................................................................@^7
+
+++3**Version 2.00 Gamma (Build 1100) ++3**January 1, 2025
+
+++2**New++2**
+
+- Added a "Before You Update" wizard that helps you make necessary backups before updating QF.
+
+- Added some preset paths for local music players. This will be reflected after using the NowPlaying Plugin and selecting the player type. However, it should be noted that there is not a one-to-one relationship between the player type and the corresponding player, and the default path provided is for reference only. You need to set the location of the player according to the actual situation.
+
+- Added "Render icons and images" feature to the "QF Shortcuts" Package. There are 3 options: "None", "Using accent color", "In grayscale"
+
+- When the skin setting window exceeds the screen, the skin setting window will be automatically moved so as not to overflow the screen. But it should be noted that if the skin itself overflows the screen, it will automatically move back into the screen.
+
+- Added a hierarchical volume and screen brightness adjustment style to the Volume Control and Screen Brightness skin. The volume and screen brightness will be divided into 5 levels, and you can quickly adjust it by clicking the corresponding button.
+
+- Added a button to expand all pages list of the Package in QF Manager.
+
+- Added random tips to the "General" page of Global Settings.
+
+- Added a new "Shorten" function to "Divider" so that its line endpoints are in the center of the grid instead of the grid edge.
+
+- Added more part of "Weather". It includes "Air Quality", "Clothing Advices", "Cloud Cover", "Precipitation", "Sunshine Time", "UVI", "Visibility", "Wind".
+
+- Changelogs in QF are now displayed using QFCTF.
+
+
+++2**Modified/Improved++2**
+
+- Modified the appearance of most details to be more rounded with the same corner radius settings.
+
+- **@^9!!!@^9** **Version compatibility is now detected when using a user's backup to restore a setting.** When this backup is too old, it can't be restored directly.
+
+- Change the version number naming rules of snapshot versions so that these versions can normally receive updates to the next release version. Snapshot versions are not reflected in the display version suffix, but in the build version number. For example, "2.00 24w46b -> Gamma (Build 1100)" will be changed to "2.00 Gamma (Build 1099.20241111)", that is, the update date is inserted in the decimal part of the build version number.
+
+- Volume Control skin now can adjust the volume of up to 7 applications.
+
+- For the automatic update detection function, two new update detection situations are added: "API response read exception" and "too advanced version". The latter will appear in the snapshot version.
+
+- "Dividing Line" skins are renamed as "Divider".
+
+- "Drive" skins are renamed as "Logical Drive".
+
+- There is now a distance between the QF Manager and the preview window.
+
+- Optimized crystal effects.
+
+- **@^9!!!@^9** **Skin settings files and skin content files for "Blank Panel" are now separated.**
+
+- **@^9!!!@^9** **Changed the way files are excluded when performing a restore operation.**
+
+
+++2**Fixed/Solved++2**
+
+- Weather information now loads as expected when Rainmeter launches.
+
+- Fixed a bug that could occur when restoring the default settings for all skins within a Package.
+
+- For HWiNFO's configuration files, added the missing "CustomName" variable setting.
+
+- The Recycle Bin skin will now refresh automatically.
+
+
+@^7.......................................................................................................................................................................................................@^7
+
+++3**Version 2.00 Beta (Build 1011) ++3**November 9, 2024
+
+++2**New++2**
+
+- Redesign of QF Setup & Get Started: QF Setup has been redesigned and has added some new steps, such as a step to set the user name and user image after selecting the language, and a step to select as a new user or a user upgrading from an old version of QF. Added a detailed introduction to QF Manager in "Get Started". Added "Accessibly Options" page of QF Setup.
+
+- Style Clipboard: It is a quick way to apply the same style to multiple skins. After setting the style on a panel, click "Copy" to copy it to the Style Clipboard, and then you can "paste" this style to this panel when you open the settings of another skin.
+
+- Backup & Restoration Wizard: These two wizards can help you quickly backup or restore the skin settings of all Packages.
+
+- Providing real-time preview when setting appearance: With the preview, you can more easily view the effects of the appearance settings without having to refresh all skins.
+
+- Accent color fine-tuning: Do you think it’s troublesome to use the color palette to fine-tune the color? Now the quick color fine-tuning function have been added. Click a color to see the effect immediately.
+
+- "High Contrast" Color Scheme & "High Contrast" Theme
+
+- "Themes" Page of Global Settings: In addition to the 9 built-in themes, you can also customize 9 more.
+
+- **@^9!!!@^9** **Added the global feature of "Reset the position of the skin after unloading it".** When this feature is enabled, the skin will automatically move to the top left corner of the screen when you unload it, which is the default position when the skin is first loaded.
+
+- Added a tooltip with the Package internal name to the Package list on the left side of the QF manager.
+
+- The "Sticky Notes" skin (of "QF Gadgets") now semi-automatically refreshes changes. After modifying the text file, move the cursor to the corresponding skin to automatically update it.
+
+- Added the function of "Show skin background when the cursor is over it" for skins without background.
+
+- Added 8x1 style of Weather (Current/Today) skins (of "QF Gadgets").
+
+- Added 16 clones of "Custom Text" skins of "QF Misc".
+
+- Added 16 clones of "Blank Panel" skins of "QF Misc". You can add Meters to these skins via Skin settings.
+
+- Added 16 clones of "Dividing Line" skins of "QF Misc".
+
+- Added the global feature of "Change accent color and foreground color when wallpaper changes".
+
+- Added the global function of "The overall opacity of the skin", which used the feature of "Transparency" of Rainmeter. The skin becomes fully opaque when the mouse passes over it, and returns to the already set opacity when the mouse leaves it.
+
+- Added the global function of "Lock the layout".
+
+- **@^9!!!@^9** **Added "Restore the Default Settings" function for each Package and skin.**
+
+
+++2**Modified/Improved++2**
+
+-  **@^9!!!@^9** **Added "Opacity" common skin setting.** This will result in not being able to restore settings directly from older versions of QF, but you can restore manually.
+
+-  Added some new features to "Recycle Bin" skins (of "QF System"). Added 4x1 style. Now you can customize the icons of the two states (empty or full) of the recycle bin. Removed "Monochrome icons" option.
+
+-  Modified some warnings about scaling: Settings cannot be retained when the scaling is too large (This is for usability reasons). Warn when the scaling would cause the panel size to be non-integer pixels (because this would cause the panel to be misaligned). A warning will be issued when the scaling is less than 1x.
+
+-  **@^9!!!@^9** **Modified QF Common Text Format codes**: "+\+", "+\++\+", "+\++\++\+" are modified as "+\+\1", "+\+\2", "+\+\3" respectively. Insert a "\" in the middle of the code to escape the format. Added "+\-1", "+\-2", "+\-3" codes for making smaller text. Added codes for coloring text, from "@\^0" to "@\^F". Change the monospace font from "Lucida Sans Typewriter" to "Consolas". Go to QF Wiki to learn more.
+
+-  **@^9!!!@^9** **Added some new features to "Folder Viewer" skins (of "QF Gadgets")**: "Extra large icon size" option was modified as "Icon resolution". The possible values for this option are: 16x16, 32x32, 48x48, 256x256. Now you can decide whether to show or hide files or folder. Now you can decide whether to show or hide hidden or/and system files and folder. Now you can decide what to sort by, and whether to sort in ascending or descending order. Added file suffix filtering and file name filtering functions. Removed "Show '..' folder" option.
+
+-  **@^9!!!@^9** **The "Weather" skin (of "QF Gadgets") can now use custom icon packs.**
+
+-  When exiting the skin settings, the skin will directly switches to the original skin style without manual selection.
+
+-  Renamed "Shortcut Groups (Skins)" as "Shortcut Group Drawers" (of "QF Shortcuts" Package).
+
+-  The minimum global scaling now can be adjusted to 0.5x.
+
+-  **@^9!!!@^9** **Modified the "Sticky Note" skins (of "QF Gadgets") to support content scrolling. **Thus, the vertical position of the text alignment cannot be defined.
+
+-  When the value of an option in the skin settings is empty, "(Blank)" will be displayed.
+
+-  **@^9!!!@^9** **Language code "zh-cn", "zh-tw" are modified as "zh-hans" and "zh-hant" respectively.**
+
+-  **@^9!!!@^9** **Now the Z-pos of the skin is fixed and can be set by "Skin depth layer on screen" function.** When opening the "Skin Settings", it will be at the top level first and then drop to the normal position, so that you don't have to move the window position in some cases. After closing the skin settings, it will return to the preset Z-pos. When performing "Quick Resizing", the skin position will always be on the top layer, and the skin will return to the preset Z-pos after adjustment. It will be not recommended to adjust the Z-pos of the skin externally through Rainmeter Manager or other means.
+
+-  **@^9!!!@^9** **Now a Package can have 10 tabs.**
+
+-  **@^9!!!@^9** **Modified the "Custom Component" of the Digital Clock (of "QF Misc").** Now its content will be completely customizable by the user, including text styling and formatting and its content (including clock/date format)
+
+-  **@^9!!!@^9** **Now you can use your own "events list"**, instead of the pre-set list integrated into the language folder ("Calendar" skin of "QF Gadgets").
+
+-  Added some new features to "Media Control" skin of "QF Gadgets". Added 6x2, 6x3, 8x2 and 8x4 sizes/styles. Added the function of "Auto gradient background". Enable this feature to make the overall color of the skin change with the music cover.
+
+-  **@^9!!!@^9** **You can now customize the title of the "Cooling Fan" skin in the Additional Configurations of them by modifying the value of "CustomName" variable.**
+
+-  Modified "Switch the color scheme periodically" as "Switch the theme periodically".
+
+-  **@^9!!!@^9** **Added some new features to "Clock" skin of "QF Gadgets".** Added another 7 clones of it. Now you can set the time zone and customize the name of your time zone.
+
+
+++2**Fixed/Solved++2**
+
+-  Fixed the issue where QF Manager could not display some tabs when the font size was too large
+
+-  Fixed a bug with accidentally opening the skin context menu via certain actions when using skin settings
+
+-  Fixed a bug where when trying to add another Sticky Note, that one would appear at a random positions
+
+-  Fixed an issue where wallpaper colors could not be extracted under Windows 11 24H2
+
+-  The empty cover of "Media Control" skin (of "QF Gdagets") now displays properly when the background opacity is adjusted to 0x
+
+
+++2**Removed++2**
+
+-  Removed most Sticky Note examples
+
+-  Removed the examples of To-Do List
+
+-  Removed the 4x4 size of "World Clock" of "QF Gadgets"
+
+
+@^7.......................................................................................................................................................................................................@^7
+
+++3**Version 2.00 Alpha (Build 1010) ++3**August 12, 2024
+
+++2**New++2**
+
+- **@^9!!!@^9** **Added the initial version of "QF Shortcut" Package.** 260 Preset + 240 Custom + 16 Shortcut Group. All shortcuts can have replacement icons and images. The Shortcut Wizard helps you set up shortcuts quickly and intuitively。
+
+- **@^9!!!@^9** **Added initialization wizard and "Get Started" guide.**
+
+- **@^9!!!@^9** **Added "Touch Mode" to optimize the experience of touch screen devices.**
+
+
+++2**Modified/Improved++2**
+
+- **@^9!!!@^9** **Convert from OWM to Open-Meteo to use weather services without API key.**
+
+- **@^9!!!@^9** **QF Package Design Specifications (QFPDS) was upgraded.** Add unified scrolling content handling.
+
+- Optimized the experience of global scaling.
+
+
+@^7.......................................................................................................................................................................................................@^7
+
+++3**Version 2.00 24w14a (Build 1001) ++3**April 6, 2024
+
+++2**New++2**
+
+- **@^9!!!@^9** **Added the initial version of "QF System" Package.** Supports AIDA and HWiNFO. Information of battery, CPU, drives, GPU, etc. can be displayed or hidden via settings. The "System" skin can display the device model, BIOS information, etc.. Controls screen brightness and volume of individual apps. 16 customizable system monitoring skins (for the brave of you).
+
+- **@^9!!!@^9** **Added "Automatic Update" function** (of course it is not available now).
+
+
+++2**Modified/Improved++2**
+
+- "QF Gadgets" Package: Optimized some skins.
+
+- **@^9!!!@^9** **"QF Miscellaneous" Package: Individual parts of the digital clock can now be split.**
+
+
+++2**Fixed/Solved++2**
+
+- "QF Manager": Fixed an issue that caused Rainmeter to crash after entering and confirming in the text box.
