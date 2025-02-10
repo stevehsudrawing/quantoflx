@@ -132,7 +132,7 @@ Quanto Flx 全局设置提供了丰富的参数，允许您调整外观的许多
 无从下手？从 Quanto Flx 提供的预设主题着手吧！在设置时，Quanto Flx 可以提供即时预览，而不需要在设定完毕之后刷新皮肤才能看到效果。
 
 <div align="center">
-	<img alt="Quanto Flx 预设主题" src=".github/images/Misc/ThemePreview.png" width="400">
+	<img alt="Quanto Flx 预设主题" src=".github/images/Misc/ThemePreview.png" width="800">
 </div>
 
 ## 轻松上手
@@ -159,13 +159,23 @@ Quanto Flx 采用模块化设计，这意味着你可以编写 Quanto Flx 封包
 
 Quanto Flx 目前支持以下语言：
 
-| 语言代码		| 语言名称		| 贡献者		|
-|---------------|---------------|---------------|
-| `en-us`	| English	| Steve Hsu	|
-| `zh-hans`	| 中文 (简体)	| Steve Hsu	|
-| `zh-hant`	| 中文 (繁體)	| Steve Hsu	|
+|														| 语言代码		| 本地化名称			| 贡献者		|
+|---------------------------------------------------------------------------------------------------------------|---------------|-------------------------------|---------------|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/US.png" width="21">	| `en-us`	| English (United States)	| Steve Hsu	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/CN.png" width="21">	| `zh-hans`	| 中文 (简体)			| Steve Hsu	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/HK.png" width="21">	| `zh-hant`	| 中文 (繁體)			| Steve Hsu	|
 
-随时欢迎您的贡献！如果您想贡献翻译，请阅读[本文档](https://github.com/stevehsudrawing/quantoflx/wiki/Guide-of-Translating-Quanto-Flx)。
+随时欢迎您的贡献！如果您想贡献翻译，请阅读[本文档](https://github.com/stevehsudrawing/quantoflx/wiki/Guide-of-Translating-Quanto-Flx)。目前本项目计划翻译的语言有：
+
+|														| 语言代码		| 本地化名称		|
+|---------------------------------------------------------------------------------------------------------------|---------------|-----------------------|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-de`	| Deutsch (Deutschland)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/ES.png" width="21">	| `es-es`	| Español (España)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/FR.png" width="21">	| `fr-fr`	| français (France)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/IT.png" width="21">	| `it-it`	| Italiano (Italia)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/JP.png" width="21">	| `ja-jp`	| 日本語 (日本)		|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/BR.png" width="21">	| `pt-br`	| Português (Brasil)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/RU.png" width="21">	| `ru-ru`	| Русский (Россия)	|
 
 ## 兼容性
 
