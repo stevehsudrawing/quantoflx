@@ -49,7 +49,7 @@
 
 @^7.......................................................................................................................................................................................................@^7
 
-++3**Version 2.00 Gamma (Build 1100) ++3**January 1, 2025
+++3**Version 2.00 Gamma (Build 1101) ++3**January 1, 2025
 
 ++2**New++2**
 
@@ -80,7 +80,7 @@
 
 - **@^9!!!@^9** **Version compatibility is now detected when using a user's backup to restore a setting.** When this backup is too old, it can't be restored directly.
 
-- Change the version number naming rules of snapshot versions so that these versions can normally receive updates to the next release version. Snapshot versions are not reflected in the display version suffix, but in the build version number. For example, "2.00 24w46b -> Gamma (Build 1100)" will be changed to "2.00 Gamma (Build 1099.20241111)", that is, the update date is inserted in the decimal part of the build version number.
+- Change the version number naming rules of snapshot versions so that these versions can normally receive updates to the next release version. Snapshot versions are not reflected in the display version suffix, but in the build version number. For example, "2.00 24w46b -> Gamma (Build 1101)" will be changed to "2.00 Gamma (Build 1099.20241111)", that is, the update date is inserted in the decimal part of the build version number.
 
 - Volume Control skin now can adjust the volume of up to 7 applications.
 

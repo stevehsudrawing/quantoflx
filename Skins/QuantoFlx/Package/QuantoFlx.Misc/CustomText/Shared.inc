@@ -14,16 +14,7 @@ Formula=(#Ft.Cstm.Ag#<>0)
 DynamicVariables=1
 
 [Rainmeter]
-Update=1000
 DynamicWindowSize=1
-DynamicVariables=1
-
-[Ms.Time]
-Measure=Time
-Format=#Format#
-FormatLocale=#FormatLocale#
-TimeZone=#TimeZone#
-DaylightSavingTime=#DaylightSavingTime#
 DynamicVariables=1
 
 [Mt.Zn]
@@ -44,7 +35,6 @@ StringStyle=#Ft.Cstm.SS#
 StringCase=#Ft.Cstm.Scs#
 Angle=(rad(#Ft.Cstm.Ag#))
 Text=#Cntn#
-MeasureName=Ms.Time
 DynamicVariables=1
 [Mt.TxSd]
 Meter=String
@@ -62,7 +52,6 @@ StringStyle=#Ft.Cstm.SS#
 StringCase=#Ft.Cstm.Scs#
 Angle=(rad(#Ft.Cstm.Ag#))
 Text=#Cntn#
-MeasureName=Ms.Time
 DynamicVariables=1
 [Mt.Tx]
 Meter=String
@@ -80,5 +69,4 @@ StringStyle=#Ft.Cstm.SS#
 StringCase=#Ft.Cstm.Scs#
 Angle=(rad(#Ft.Cstm.Ag#))
 Text=#Cntn#
-MeasureName=Ms.Time
 DynamicVariables=1
