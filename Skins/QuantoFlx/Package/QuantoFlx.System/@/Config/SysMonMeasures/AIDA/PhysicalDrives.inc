@@ -20,3 +20,14 @@ Substitute=#SMLs.Temperature.Sbtt#
 Paused=(1-#SMLs.Temperature.Show#)
 Disabled=(1-#SMLs.Temperature.Show#)
 DynamicVariables=1
+
+[Ms.Registry.RemainingLife]
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=Software\FinalWire\AIDA[#Is64bit_[#Is64bit]]\SensorValues
+RegValue=#SMLs.RemainingLife.RSKN#
+RegExpSubstitute=1
+Substitute=#SMLs.RemainingLife.Sbtt#
+Paused=(1-#SMLs.RemainingLife.Show#)
+Disabled=(1-#SMLs.RemainingLife.Show#)
+DynamicVariables=1

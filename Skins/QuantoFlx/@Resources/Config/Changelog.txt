@@ -25,7 +25,7 @@
 
 - Modified some details of the "High Contrast" color mode. (1) Now shows the border of buttons when hovering over them instead of changing the color of the buttons. (2) Reduced the brightness of option and button borders.
 
-- Modified some details of the QF Manager interface. (1) The Package list on the left side of the QF Manager can now be expanded to show its name. (2) The buttons in the skin list now have a hover effect. (3) Now no scrollbars appear when hovering over the tab list. (4) The tooltip displayed when you first hover over the tab list is now a tooltip about the "Expand" button on the right.
+- Modified some details of the QF Manager interface. (1) The package list on the left side of the QF Manager can now be expanded to show its name. (2) The buttons in the skin list now have a hover effect. (3) Now no scrollbars appear when hovering over the tab list. (4) The tooltip displayed when you first hover over the tab list is now a tooltip about the "Expand" button on the right.
 
 - Modified some details of the QF Setup interface. The "Select the initial appearance" step now displays 8 themes, including the "High Contrast" theme.
 
@@ -57,13 +57,13 @@
 
 - Added some preset paths for local music players. This will be reflected after using the NowPlaying Plugin and selecting the player type. However, it should be noted that there is not a one-to-one relationship between the player type and the corresponding player, and the default path provided is for reference only. You need to set the location of the player according to the actual situation.
 
-- Added "Render icons and images" feature to the "QF Shortcuts" Package. There are 3 options: "None", "Using accent color", "In grayscale"
+- Added "Render icons and images" feature to the "QF Shortcuts" package. There are 3 options: "None", "Using accent color", "In grayscale"
 
 - When the skin setting window exceeds the screen, the skin setting window will be automatically moved so as not to overflow the screen. But it should be noted that if the skin itself overflows the screen, it will automatically move back into the screen.
 
 - Added a hierarchical volume and screen brightness adjustment style to the Volume Control and Screen Brightness skin. The volume and screen brightness will be divided into 5 levels, and you can quickly adjust it by clicking the corresponding button.
 
-- Added a button to expand all pages list of the Package in QF Manager.
+- Added a button to expand all pages list of the package in QF Manager.
 
 - Added random tips to the "General" page of Global Settings.
 
@@ -103,7 +103,7 @@
 
 - Weather information now loads as expected when Rainmeter launches.
 
-- Fixed a bug that could occur when restoring the default settings for all skins within a Package.
+- Fixed a bug that could occur when restoring the default settings for all skins within a package.
 
 - For HWiNFO's configuration files, added the missing "CustomName" variable setting.
 
@@ -120,7 +120,7 @@
 
 - Style Clipboard: It is a quick way to apply the same style to multiple skins. After setting the style on a panel, click "Copy" to copy it to the Style Clipboard, and then you can "paste" this style to this panel when you open the settings of another skin.
 
-- Backup & Restoration Wizard: These two wizards can help you quickly backup or restore the skin settings of all Packages.
+- Backup & Restoration Wizard: These two wizards can help you quickly backup or restore the skin settings of all packages.
 
 - Providing real-time preview when setting appearance: With the preview, you can more easily view the effects of the appearance settings without having to refresh all skins.
 
@@ -132,7 +132,7 @@
 
 - **@^9!!!@^9** **Added the global feature of "Reset the position of the skin after unloading it".** When this feature is enabled, the skin will automatically move to the top left corner of the screen when you unload it, which is the default position when the skin is first loaded.
 
-- Added a tooltip with the Package internal name to the Package list on the left side of the QF manager.
+- Added a tooltip with the package internal name to the package list on the left side of the QF manager.
 
 - The "Sticky Notes" skin (of "QF Gadgets") now semi-automatically refreshes changes. After modifying the text file, move the cursor to the corresponding skin to automatically update it.
 
@@ -152,7 +152,7 @@
 
 - Added the global function of "Lock the layout".
 
-- **@^9!!!@^9** **Added "Restore the Default Settings" function for each Package and skin.**
+- **@^9!!!@^9** **Added "Restore the Default Settings" function for each package and skin.**
 
 
 ++2**Modified/Improved++2**
@@ -171,7 +171,7 @@
 
 -  When exiting the skin settings, the skin will directly switches to the original skin style without manual selection.
 
--  Renamed "Shortcut Groups (Skins)" as "Shortcut Group Drawers" (of "QF Shortcuts" Package).
+-  Renamed "Shortcut Groups (Skins)" as "Shortcut Group Drawers" (of "QF Shortcuts" package).
 
 -  The minimum global scaling now can be adjusted to 0.5x.
 
@@ -183,7 +183,7 @@
 
 -  **@^9!!!@^9** **Now the Z-pos of the skin is fixed and can be set by "Skin depth layer on screen" function.** When opening the "Skin Settings", it will be at the top level first and then drop to the normal position, so that you don't have to move the window position in some cases. After closing the skin settings, it will return to the preset Z-pos. When performing "Quick Resizing", the skin position will always be on the top layer, and the skin will return to the preset Z-pos after adjustment. It will be not recommended to adjust the Z-pos of the skin externally through Rainmeter Manager or other means.
 
--  **@^9!!!@^9** **Now a Package can have 10 tabs.**
+-  **@^9!!!@^9** **Now a package can have 10 tabs.**
 
 -  **@^9!!!@^9** **Modified the "Custom Component" of the Digital Clock (of "QF Misc").** Now its content will be completely customizable by the user, including text styling and formatting and its content (including clock/date format)
 
@@ -226,7 +226,7 @@
 
 ++2**New++2**
 
-- **@^9!!!@^9** **Added the initial version of "QF Shortcut" Package.** 260 Preset + 240 Custom + 16 Shortcut Group. All shortcuts can have replacement icons and images. The Shortcut Wizard helps you set up shortcuts quickly and intuitively。
+- **@^9!!!@^9** **Added the initial version of "QF Shortcut" package.** 260 Preset + 240 Custom + 16 Shortcut Group. All shortcuts can have replacement icons and images. The Shortcut Wizard helps you set up shortcuts quickly and intuitively。
 
 - **@^9!!!@^9** **Added initialization wizard and "Get Started" guide.**
 
@@ -237,7 +237,7 @@
 
 - **@^9!!!@^9** **Convert from OWM to Open-Meteo to use weather services without API key.**
 
-- **@^9!!!@^9** **QF Package Design Specifications (QFPDS) was upgraded.** Add unified scrolling content handling.
+- **@^9!!!@^9** **QF package Design Specifications (QFPDS) was upgraded.** Add unified scrolling content handling.
 
 - Optimized the experience of global scaling.
 
@@ -248,16 +248,16 @@
 
 ++2**New++2**
 
-- **@^9!!!@^9** **Added the initial version of "QF System" Package.** Supports AIDA and HWiNFO. Information of battery, CPU, drives, GPU, etc. can be displayed or hidden via settings. The "System" skin can display the device model, BIOS information, etc.. Controls screen brightness and volume of individual apps. 16 customizable system monitoring skins (for the brave of you).
+- **@^9!!!@^9** **Added the initial version of "QF System" package.** Supports AIDA and HWiNFO. Information of battery, CPU, drives, GPU, etc. can be displayed or hidden via settings. The "System" skin can display the device model, BIOS information, etc.. Controls screen brightness and volume of individual apps. 16 customizable system monitoring skins (for the brave of you).
 
 - **@^9!!!@^9** **Added "Automatic Update" function** (of course it is not available now).
 
 
 ++2**Modified/Improved++2**
 
-- "QF Gadgets" Package: Optimized some skins.
+- "QF Gadgets" package: Optimized some skins.
 
-- **@^9!!!@^9** **"QF Miscellaneous" Package: Individual parts of the digital clock can now be split.**
+- **@^9!!!@^9** **"QF Miscellaneous" package: Individual parts of the digital clock can now be split.**
 
 
 ++2**Fixed/Solved++2**
