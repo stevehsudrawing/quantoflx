@@ -18,10 +18,7 @@
 		<!-- <a href="https://www.patreon.com/posts/119206461"><kbd>Learn about the latest news of upcoming Delta (Build 1101)</kbd></a><br> -->
 	</p>
 	<p>
-		Other language: 
-		<a href="/README.zh-hans.md">
-			<kbd>中文 (简体)</kbd>
-		</a>
+		English | <a href="/README.zh-hans.md">中文 (简体)</a>
 	</p>
 </div>
 
@@ -31,7 +28,7 @@
 
 ## Quantity and Quality
 
-Quanto Flx comes with 4 pre-installed packages that contain **more than 400+ distinctive skins with various styles or sizes**!
+Quanto Flx comes with 4 pre-installed packages that contain **160+ distinctive panels with various styles or sizes, 260 preset shortcuts with customizable icons and banners and 80+ other highly customizable components**!
 
 ### Quanto Flx Gadgets
 
@@ -189,10 +186,10 @@ Quanto Flx supports Windows 7 and newer. As long as your device can install the 
 
 You are currently browsing **the `main` branch**.
 
-| Branch	| [Release](https://github.com/stevehsudrawing/quantoflx/releases) Availability	| Description																																																					|
-|---------------|:-----------------------------------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`main`**	| 🟩										| This branch pushes **releases and pre-releases**. If you want **a stable and long-term available version**, you should check out [the Release page](https://github.com/stevehsudrawing/quantoflx/releases), and download the **final release** version. You can also download **the pre-release version** to **experience newer features**. Translators should choose the latest version marked "Globalization Ready" for translation.	|
-| `snapshot`	| 🟥										| This branch pushes **snapshot versions**. If you **pursue the latest features**, you can choose this branch. However, it should be noted that since this branch is **updated frequently** and **the version may be extremely unstable**, you should choose it with caution.																					|
+| Branch									| [Release](https://github.com/stevehsudrawing/quantoflx/releases) Availability	| Description																																																					|
+|-------------------------------------------------------------------------------|:-----------------------------------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **`main`**									| 🟩										| This branch pushes **releases and pre-releases**. If you want **a stable and long-term available version**, you should check out [the Release page](https://github.com/stevehsudrawing/quantoflx/releases), and download the **final release** version. You can also download **the pre-release version** to **experience newer features**. Translators should choose the latest version marked "Globalization Ready" for translation.	|
+| [`snapshot`](https://github.com/stevehsudrawing/quantoflx/tree/snapshot)	| 🟥										| This branch pushes **snapshot versions**. If you **pursue the latest features**, you can choose this branch. However, it should be noted that since this branch is **updated frequently** and **the version may be extremely unstable**, you should choose it with caution.																					|
 
 # How to Install
 
@@ -219,9 +216,9 @@ Then, **clone this repository to your local machine** via Git or GitHub Desktop 
 
 | Plugin								| Plugin								| Plugin								| Plugin								|
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [AppVolume](https://github.com/khanhas/AppVolumePlugin)		| [Backlight](https://forum.rainmeter.net/viewtopic.php?p=103782)	| [Chameleon](https://github.com/socks-the-fox/chameleon)		| [ConfigActive](https://github.com/jsmorley/ConfigActive)		|
-| [Drag&Drop](https://github.com/TheAzack9/Drag-Drop)			| [FileChoose](https://forum.rainmeter.net/viewtopic.php?p=167079)	| [FrostedGlass](https://github.com/TheAzack9/FrostedGlass)		| [HotKey](https://github.com/brianferguson/HotKey.dll)			|
-| [Mouse](https://github.com/NighthawkSLO/Mouse.dll)			| [SysColor](https://github.com/brianferguson/SysColor.dll)		| [TrayIcon](https://github.com/deathcrafter/PluginTrayIcon)		| [WebNowPlaying](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|
+| [`AppVolume`](https://github.com/khanhas/AppVolumePlugin)		| [`Backlight`](https://forum.rainmeter.net/viewtopic.php?p=103782)	| [`Chameleon`](https://github.com/socks-the-fox/chameleon)		| [`ConfigActive`](https://github.com/jsmorley/ConfigActive)		|
+| [`Drag&Drop`](https://github.com/TheAzack9/Drag-Drop)			| [`FileChoose`](https://forum.rainmeter.net/viewtopic.php?p=167079)	| [`FrostedGlass`](https://github.com/TheAzack9/FrostedGlass)		| [`HotKey`](https://github.com/brianferguson/HotKey.dll)		|
+| [`Mouse`](https://github.com/NighthawkSLO/Mouse.dll)			| [`SysColor`](https://github.com/brianferguson/SysColor.dll)		| [`TrayIcon`](https://github.com/deathcrafter/PluginTrayIcon)		| [`WebNowPlaying`](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|
 
 - Copy/unzip (and overwrite) `QuantoFlx` folder in `Skins` folder to `%HOMEPATH%\Documents\Rainmeter\Skins`.
 
@@ -242,18 +239,18 @@ Finally, refresh or restart Rainmeter and load the `QuantoFlx_Setup` layout in t
 
 | Author	| Credit									| Credit									|
 |---------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| Brian		| [HotKey Plugin](https://github.com/brianferguson/HotKey.dll)			| [SysColor Plugin](https://github.com/brianferguson/SysColor.dll/)		|
-| Cfixd		| [Backlight Plugin](https://forum.rainmeter.net/viewtopic.php?p=103782)	|										|
-| Death.crafter	| [TrayIcon Plugin](https://github.com/deathcrafter/PluginTrayIcon)		|										|
-| JSMorley	| [ConfigActive Plugin](https://github.com/jsmorley/ConfigActive)		| [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215)			|
-| Khanhas	| [AppVolume Plugin](https://github.com/khanhas/AppVolumePlugin)		|										|
-| NighthawkSLO	| [Mouse Plugin](https://github.com/NighthawkSLO/Mouse.dll/)			|										|
+| Brian		| [`HotKey` Plugin](https://github.com/brianferguson/HotKey.dll)		| [`SysColor` Plugin](https://github.com/brianferguson/SysColor.dll/)		|
+| Cfixd		| [`Backlight` Plugin](https://forum.rainmeter.net/viewtopic.php?p=103782)	|										|
+| Death.crafter	| [`TrayIcon` Plugin](https://github.com/deathcrafter/PluginTrayIcon)		|										|
+| JSMorley	| [`ConfigActive` Plugin](https://github.com/jsmorley/ConfigActive)		| [`RainRGB4`](https://forum.rainmeter.net/viewtopic.php?t=6215)		|
+| Khanhas	| [`AppVolume` Plugin](https://github.com/khanhas/AppVolumePlugin)		|										|
+| NighthawkSLO	| [`Mouse` Plugin](https://github.com/NighthawkSLO/Mouse.dll/)			|										|
 | Open-Meteo	| [Weather Forecast API](https://github.com/open-meteo/open-meteo)		| [Air Quality API](https://github.com/open-meteo/open-meteo)			|
-| Setsukka	| [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079)	|										|
-| Smurfier	| [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288)		|										|
-| Socks the Fox	| [Chameleon Plugin](https://github.com/socks-the-fox/chameleon)		|										|
-| TheAzack9	| [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass)		| [Drag&Drop Plugin](https://github.com/TheAzack9/Drag-Drop)			|
-| Tjhrulz	| [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|										|
+| Setsukka	| [`FileChoose` Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079)	|										|
+| Smurfier	| [`LuaCalendar`](https://forum.rainmeter.net/viewtopic.php?p=63288)		|										|
+| Socks the Fox	| [`Chameleon` Plugin](https://github.com/socks-the-fox/chameleon)		|										|
+| TheAzack9	| [`FrostedGlass` Plugin](https://github.com/TheAzack9/FrostedGlass)		| [`Drag&Drop` Plugin](https://github.com/TheAzack9/Drag-Drop)			|
+| Tjhrulz	| [`WebNowPlaying` Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|										|
 
 > Images above are for reference only, please refer to the actual situation.
 

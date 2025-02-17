@@ -18,10 +18,7 @@
 		<!-- <a href="https://www.patreon.com/posts/119206461"><kbd>Learn about the latest news of upcoming Delta (Build 1101)</kbd></a><br> -->
 	</p>
 	<p>
-		其他语言:
-		<a href="/README.md">
-			<kbd>English</kbd>
-		</a>
+		<a href="/README.md">English</a> | 中文 (简体)
 	</p>
 </div>
 
@@ -31,7 +28,7 @@
 
 ## 量大料足
 
-Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或尺寸的独特皮肤**！
+Quanto Flx 附带 4 个预装包，其中包含 **160+ 个具有各种风格和尺寸的独特面板、260 个带有可自定义图标和横幅的预设快捷方式以及 80+ 个其他高度可自定义的组件**！
 
 ### Quanto Flx 小工具
 
@@ -45,7 +42,7 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Desktop_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Desktop_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/Desktop_0.png" width="32">	</picture>	| 桌面		| 点击以显示或隐藏桌面上的皮肤。	| `1x1` 和自定义大小									| -																							|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/FolderViewer_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/FolderViewer_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/FolderViewer_0.png" width="32">	</picture>	| 文件夹查看器	| 显示文件夹中的内容。		| 列表、水平和垂直图标样式（类似 Dock）的可定制尺寸							| 一款皮肤可以同时显示任意本地路径的 4 到 32 个文件/文件夹。显示或隐藏文件或文件夹。最多可以同时存在 8 个克隆皮肤。												|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Gallery_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Gallery_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/Gallery_0.png" width="32">	</picture>	| 画廊		| 随机播放文件夹中的图片。		| 自定义大小										| -																							|
-| <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/MediaControl_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/MediaControl_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/MediaControl_0.png" width="32">	</picture>	| 音乐播放控制	| 控制你的音乐播放器。		| `1x1` `2x1` `2x2` `4x1` `4x2*2` `4x4`							| 支持 `NowPlaying` Plugin [^1]支持的播放器，也适配 `WebNowPlaying` Plugin [^2]。														|
+| <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/MediaControl_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/MediaControl_1.png" media="(prefers-color-scheme: dark)">	<img src=".github/images/QuantoFlx.Gadgets/IconSquare/MediaControl_0.png" width="32">	</picture>	| 音乐播放控制	| 控制你的音乐播放器。		| `1x1` `2x1` `2x2` `4x1` `4x2*2` `4x4`							| 支持 `NowPlaying` 插件[^1]支持的播放器，也适配 `WebNowPlaying` 插件[^2]。														|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/RSS_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/RSS_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.Gadgets/IconSquare/RSS_0.png" width="32">		</picture>	| RSS 源		| 从你的 RSS 源中关注最新资讯。	| 自定义大小										| 支持读取符合 Atom 规范的 RSS 源。一次可以读取 15/30 个标题。最多可以同时存在 8 个克隆皮肤。														|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Search_0.png" media="(prefers-color-scheme: light)">	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Search_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.Gadgets/IconSquare/Search_0.png" width="32">		</picture>	| 搜索		| 简单的桌面搜索栏。			| 自定义大小										| 您可以选择百度、Google、微软必应、维基百科、雅虎或 Yandex 作为搜索引擎。																|
 | <picture>	<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Start_0.png" media="(prefers-color-scheme: light)">		<source srcset=".github/images/QuantoFlx.Gadgets/IconSquare/Start_1.png" media="(prefers-color-scheme: dark)">		<img src=".github/images/QuantoFlx.Gadgets/IconSquare/Start_0.png" width="32">		</picture>	| 开始按钮		| 点击以显示开始菜单/屏幕。		| `1x1` `4x1` & 自定义大小									| 可定制的开始图标。																						|
@@ -129,10 +126,10 @@ Quanto Flx 附带 4 个预装包，其中包含**超过 400 种不同风格或�
 
 Quanto Flx 全局设置提供了丰富的参数，允许您调整外观的许多细节，例如字体的大小或粗细、面板位置微调、面板之间的间距、光照设定以及全局外观的圆角大小等。
 
-无从下手？从 Quanto Flx 提供的预设主题着手吧！在设置时，Quanto Flx 可以提供即时预览，而不需要在设定完毕之后刷新皮肤才能看到效果。
+无从下手？从 Quanto Flx 提供的预设外观着手吧！在设置时，Quanto Flx 可以提供即时预览，而不需要在设定完毕之后刷新皮肤才能看到效果。
 
 <div align="center">
-	<img alt="Quanto Flx 预设主题" src=".github/images/Misc/ThemePreview.png" width="800">
+	<img alt="Quanto Flx 预设外观" src=".github/images/Misc/ThemePreview.png" width="800">
 </div>
 
 ## 轻松上手
@@ -143,7 +140,7 @@ Quanto Flx 全局设置提供了丰富的参数，允许您调整外观的许多
 
 不需要知晓太多的细节，Quanto Flx 为你提供一套用户友好的操作界面，让你轻松上手。
 
-Quanto Flx 提供了一些自动化功能，比如根据时间安排更换主题、根据壁纸更换强调色和前景色；还提供了一些实用功能，比如触摸屏模式、选择皮肤时显示背景、控制所有皮肤的位置层或锁定所有皮肤的位置等。这些功能将为您提供更便捷的客制化。
+Quanto Flx 提供了一些自动化功能，比如根据时间安排更换外观、根据壁纸更换强调色和前景色；还提供了一些实用功能，比如触摸屏模式、选择皮肤时显示背景、控制所有皮肤的位置层或锁定所有皮肤的位置等。这些功能将为您提供更便捷的客制化。
 
 无需担心更新或丢失设置！Quanto Flx 提供「备份和复原」功能来保存您的设置，并在更新后可以使用它们来复原你的设置。
 
@@ -189,10 +186,10 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 
 你当前正在浏览`main`分支。
 
-| 分支		| [发行版](https://github.com/stevehsudrawing/quantoflx/releases) 可用性	| 描述																													|
-|---------------|:---------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`main`**	| 🟩									| 此分支推送的是**发行版和预发行版**。如果您想要**稳定且长期可用的版本**，您应该查看[发行版页面](https://github.com/stevehsudrawing/quantoflx/releases)，并下载**最终发行**版本。您还可以下载**预发行版**以**体验新功能**。翻译人员应选择标记为「多语言支持就绪」的最新版本进行翻译。	|
-| `snapshot`	| 🟥									| 此分支推送的是**快照版本**，如果你**追求最新功能**，可以选择此分支，但需要注意的是，由于此分支**更新频繁**，**版本可能极不稳定**，请谨慎选择。															|
+| 分支										| [发行版](https://github.com/stevehsudrawing/quantoflx/releases) 可用性	| 描述																													|
+|-------------------------------------------------------------------------------|:---------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **`main`**									| 🟩									| 此分支推送的是**发行版和预发行版**。如果您想要**稳定且长期可用的版本**，您应该查看[发行版页面](https://github.com/stevehsudrawing/quantoflx/releases)，并下载**最终发行**版本。您还可以下载**预发行版**以**体验新功能**。翻译人员应选择标记为「多语言支持就绪」的最新版本进行翻译。	|
+| [`snapshot`](https://github.com/stevehsudrawing/quantoflx/tree/snapshot)	| 🟥									| 此分支推送的是**快照版本**，如果你**追求最新功能**，可以选择此分支，但需要注意的是，由于此分支**更新频繁**，**版本可能极不稳定**，请谨慎选择。															|
 
 # 如何安装
 
@@ -218,13 +215,13 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 > [!WARNING]
 > 下载本存储库的 ZIP 文件来安装可能会导致文字乱码。
 
-- 下面列出了需要安装的 Plugin。您可以在 `%APPDATA%\Rainmeter\Plugins` 中查看已安装的 Plugin。如果您的设备上不存在其中某些 Plugin，请单击超链接并下载最新版本。
+- 下面列出了需要安装的 插件。您可以在 `%APPDATA%\Rainmeter\插件s` 中查看已安装的 插件。如果您的设备上不存在其中某些 插件，请单击超链接并下载最新版本。
 
-| Plugin								| Plugin								| Plugin								| Plugin								|
+| 插件									| 插件									| 插件									| 插件									|
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [AppVolume](https://github.com/khanhas/AppVolumePlugin)		| [Backlight](https://forum.rainmeter.net/viewtopic.php?p=103782)	| [Chameleon](https://github.com/socks-the-fox/chameleon)		| [ConfigActive](https://github.com/jsmorley/ConfigActive)		|
-| [Drag&Drop](https://github.com/TheAzack9/Drag-Drop)			| [FileChoose](https://forum.rainmeter.net/viewtopic.php?p=167079)	| [FrostedGlass](https://github.com/TheAzack9/FrostedGlass)		| [HotKey](https://github.com/brianferguson/HotKey.dll)			|
-| [Mouse](https://github.com/NighthawkSLO/Mouse.dll)			| [SysColor](https://github.com/brianferguson/SysColor.dll)		| [TrayIcon](https://github.com/deathcrafter/PluginTrayIcon)		| [WebNowPlaying](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|
+| [`AppVolume`](https://github.com/khanhas/AppVolumePlugin)		| [`Backlight`](https://forum.rainmeter.net/viewtopic.php?p=103782)	| [`Chameleon`](https://github.com/socks-the-fox/chameleon)		| [`ConfigActive`](https://github.com/jsmorley/ConfigActive)		|
+| [`Drag&Drop`](https://github.com/TheAzack9/Drag-Drop)			| [`FileChoose`](https://forum.rainmeter.net/viewtopic.php?p=167079)	| [`FrostedGlass`](https://github.com/TheAzack9/FrostedGlass)		| [`HotKey`](https://github.com/brianferguson/HotKey.dll)		|
+| [`Mouse`](https://github.com/NighthawkSLO/Mouse.dll)			| [`SysColor`](https://github.com/brianferguson/SysColor.dll)		| [`TrayIcon`](https://github.com/deathcrafter/PluginTrayIcon)		| [`WebNowPlaying`](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|
 
 - 将`Skins`文件夹中的`QuantoFlx`文件夹复制/解压（并覆盖）到`%HOMEPATH%\Documents\Rainmeter\Skins`。
 
@@ -245,21 +242,21 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 
 | 作者		| 提供										| 提供										|
 |---------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| Brian		| [HotKey Plugin](https://github.com/brianferguson/HotKey.dll)			| [SysColor Plugin](https://github.com/brianferguson/SysColor.dll/)		|
-| Cfixd		| [Backlight Plugin](https://forum.rainmeter.net/viewtopic.php?p=103782)	|										|
-| Death.crafter	| [TrayIcon Plugin](https://github.com/deathcrafter/PluginTrayIcon)		|										|
-| JSMorley	| [ConfigActive Plugin](https://github.com/jsmorley/ConfigActive)		| [RainRGB4](https://forum.rainmeter.net/viewtopic.php?t=6215)			|
-| Khanhas	| [AppVolume Plugin](https://github.com/khanhas/AppVolumePlugin)		|										|
-| NighthawkSLO	| [Mouse Plugin](https://github.com/NighthawkSLO/Mouse.dll/)			|										|
+| Brian		| [`HotKey` 插件](https://github.com/brianferguson/HotKey.dll)			| [`SysColor` 插件](https://github.com/brianferguson/SysColor.dll/)		|
+| Cfixd		| [`Backlight` 插件](https://forum.rainmeter.net/viewtopic.php?p=103782)		|										|
+| Death.crafter	| [`TrayIcon` 插件](https://github.com/deathcrafter/插件TrayIcon)			|										|
+| JSMorley	| [`ConfigActive` 插件](https://github.com/jsmorley/ConfigActive)			| [`RainRGB4`](https://forum.rainmeter.net/viewtopic.php?t=6215)		|
+| Khanhas	| [`AppVolume` 插件](https://github.com/khanhas/AppVolume插件)			|										|
+| NighthawkSLO	| [`Mouse` 插件](https://github.com/NighthawkSLO/Mouse.dll/)			|										|
 | Open-Meteo	| [气象预报 API](https://github.com/open-meteo/open-meteo)				| [空气质量 API](https://github.com/open-meteo/open-meteo)				|
-| Setsukka	| [FileChoose Plugin](https://forum.rainmeter.net/viewtopic.php?p=167079)	|										|
-| Smurfier	| [LuaCalendar](https://forum.rainmeter.net/viewtopic.php?p=63288)		|										|
-| Socks the Fox	| [Chameleon Plugin](https://github.com/socks-the-fox/chameleon)		|										|
-| TheAzack9	| [FrostedGlass Plugin](https://github.com/TheAzack9/FrostedGlass)		| [Drag&Drop Plugin](https://github.com/TheAzack9/Drag-Drop)			|
-| Tjhrulz	| [WebNowPlaying Plugin](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|										|
+| Setsukka	| [`FileChoose` 插件](https://forum.rainmeter.net/viewtopic.php?p=167079)		|										|
+| Smurfier	| [`LuaCalendar`](https://forum.rainmeter.net/viewtopic.php?p=63288)		|										|
+| Socks the Fox	| [`Chameleon` 插件](https://github.com/socks-the-fox/chameleon)			|										|
+| TheAzack9	| [`FrostedGlass` 插件](https://github.com/TheAzack9/FrostedGlass)		| [`Drag&Drop` 插件](https://github.com/TheAzack9/Drag-Drop)			|
+| Tjhrulz	| [`WebNowPlaying` 插件](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|										|
 
 > 以上图片仅供参考，请以实际情况为准。
 
 [^1]: AIMP、foobar2000、iTunes、J. River Media Center、Media Jukebox、MusicBee、Winamp 和旧版 Windows Media Player。
-[^2]: 使用 Windows 10/11 时，您可以使用此 Plugin 连接到一些受支持的[桌面音乐播放器](https://github.com/ModernFlyouts-Community/ModernFlyouts/blob/main/docs/GSMTC-Support-And-Popular-Apps.md)或[基于浏览器的播放器](https://wnp.keifufu.dev/supported-sites)（需要先安装[浏览器扩展](https://wnp.keifufu.dev/quickstart#install-the-browser-extension)）。
+[^2]: 使用 Windows 10/11 时，您可以使用此插件连接到一些受支持的[桌面音乐播放器](https://github.com/ModernFlyouts-Community/ModernFlyouts/blob/main/docs/GSMTC-Support-And-Popular-Apps.md)或[基于浏览器的播放器](https://wnp.keifufu.dev/supported-sites)（需要先安装[浏览器扩展](https://wnp.keifufu.dev/quickstart#install-the-browser-extension)）。
 [^3]: 仅适用于 Windows 7。
