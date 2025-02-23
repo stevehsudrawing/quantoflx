@@ -1,0 +1,8 @@
+Gallery\1.inc
+Gallery\2.inc
+Gallery\3.inc
+Gallery\4.inc
+Gallery\5.inc
+Gallery\6.inc
+Gallery\7.inc
+Gallery\8.inc

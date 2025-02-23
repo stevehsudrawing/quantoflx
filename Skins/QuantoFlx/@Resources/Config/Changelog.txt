@@ -6,18 +6,18 @@
 
 - Added the "Theme Setting Wizard" so that when saving a theme you can specify the name and parameters to save.
 
-- **@^9!!!@^9** **Added a new setting "Receive the latest pre-release" to the "Automatic check upgrade" feature.**
+- **Added a new setting "Receive the latest pre-release" to the "Automatic check upgrade" feature.**
 
 
 ++2**Modified/Improved++2**
 
 - Now, no pop-up window will appear when backing up settings using the Backup Wizard.
 
-- **@^9!!!@^9** **Options in the skin settings now allows adding hover tooltips.**
+- **Options in the skin settings now allows adding hover tooltips.**
 
 - The window for setting the foreground color is now inside the QF Manager's window to avoid situations where the close button is not visible.
 
-- **@^9!!!@^9** **"Themes" can now store more parameters about appearance, such as accent and foreground colors, blur modes, font settings, and more.** This involves changes in the theme format, so themes saved previously will not be preserved in the new version.
+- **"Themes" can now store more parameters about appearance, such as accent and foreground colors, blur modes, font settings, and more.** This involves changes in the theme format, so themes saved previously will not be preserved in the new version.
 
 - In the Restoration Wizard, when in the Setup state, the "Restore to Defaults" option is unavailable.
 
@@ -78,7 +78,7 @@
 
 - Modified the appearance of most details to be more rounded with the same corner radius settings.
 
-- **@^9!!!@^9** **Version compatibility is now detected when using a user's backup to restore a setting.** When this backup is too old, it can't be restored directly.
+- **Version compatibility is now detected when using a user's backup to restore a setting.** When this backup is too old, it can't be restored directly.
 
 - Change the version number naming rules of snapshot versions so that these versions can normally receive updates to the next release version. Snapshot versions are not reflected in the display version suffix, but in the build version number. For example, "2.00 24w46b -> Gamma (Build 1101)" will be changed to "2.00 Gamma (Build 1099.20241111)", that is, the update date is inserted in the decimal part of the build version number.
 
@@ -94,9 +94,9 @@
 
 - Optimized crystal effects.
 
-- **@^9!!!@^9** **Skin settings files and skin content files for "Blank Panel" are now separated.**
+- **Skin settings files and skin content files for "Blank Panel" are now separated.**
 
-- **@^9!!!@^9** **Changed the way files are excluded when performing a restore operation.**
+- **Changed the way files are excluded when performing a restore operation.**
 
 
 ++2**Fixed/Solved++2**
@@ -130,7 +130,7 @@
 
 - "Themes" Page of Global Settings: In addition to the 9 built-in themes, you can also customize 9 more.
 
-- **@^9!!!@^9** **Added the global feature of "Reset the position of the skin after unloading it".** When this feature is enabled, the skin will automatically move to the top left corner of the screen when you unload it, which is the default position when the skin is first loaded.
+- **Added the global feature of "Reset the position of the skin after unloading it".** When this feature is enabled, the skin will automatically move to the top left corner of the screen when you unload it, which is the default position when the skin is first loaded.
 
 - Added a tooltip with the package internal name to the package list on the left side of the QF manager.
 
@@ -152,22 +152,22 @@
 
 - Added the global function of "Lock the layout".
 
-- **@^9!!!@^9** **Added "Restore the Default Settings" function for each package and skin.**
+- **Added "Restore the Default Settings" function for each package and skin.**
 
 
 ++2**Modified/Improved++2**
 
--  **@^9!!!@^9** **Added "Opacity" common skin setting.** This will result in not being able to restore settings directly from older versions of QF, but you can restore manually.
+-  **Added "Opacity" common skin setting.** This will result in not being able to restore settings directly from older versions of QF, but you can restore manually.
 
 -  Added some new features to "Recycle Bin" skins (of "QF System"). Added 4x1 style. Now you can customize the icons of the two states (empty or full) of the recycle bin. Removed "Monochrome icons" option.
 
 -  Modified some warnings about scaling: Settings cannot be retained when the scaling is too large (This is for usability reasons). Warn when the scaling would cause the panel size to be non-integer pixels (because this would cause the panel to be misaligned). A warning will be issued when the scaling is less than 1x.
 
--  **@^9!!!@^9** **Modified QF Common Text Format codes**: "+\+", "+\++\+", "+\++\++\+" are modified as "+\+\1", "+\+\2", "+\+\3" respectively. Insert a "\" in the middle of the code to escape the format. Added "+\-1", "+\-2", "+\-3" codes for making smaller text. Added codes for coloring text, from "@\^0" to "@\^F". Change the monospace font from "Lucida Sans Typewriter" to "Consolas". Go to QF Wiki to learn more.
+-  **Modified QF Common Text Format codes**: "+\+", "+\++\+", "+\++\++\+" are modified as "+\+\1", "+\+\2", "+\+\3" respectively. Insert a "\" in the middle of the code to escape the format. Added "+\-1", "+\-2", "+\-3" codes for making smaller text. Added codes for coloring text, from "@\^0" to "@\^F". Change the monospace font from "Lucida Sans Typewriter" to "Consolas". Go to QF Wiki to learn more.
 
--  **@^9!!!@^9** **Added some new features to "Folder Viewer" skins (of "QF Gadgets")**: "Extra large icon size" option was modified as "Icon resolution". The possible values for this option are: 16x16, 32x32, 48x48, 256x256. Now you can decide whether to show or hide files or folder. Now you can decide whether to show or hide hidden or/and system files and folder. Now you can decide what to sort by, and whether to sort in ascending or descending order. Added file suffix filtering and file name filtering functions. Removed "Show '..' folder" option.
+-  **Added some new features to "Folder Viewer" skins (of "QF Gadgets")**: "Extra large icon size" option was modified as "Icon resolution". The possible values for this option are: 16x16, 32x32, 48x48, 256x256. Now you can decide whether to show or hide files or folder. Now you can decide whether to show or hide hidden or/and system files and folder. Now you can decide what to sort by, and whether to sort in ascending or descending order. Added file suffix filtering and file name filtering functions. Removed "Show '..' folder" option.
 
--  **@^9!!!@^9** **The "Weather" skin (of "QF Gadgets") can now use custom icon packs.**
+-  **The "Weather" skin (of "QF Gadgets") can now use custom icon packs.**
 
 -  When exiting the skin settings, the skin will directly switches to the original skin style without manual selection.
 
@@ -175,27 +175,27 @@
 
 -  The minimum global scaling now can be adjusted to 0.5x.
 
--  **@^9!!!@^9** **Modified the "Sticky Note" skins (of "QF Gadgets") to support content scrolling. **Thus, the vertical position of the text alignment cannot be defined.
+-  **Modified the "Sticky Note" skins (of "QF Gadgets") to support content scrolling. **Thus, the vertical position of the text alignment cannot be defined.
 
 -  When the value of an option in the skin settings is empty, "(Blank)" will be displayed.
 
--  **@^9!!!@^9** **Language code "zh-cn", "zh-tw" are modified as "zh-hans" and "zh-hant" respectively.**
+-  **Language code "zh-cn", "zh-tw" are modified as "zh-hans" and "zh-hant" respectively.**
 
--  **@^9!!!@^9** **Now the Z-pos of the skin is fixed and can be set by "Skin depth layer on screen" function.** When opening the "Skin Settings", it will be at the top level first and then drop to the normal position, so that you don't have to move the window position in some cases. After closing the skin settings, it will return to the preset Z-pos. When performing "Quick Resizing", the skin position will always be on the top layer, and the skin will return to the preset Z-pos after adjustment. It will be not recommended to adjust the Z-pos of the skin externally through Rainmeter Manager or other means.
+-  **Now the Z-pos of the skin is fixed and can be set by "Skin depth layer on screen" function.** When opening the "Skin Settings", it will be at the top level first and then drop to the normal position, so that you don't have to move the window position in some cases. After closing the skin settings, it will return to the preset Z-pos. When performing "Quick Resizing", the skin position will always be on the top layer, and the skin will return to the preset Z-pos after adjustment. It will be not recommended to adjust the Z-pos of the skin externally through Rainmeter Manager or other means.
 
--  **@^9!!!@^9** **Now a package can have 10 tabs.**
+-  **Now a package can have 10 tabs.**
 
--  **@^9!!!@^9** **Modified the "Custom Component" of the Digital Clock (of "QF Misc").** Now its content will be completely customizable by the user, including text styling and formatting and its content (including clock/date format)
+-  **Modified the "Custom Component" of the Digital Clock (of "QF Misc").** Now its content will be completely customizable by the user, including text styling and formatting and its content (including clock/date format)
 
--  **@^9!!!@^9** **Now you can use your own "events list"**, instead of the pre-set list integrated into the language folder ("Calendar" skin of "QF Gadgets").
+-  **Now you can use your own "events list"**, instead of the pre-set list integrated into the language folder ("Calendar" skin of "QF Gadgets").
 
 -  Added some new features to "Media Control" skin of "QF Gadgets". Added 6x2, 6x3, 8x2 and 8x4 sizes/styles. Added the function of "Auto gradient background". Enable this feature to make the overall color of the skin change with the music cover.
 
--  **@^9!!!@^9** **You can now customize the title of the "Cooling Fan" skin in the Additional Configurations of them by modifying the value of "CustomName" variable.**
+-  **You can now customize the title of the "Cooling Fan" skin in the Additional Configurations of them by modifying the value of "CustomName" variable.**
 
 -  Modified "Switch the color scheme periodically" as "Switch the theme periodically".
 
--  **@^9!!!@^9** **Added some new features to "Clock" skin of "QF Gadgets".** Added another 7 clones of it. Now you can set the time zone and customize the name of your time zone.
+-  **Added some new features to "Clock" skin of "QF Gadgets".** Added another 7 clones of it. Now you can set the time zone and customize the name of your time zone.
 
 
 ++2**Fixed/Solved++2**
@@ -226,18 +226,18 @@
 
 ++2**New++2**
 
-- **@^9!!!@^9** **Added the initial version of "QF Shortcut" package.** 260 Preset + 240 Custom + 16 Shortcut Group. All shortcuts can have replacement icons and images. The Shortcut Wizard helps you set up shortcuts quickly and intuitively。
+- **Added the initial version of "QF Shortcut" package.** 260 Preset + 240 Custom + 16 Shortcut Group. All shortcuts can have replacement icons and images. The Shortcut Wizard helps you set up shortcuts quickly and intuitively。
 
-- **@^9!!!@^9** **Added initialization wizard and "Get Started" guide.**
+- **Added initialization wizard and "Get Started" guide.**
 
-- **@^9!!!@^9** **Added "Touch Mode" to optimize the experience of touch screen devices.**
+- **Added "Touch Mode" to optimize the experience of touch screen devices.**
 
 
 ++2**Modified/Improved++2**
 
-- **@^9!!!@^9** **Convert from OWM to Open-Meteo to use weather services without API key.**
+- **Convert from OWM to Open-Meteo to use weather services without API key.**
 
-- **@^9!!!@^9** **QF package Design Specifications (QFPDS) was upgraded.** Add unified scrolling content handling.
+- **QF package Design Specifications (QFPDS) was upgraded.** Add unified scrolling content handling.
 
 - Optimized the experience of global scaling.
 
@@ -248,16 +248,16 @@
 
 ++2**New++2**
 
-- **@^9!!!@^9** **Added the initial version of "QF System" package.** Supports AIDA and HWiNFO. Information of battery, CPU, drives, GPU, etc. can be displayed or hidden via settings. The "System" skin can display the device model, BIOS information, etc.. Controls screen brightness and volume of individual apps. 16 customizable system monitoring skins (for the brave of you).
+- **Added the initial version of "QF System" package.** Supports AIDA and HWiNFO. Information of battery, CPU, drives, GPU, etc. can be displayed or hidden via settings. The "System" skin can display the device model, BIOS information, etc.. Controls screen brightness and volume of individual apps. 16 customizable system monitoring skins (for the brave of you).
 
-- **@^9!!!@^9** **Added "Automatic Update" function** (of course it is not available now).
+- **Added "Automatic Update" function** (of course it is not available now).
 
 
 ++2**Modified/Improved++2**
 
 - "QF Gadgets" package: Optimized some skins.
 
-- **@^9!!!@^9** **"QF Miscellaneous" package: Individual parts of the digital clock can now be split.**
+- **"QF Miscellaneous" package: Individual parts of the digital clock can now be split.**
 
 
 ++2**Fixed/Solved++2**

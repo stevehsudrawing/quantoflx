@@ -8,7 +8,7 @@ PnGdnt.Cl.01=180,220,255
 PnGdnt.Cl.02=255,255,255
 PnGdnt.Ag=90
 Op.Bg_Cstm=1
-PrvConfig=1x1.ini
+PrvConfig=4x2.ini
 
 ; ============================= Basic Information =============================
 
