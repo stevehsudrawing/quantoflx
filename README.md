@@ -19,10 +19,13 @@
 > [!WARNING]
 > Please note that you are currently browsing **THE `SNAPSHOT` BRANCH of this repository**. Files under this branch will be updated more frequently, and all features may change at any time. This branch does not provide a direct installation package. The snapshot versions provided by this branch may be unstable and may cause frequent errors on your device. **If you want a stable version, please back to [the `main` branch](https://github.com/stevehsudrawing/quantoflx/tree/main).**
 
-| Branch							| [Release](https://github.com/stevehsudrawing/quantoflx/releases) Availability	| Description																																																					|
-|---------------------------------------------------------------|:-----------------------------------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`main`](https://github.com/stevehsudrawing/quantoflx)	| 🟩										| This branch pushes **releases and pre-releases**. If you want **a stable and long-term available version**, you should check out [the Release page](https://github.com/stevehsudrawing/quantoflx/releases), and download the **final release** version. You can also download **the pre-release version** to **experience newer features**. Translators should choose the latest version marked "Globalization Ready" for translation.	|
-| **`snapshot`**						| 🟥										| This branch pushes **snapshot versions**. If you **pursue the latest features**, you can choose this branch. However, it should be noted that since this branch is **updated frequently** and **the version may be extremely unstable**, you should choose it with caution.																					|
+- [`main`](https://github.com/stevehsudrawing/quantoflx)
+
+	This branch pushes **releases and pre-releases**. If you want **a stable and long-term available version**, you should check out [the Release page](https://github.com/stevehsudrawing/quantoflx/releases), and download the **final release** version. You can also download **the pre-release version** to **experience newer features**.
+
+- **`snapshot`**
+	
+	This branch pushes **snapshot versions**. If you **pursue the latest features**, you can choose this branch. However, it should be noted that since this branch is **updated frequently** and **the version may be extremely unstable**, you should choose it with caution.
 
 # How to Install
 
@@ -31,12 +34,21 @@ First, you need to [install the latest version of Rainmeter](https://www.rainmet
 Then, **clone this repository to your local machine** via Git or GitHub Desktop instead of downloading the zip and then installing it manually:
 
 - The Plugins that need to be installed are listed below. You can view the Plugins you have installed in `%APPDATA%\Rainmeter\Plugins`. If some of these plugins do not exist on your device, click the hyperlink and download the latest version.
-
-| Plugin								| Plugin								| Plugin								| Plugin								|
-|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [`AppVolume`](https://github.com/khanhas/AppVolumePlugin)		| [`Backlight`](https://forum.rainmeter.net/viewtopic.php?p=103782)	| [`Chameleon`](https://github.com/socks-the-fox/chameleon)		| [`ConfigActive`](https://github.com/jsmorley/ConfigActive)		|
-| [`Drag&Drop`](https://github.com/TheAzack9/Drag-Drop)			| [`FileChoose`](https://forum.rainmeter.net/viewtopic.php?p=167079)	| [`FrostedGlass`](https://github.com/TheAzack9/FrostedGlass)		| [`HotKey`](https://github.com/brianferguson/HotKey.dll)		|
-| [`Mouse`](https://github.com/NighthawkSLO/Mouse.dll)			| [`SysColor`](https://github.com/brianferguson/SysColor.dll)		| [`TrayIcon`](https://github.com/deathcrafter/PluginTrayIcon)		| [`WebNowPlaying`](https://github.com/keifufu/WebNowPlaying-Rainmeter)	|
+	
+	| Plugin		| Version	| GitHub Repo							| Rainmeter Forum						|
+	|-----------------------|---------------|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
+	| `AppVolume`		| `1.2.3.0`	| [🔗](https://github.com/khanhas/AppVolumePlugin)		| [🔗](https://forum.rainmeter.net/viewtopic.php?p=159477)	|
+	| `Backlight`		| `0.9.3.0`	|								| [🔗](https://forum.rainmeter.net/viewtopic.php?p=103782)	|
+	| `Chameleon`		| `1.6.3.0`	| [🔗](https://github.com/socks-the-fox/chameleon)		| [🔗](https://forum.rainmeter.net/viewtopic.php?t=21655)	|
+	| `ConfigActive`	| `2.2.1.0`	| [🔗](https://github.com/jsmorley/ConfigActive)		| [🔗](https://forum.rainmeter.net/viewtopic.php?t=28720)	|
+	| `Drag&Drop`		| `3.1.0.3`	| [🔗](https://github.com/TheAzack9/Drag-Drop)			| [🔗](https://forum.rainmeter.net/viewtopic.php?t=23107)	|
+	| `FileChoose`		| `1.2.0.1`	|								| [🔗](https://forum.rainmeter.net/viewtopic.php?p=167079)	|
+	| `FrostedGlass`	| `1.2.0`	| [🔗](https://github.com/KazukiGames82/FrostedGlass)		| [🔗](https://forum.rainmeter.net/viewtopic.php?t=44887)	|
+	| `HotKey`		| `1.0.0.12`	| [🔗](https://github.com/brianferguson/HotKey.dll)		| [🔗](https://forum.rainmeter.net/viewtopic.php?t=18849)	|
+	| `Mouse`		| `3.2.0`	| [🔗](https://github.com/NighthawkSLO/Mouse.dll/)		| [🔗](https://forum.rainmeter.net/viewtopic.php?p=136100)	|
+	| `SysColor`		| `2.0.0.22`	| [🔗](https://github.com/brianferguson/SysColor.dll)		| [🔗](https://forum.rainmeter.net/viewtopic.php?t=14202)	|
+	| `TrayIcon`		| `1.1.0.0`	| [🔗](https://github.com/deathcrafter/PluginTrayIcon)		| [🔗](https://forum.rainmeter.net/viewtopic.php?t=39924)	|
+	| `WebNowPlaying`	| `2.0.7.0`	| [🔗](https://github.com/keifufu/WebNowPlaying-Rainmeter)	| [🔗](https://forum.rainmeter.net/viewtopic.php?p=139011)	|
 
 - Copy/unzip (and overwrite) `QuantoFlx` folder in `Skins` folder to `%HOMEPATH%\Documents\Rainmeter\Skins`.
 
