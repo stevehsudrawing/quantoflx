@@ -65,7 +65,7 @@
 
 - Added a button to expand all pages list of the package in QF Manager.
 
-- Added random tips to the "General" page of Global Settings.
+- Added random tips to the "General" page of global settings.
 
 - Added a new "Shorten" function to "Divider" so that its line endpoints are in the center of the grid instead of the grid edge.
 
@@ -128,7 +128,7 @@
 
 - "High Contrast" Color Scheme & "High Contrast" Theme
 
-- "Themes" Page of Global Settings: In addition to the 9 built-in themes, you can also customize 9 more.
+- "Themes" Page of global settings: In addition to the 9 built-in themes, you can also customize 9 more.
 
 - **Added the global feature of "Reset the position of the skin after unloading it".** When this feature is enabled, the skin will automatically move to the top left corner of the screen when you unload it, which is the default position when the skin is first loaded.
 
