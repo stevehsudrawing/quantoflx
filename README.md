@@ -2,15 +2,17 @@
 	<p>
 		<img width="540" alt="Quanto Flx" src="https://github.com/stevehsudrawing/quantoflx/blob/main/.github/images/Misc/Main.png">
 		<br>
-		A desktop customization tool based on Rainmeter (<b>SNAPSHOT -> <a href="https://www.patreon.com/posts/119206461">Delta</a></b>)
+		A desktop customization tool based on Rainmeter
 	</p>
 	<p>
 		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&sort=date&display_name=release&style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"></a>
-		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
-		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a>
+<!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
+		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a> -->
+		<br>
+		<a href="https://www.patreon.com/posts/live-changelog-4-121170966"><kbd>Live Changelog of Quanto Flx 2.00 Epsilon (Build 1110)</kbd></a><br>
 	</p>
 </div>
 
