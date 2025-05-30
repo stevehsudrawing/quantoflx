@@ -4,6 +4,11 @@
 	<p>
 		English | <a href="/README.zh-hans.md">中文 (简体)</a>
 	</p>
+</div>
+
+---
+
+<div align="center">
 	<p>
 		<img width="540" alt="Quanto Flx" src=".github/images/Misc/Main.png">
 		<br>
@@ -14,8 +19,8 @@
 		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"></a>
-		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
-		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a>
+<!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
+		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a> -->
 		<br>
 		<a href="https://www.patreon.com/posts/119206461"><kbd>Changelog of Quanto Flx 2.00 Delta (Build 1101)</kbd></a><br>
 	</p>
@@ -43,7 +48,7 @@
 - [How to install for the first time](#how-to-install-for-the-first-time)
 	- [Automatic Installation](#automatic-installation)
 	- [Manual Installation](#manual-installation)
-- [How to upgrade from a old version](#how-to-upgrade-from-a-old-version)
+- [How to upgrade from an old version](#how-to-upgrade-from-an-old-version)
 - [Screenshots](#screenshots)
 - [Special Thanks](#special-thanks)
 
@@ -181,24 +186,25 @@ Quanto Flx is designed to be modular, which means you can write Quanto Flx Packa
 
 Quanto Flx currently supports the following languages:
 
-|														| Code		| Localized Name		| Contributor		|
-|---------------------------------------------------------------------------------------------------------------|---------------|-------------------------------|-----------------------|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-de`	| Deutsch (Deutschland)		| `Soulreaver1977`	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/US.png" width="21">	| `en-us`	| English (United States)	| (Built-in)		|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/CN.png" width="21">	| `zh-hans`	| 中文 (简体)			| (Built-in)		|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/HK.png" width="21">	| `zh-hant`	| 中文 (繁體)			| (Built-in)		|
+|														| Code		| Localized Name		| Available since ...		| Contributor						|
+|---------------------------------------------------------------------------------------------------------------|---------------|-------------------------------|-------------------------------|-------------------------------------------------------|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-DE`	| Deutsch (Deutschland)		| v2.00 Epsilon (Build 1110)	| `Soulreaver1977`					|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/US.png" width="21">	| `en-US`	| English (United States)	| (Initial version)		| (Built-in)						|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/BR.png" width="21">	| `pt-BR`	| Português (Brasil)		| v2.00 Epsilon (Build 1110)	| `Darlei Pierim`, `Iarve`, `Theuso :v`, `With'r`	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/CN.png" width="21">	| `zh-Hans`	| 中文 (简体)			| (Initial version)		| (Built-in)						|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/HK.png" width="21">	| `zh-Hant`	| 中文 (繁體)			| (Initial version)		| (Built-in)						|
 
 Your contributions are always welcome! If you would like to contribute translations, please read [this document](https://github.com/stevehsudrawing/quantoflx/wiki/Guide-of-Translating-Quanto-Flx). The languages currently planned for translation in this project are:
 
 |														| Code		| Localized Name	|
 |---------------------------------------------------------------------------------------------------------------|---------------|-----------------------|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-de`	| Deutsch (Deutschland)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/ES.png" width="21">	| `es-es`	| Español (España)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/FR.png" width="21">	| `fr-fr`	| français (France)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/IT.png" width="21">	| `it-it`	| Italiano (Italia)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/JP.png" width="21">	| `ja-jp`	| 日本語 (日本)		|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/BR.png" width="21">	| `pt-br`	| Português (Brasil)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/RU.png" width="21">	| `ru-ru`	| Русский (Россия)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-DE`	| Deutsch (Deutschland)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/ES.png" width="21">	| `es-ES`	| Español (España)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/FR.png" width="21">	| `fr-FR`	| Français (France)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/IT.png" width="21">	| `it-IT`	| Italiano (Italia)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/JP.png" width="21">	| `ja-JP`	| 日本語 (日本)		|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/BR.png" width="21">	| `pt-BR`	| Português (Brasil)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/RU.png" width="21">	| `ru-RU`	| Русский (Россия)	|
 
 ## Compatibility
 
@@ -270,7 +276,7 @@ Then, **clone this repository to your local machine** via Git or GitHub Desktop 
 
 Finally, refresh or restart Rainmeter and load the `QuantoFlx_Setup` layout in the Layouts page of the Rainmeter Manager. Enjoy!
 
-# How to upgrade from a old version
+# How to upgrade from an old version
 
 Here is just a summary. For details, please read [this article](https://github.com/stevehsudrawing/quantoflx/wiki/Guide-of-Upgrading-Quanto-Flx) to perform the upgrade.
 
@@ -295,11 +301,13 @@ Here is just a summary. For details, please read [this article](https://github.c
 
 # Special Thanks
 
-| Author		| Credit																				| Credit																		|
+| Author / Contributer	| Credit																				| Credit																		|
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `Brian`		| `HotKey` Plugin<br>[GitHub](https://github.com/brianferguson/HotKey.dll) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=18849)			| `SysColor` Plugin<br>[GitHub](https://github.com/brianferguson/SysColor.dll/) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=14202)	|
 | `Cfixd`		| `Backlight` Plugin<br>[Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?p=103782)										|																			|
+| `Darlei Pierim`	| Portuguese (Brazilian) Translation																	|																			|
 | `Death.crafter`	| `TrayIcon` Plugin<br>[GitHub](https://github.com/deathcrafter/PluginTrayIcon) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=39924)			|																			|
+| `Iarve`		| Portuguese (Brazilian) Translation																	|																			|
 | `JSMorley`		| `ConfigActive` Plugin<br>[GitHub](https://github.com/jsmorley/ConfigActive) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=28720)			| `RainRGB4`<br>[Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=6215)									|
 | `KazukiGames82`	| `FrostedGlass` Plugin<br>[GitHub](https://github.com/KazukiGames82/FrostedGlass) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=44887)		|																			|
 | `Khanhas`		| `AppVolume` Plugin<br>[GitHub](https://github.com/khanhas/AppVolumePlugin) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?p=159477)			|																			|
@@ -310,7 +318,9 @@ Here is just a summary. For details, please read [this article](https://github.c
 | `Socks the Fox`	| `Chameleon` Plugin<br>[GitHub](https://github.com/socks-the-fox/chameleon) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=21655)			|																			|
 | `Soulreaver1977`	| German Translation																			| 																			|
 | `TheAzack9`		| `Drag&Drop` Plugin<br>[GitHub](https://github.com/TheAzack9/Drag-Drop) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=23107)			|																			|
+| `Theuso :v`		| Portuguese (Brazilian) Translation																	|																			|
 | `Tjhrulz`		| `WebNowPlaying` Plugin<br>[GitHub](https://github.com/keifufu/WebNowPlaying-Rainmeter) \| [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?p=139011)	|																			|
+| `With'r`		| Portuguese (Brazilian) Translation																	|																			|
 
 > Images above are for reference only, please refer to the actual situation.
 

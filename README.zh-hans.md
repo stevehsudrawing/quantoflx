@@ -4,18 +4,23 @@
 	<p>
 		<a href="/README.md">English</a> | 中文 (简体)
 	</p>
+</div>
+
+---
+
+<div align="center">
 	<p>
 		<img width="540" alt="Quanto Flx" src=".github/images/Misc/Main.png">
 		<br>
 		一套基于 Rainmeter 的桌面自定义工具
 	</p>
 	<p>
-		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&display_name=release&style=flat&label=%E5%8F%91%E8%A1%8C%E7%89%88"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat&label=%E4%B8%8B%E8%BD%BD"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat&label=%E6%98%9F%E6%A0%87"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx?style=flat&label=%E8%AE%AE%E9%A2%98"></a>
-		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=%E5%85%B3%E6%B3%A8"></a>
-		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/%E8%AE%A2%E9%98%85-_-999999?logo=patreon"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub 发行版" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&display_name=release&style=flat&label=%E5%8F%91%E8%A1%8C%E7%89%88"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub 下载" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat&label=%E4%B8%8B%E8%BD%BD"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub 存储库星标" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat&label=%E6%98%9F%E6%A0%87"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub 议题" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx?style=flat&label=%E8%AE%AE%E9%A2%98"></a>
+<!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=%E5%85%B3%E6%B3%A8"></a>
+		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/%E8%AE%A2%E9%98%85-_-999999?logo=patreon"></a> -->
 		<br>
 		<a href="https://www.patreon.com/posts/119206461"><kbd>Quanto Flx 2.00 Delta (构建 1101) 的更新日志</kbd></a><br>
 	</p>
@@ -181,24 +186,25 @@ Quanto Flx 采用模块化设计，这意味着你可以编写 Quanto Flx 封包
 
 Quanto Flx 目前支持以下语言：
 
-|														| 语言代码		| 本地化名称			| 参与者			|
-|---------------------------------------------------------------------------------------------------------------|---------------|-------------------------------|-----------------------|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-de`	| Deutsch (Deutschland)		| `Soulreaver1977`	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/US.png" width="21">	| `en-us`	| English (United States)	| （内置）			|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/CN.png" width="21">	| `zh-hans`	| 中文 (简体)			| （内置）			|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/HK.png" width="21">	| `zh-hant`	| 中文 (繁體)			| （内置）			|
+|														| 语言代码		| 本地化名称			| 从……起可用			| 参与者							|
+|---------------------------------------------------------------------------------------------------------------|---------------|-------------------------------|-------------------------------|-------------------------------------------------------|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-DE`	| Deutsch (Deutschland)		| v2.00 Epsilon (构建 1110)	| `Soulreaver1977`					|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/US.png" width="21">	| `en-US`	| English (United States)	| （初始版本）			| （内置）							|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/BR.png" width="21">	| `pt-BR`	| Português (Brasil)		| v2.00 Epsilon (构建 1110)	| `Darlei Pierim`, `Iarve`, `Theuso :v`, `With'r`	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/CN.png" width="21">	| `zh-Hans`	| 中文 (简体)			| （初始版本）			| （内置）							|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/HK.png" width="21">	| `zh-Hant`	| 中文 (繁體)			| （初始版本）			| （内置）							|
 
 随时欢迎您的参与！如果您想参与翻译，请阅读[本文档](https://github.com/stevehsudrawing/quantoflx/wiki/Guide-of-Translating-Quanto-Flx)。目前本项目计划翻译的语言有：
 
 |														| 语言代码		| 本地化名称		|
 |---------------------------------------------------------------------------------------------------------------|---------------|-----------------------|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-de`	| Deutsch (Deutschland)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/ES.png" width="21">	| `es-es`	| Español (España)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/FR.png" width="21">	| `fr-fr`	| français (France)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/IT.png" width="21">	| `it-it`	| Italiano (Italia)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/JP.png" width="21">	| `ja-jp`	| 日本語 (日本)		|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/BR.png" width="21">	| `pt-br`	| Português (Brasil)	|
-| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/RU.png" width="21">	| `ru-ru`	| Русский (Россия)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/DE.png" width="21">	| `de-DE`	| Deutsch (Deutschland)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/ES.png" width="21">	| `es-ES`	| Español (España)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/FR.png" width="21">	| `fr-FR`	| Français (France)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/IT.png" width="21">	| `it-IT`	| Italiano (Italia)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/JP.png" width="21">	| `ja-JP`	| 日本語 (日本)		|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/BR.png" width="21">	| `pt-BR`	| Português (Brasil)	|
+| <img src="https://raw.githubusercontent.com/yammadev/flag-icons/refs/heads/master/png/RU.png" width="21">	| `ru-RU`	| Русский (Россия)	|
 
 ## 兼容性
 
@@ -298,11 +304,13 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 
 # 特别鸣谢
 
-| 作者			| 提供																				| 提供																			|
+| 作者 / 贡献者		| 提供																				| 提供																			|
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `Brian`		| `HotKey` 插件<br>[GitHub](https://github.com/brianferguson/HotKey.dll) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=18849)			| `SysColor` 插件<br>[GitHub](https://github.com/brianferguson/SysColor.dll/) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=14202)	|
 | `Cfixd`		| `Backlight` 插件<br>[Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?p=103782)									|																			|
+| `Darlei Pierim`	| 葡萄牙语（巴西）翻译																		|																			|
 | `Death.crafter`	| `TrayIcon` 插件<br>[GitHub](https://github.com/deathcrafter/插件TrayIcon) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=39924)		|																			|
+| `Iarve`		| 葡萄牙语（巴西）翻译																		|																			|
 | `JSMorley`		| `ConfigActive` 插件<br>[GitHub](https://github.com/jsmorley/ConfigActive) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=28720)		| `RainRGB4`<br>[Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=6215)									|
 | `KazukiGames82`	| `FrostedGlass` 插件<br>[GitHub](https://github.com/KazukiGames82/FrostedGlass) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=44887)		|																			|
 | `Khanhas`		| `AppVolume` 插件<br>[GitHub](https://github.com/khanhas/AppVolume插件) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?p=159477)			|																			|
@@ -313,7 +321,9 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 | `Socks the Fox`	| `Chameleon` 插件<br>[GitHub](https://github.com/socks-the-fox/chameleon) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=21655)		|																			|
 | `Soulreaver1977`	| 德语翻译																				| 																			|
 | `TheAzack9`		| `Drag&Drop` 插件<br>[GitHub](https://github.com/TheAzack9/Drag-Drop) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=23107)			|																			|
+| `Theuso :v`		| 葡萄牙语（巴西）翻译																		|																			|
 | `Tjhrulz`		| `WebNowPlaying` 插件<br>[GitHub](https://github.com/keifufu/WebNowPlaying-Rainmeter) \| [Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?p=139011)	|																			|
+| `With'r`		| 葡萄牙语（巴西）翻译																		|																			|
 
 > 以上图片仅供参考，请以实际情况为准。
 
