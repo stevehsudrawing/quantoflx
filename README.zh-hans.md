@@ -4,18 +4,23 @@
 	<p>
 		<a href="/README.md">English</a> | 中文 (简体)
 	</p>
+</div>
+
+---
+
+<div align="center">
 	<p>
 		<img width="540" alt="Quanto Flx" src=".github/images/Misc/Main.png">
 		<br>
 		一套基于 Rainmeter 的桌面自定义工具
 	</p>
 	<p>
-		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&display_name=release&style=flat&label=%E5%8F%91%E8%A1%8C%E7%89%88"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat&label=%E4%B8%8B%E8%BD%BD"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat&label=%E6%98%9F%E6%A0%87"></a>
-		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx?style=flat&label=%E8%AE%AE%E9%A2%98"></a>
-		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=%E5%85%B3%E6%B3%A8"></a>
-		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/%E8%AE%A2%E9%98%85-_-999999?logo=patreon"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub 发行版" src="https://img.shields.io/github/v/release/stevehsudrawing/quantoflx?include_prereleases&display_name=release&style=flat&label=%E5%8F%91%E8%A1%8C%E7%89%88"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub 下载" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat&label=%E4%B8%8B%E8%BD%BD"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub 存储库星标" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat&label=%E6%98%9F%E6%A0%87"></a>
+		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub 议题" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx?style=flat&label=%E8%AE%AE%E9%A2%98"></a>
+<!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=%E5%85%B3%E6%B3%A8"></a>
+		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/%E8%AE%A2%E9%98%85-_-999999?logo=patreon"></a> -->
 		<br>
 		<a href="https://www.patreon.com/posts/119206461"><kbd>Quanto Flx 2.00 Delta (构建 1101) 的更新日志</kbd></a><br>
 	</p>

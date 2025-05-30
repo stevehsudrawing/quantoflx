@@ -4,6 +4,11 @@
 	<p>
 		English | <a href="/README.zh-hans.md">中文 (简体)</a>
 	</p>
+</div>
+
+---
+
+<div align="center">
 	<p>
 		<img width="540" alt="Quanto Flx" src=".github/images/Misc/Main.png">
 		<br>
@@ -14,8 +19,8 @@
 		<a href="https://github.com/stevehsudrawing/quantoflx/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/stevehsudrawing/quantoflx/total?style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/stevehsudrawing/quantoflx?style=flat"></a>
 		<a href="https://github.com/stevehsudrawing/quantoflx/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/stevehsudrawing/quantoflx"></a>
-		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
-		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a>
+<!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
+		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a> -->
 		<br>
 		<a href="https://www.patreon.com/posts/119206461"><kbd>Changelog of Quanto Flx 2.00 Delta (Build 1101)</kbd></a><br>
 	</p>
@@ -43,7 +48,7 @@
 - [How to install for the first time](#how-to-install-for-the-first-time)
 	- [Automatic Installation](#automatic-installation)
 	- [Manual Installation](#manual-installation)
-- [How to upgrade from a old version](#how-to-upgrade-from-a-old-version)
+- [How to upgrade from an old version](#how-to-upgrade-from-an-old-version)
 - [Screenshots](#screenshots)
 - [Special Thanks](#special-thanks)
 
@@ -270,7 +275,7 @@ Then, **clone this repository to your local machine** via Git or GitHub Desktop 
 
 Finally, refresh or restart Rainmeter and load the `QuantoFlx_Setup` layout in the Layouts page of the Rainmeter Manager. Enjoy!
 
-# How to upgrade from a old version
+# How to upgrade from an old version
 
 Here is just a summary. For details, please read [this article](https://github.com/stevehsudrawing/quantoflx/wiki/Guide-of-Upgrading-Quanto-Flx) to perform the upgrade.
 
