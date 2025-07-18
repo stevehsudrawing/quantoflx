@@ -1,2 +1,1 @@
-ThemeSelector.inc
-Main.inc
+Settings.inc

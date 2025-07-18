@@ -1,0 +1,17 @@
+Sorgen über den Verlust Ihrer Einstellungen aufgrund von Quanto Flx-Updates oder anderen Fehlern? Sichern Sie sie! Sie können die Einstellungen jedes Paketes sichern oder mit dem Sicherungsassistenten alle Einstellungen sichern.
+Ein Paket kann mehrere Seiten enthalten. Wenn die Benutzeroberfläche diese Tabs nicht unterstützt, platzieren Sie den Cursor in der Tableiste und verwenden Sie das Mausrad, um sie zu durchsuchen.
+Konfigurieren Sie Ihre Systemüberwachungssoftware und Sie erhalten eine umfassendere Systemüberwachung durch das Quanto Flx System.
+Wenn ein Scrollbalken erscheint, wo sich der Cursor befindet, bedeutet dies, dass Sie mit dem Mausrad blättern können, um den Inhalt zu durchsuchen.
+Wenn Sie ein Textfeld verwenden, drücken Sie die Eingabetaste, um Änderungen anzuwenden, oder drücken Sie Esc oder klicken Sie auf einen anderen Bereich, um die Eingabe abzubrechen.
+Detailliertere Lösungen finden Sie im Quanto Flx Wiki. Klicken Sie oben auf „Hilfe“, um dorthin zu gehen.
+Nicht zufrieden mit dem voreingestellten Aussehen? Sie können sie über die globalen Einstellungen anpassen.
+Verwenden Sie die Funktion "Kombinieren" in den Skin-Einstellungen, um Ihr Theme übersichtlicher und weniger fragmentiert zu gestalten.
+Um mehr Funktionen der Skins aktiv zu erkunden, drücken Sie die rechte Maustaste um zu starten.
+Sie können die „Lineale“ in Quanto Flx Verschiedenes verwenden, um Ihr Theme anzupassen.
+Wenn Ihr Gerät langsam läuft, versuchen Sie, ein paar Skins zu entladen.
+Klicken Sie mit der mittleren Maustaste auf einen Skin, um dessen Stil/Größe zu ändern (falls verfügbar).
+Ein Problem gefunden? Bitte melden Sie es per Github oder E-Mail.
+Halten Sie Strg+Alt gedrückt, um Skins auszuwählen und zu ziehen.
+Bitte stellen Sie sicher, dass Ihr Rainmeter auf dem neuesten Stand ist.
+Wenn die Skins Unregelmäßigkeiten aufweisen, versuchen Sie sie zu aktualisieren.
+Wir werden Sie nie aufgeben!

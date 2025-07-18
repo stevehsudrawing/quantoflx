@@ -1,0 +1,166 @@
+ <EventFile Repeat="Year">
+ 	<!--
+	Please use a monospaced font and turn off word wrap to view these instructions.
+
+	This file is a list of events in LuaCalendar, using XML syntax. The following is an explanation of the simple use of
+	this document.
+	Learn more about XML:         https://developer.mozilla.org/docs/Web/XML/XML_introduction
+	Learn more about LuaCalendar: https://smurfier.github.io/LuaCalendar/
+	It is recommended to use a third-party text editor that supports XML to edit this file instead of Notepad.
+
+	To add an event, you need to add a "Set" element to this root element "EventFile". "Set" element *must* have the
+	following attributes:
+	+=======+=======================+======================================+
+	| Name  |    Possible Value     |             Description              |
+	+=======+=======================+======================================+
+	| Month | A number from 1 to 12 | The month in which the event occurs. |
+	+‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	Then, insert a text element named "Event" in the "Set" element. The content of the "Event" element should be the 
+	name of the event. "Event" element *must* have the following attributes:
+	+======+============================+============================================+
+	| Name |       Possible Value       |                 Description                |
+	+======+============================+============================================+
+	| Day  | A number from 1 to 31 or a | The variables can be used.                 |
+	|      | formula with variables     | Example: "({$FirstMon}+1)*(({$Year}%2)=0)" |
+	+‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	"Event" element can have the following attributes:
+	+=============+=================================+==================================================================+
+	|    Name     |         Possible Value          |                           Description                            |
+	+=============+=================================+==================================================================+
+	| Year        | A number or a formula           | -                                                                |
+	+-‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| TimeStamp   | A Lua Timestamp representing    | This option overrides any provided "Day", "Month", or "Year"     |
+	|             | a specific date                 | attributes.                                                      |
+	+‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Repeat      | "Month" / "Year" / "Week" /     | If this value is set to a number, the event will repeat based    |
+	|             | A positive number               | on the number of secondsspecified in the Multiplier option. A    |
+	|             |                                 | number greater than 86400 must be used.                          |
+	+‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Multiplier  | A positive number               | The frequency an event repeats.                                  |
+	+‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Anniversary | "true" or "false"               | When set to "true", the number of times the event has repeated   |
+	|             |                                 | will be shown.                                                   |
+	+‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Inactive    | "true" or "false"               | When set to "true", the event is skipped when parsing the Event  |
+	|             |                                 | File.                                                            |
+	+‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Case        | "Lower" / "Upper" / "Title" /   | Can be used to change the case of an event description.          |
+	|             | "Sentence" / "None"             |                                                                  |
+	+‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Skip        | One or more dates in the format | Can be used to skip occurrences of a repeating event.            |
+	|             | "MM/DD/YYYY", prenoted with "|" |                                                                  |
+	|             | to separate multiple dates      |                                                                  |
+	+‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Finish      | A date in the format            | Specifies a date that a repeating event ends on.                 |
+	|             | "MM/DD/YYYY"                    |                                                                  |
+	+‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	Example:
+	<Set Month="1">
+		<Event Day="1">New Year's Day</Event>
+		<Event Day="{$ThirdMon}">Martin Luther King, Jr. Day</Event>
+	</Set>
+
+	You can use variables (in the format "{$(variable name)}") in some places. Here are the static variables:
+	+=======+==========================================================================================================+
+	| Name  |                                               Description                                                |
+	+=======+==========================================================================================================+
+	| MName | The name of the currently shown month. If a name is not provided the month number is used.               |
+	+‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Month | The currently shown month number.                                                                        |
+	+‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Year  | The currently shown year.                                                                                |
+	+‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	| Today | The current day number. This variable is effected by the LeadingZeroes setting and is only available     |
+	|       | when in the current month.                                                                               |
+	+‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑+
+	You can also use "Variable Days".
+	Variable Days are used to calculate holidays that occur on days like the Second Tuesday of the month. Here is the
+	list:
+	+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+
+	| FirstSun  | FirstMon  | FirstTue  | FirstWed  | FirstThu  | FirstFri  | FirstSat  |
+	+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+
+	| SecondSun | SecondMon | SecondTue | SecondWed | SecondThu | SecondFri | SecondSat |
+	+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+
+	| ThirdSun  | ThirdMon  | ThirdTue  | ThirdWed  | ThirdThu  | ThirdFri  | ThirdSat  |
+	+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+
+	| FourthSun | FourthMon | FourthTue | FourthWed | FourthThu | FourthFri | FourthSat |
+	+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+
+	| LastSun   | LastMon   | LastTue   | LastWed   | LastThu   | LastFri   | LastSat   |
+	+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+‑‑‑‑‑‑‑‑‑‑‑+
+	LuaCalendar also supports "Built-In Event Variables". Head over to the website provided above to learn more.
+
+	Variables can be created that are specific to the the Event File that it is created in. The variable can then be
+	used in all attributes in the event file.
+	Example:
+	<Variable Name="DayNumber" Select="86400"/>
+	
+	It is recommended to use a third-party text editor that supports XML to edit this file instead of Notepad.
+	PLEASE USE UTF-8 ENCODING TO SAVE THIS FILE.
+	Insert a new line after "->" and then add an new event!
+	-->
+	<Variable Name="DayNumber" Select="86400"/>
+	<Event TimeStamp="({$Easter:Stamp}-2*{$DayNumber})">Good Friday</Event>
+	<Event Month="{$Easter:Month}" Day="{$Easter:Day}">Easter Sunday</Event>
+	<Event TimeStamp="({$Easter:Stamp}-46*{$DayNumber})">Ash Wednesday</Event>
+	<Event TimeStamp="({$Easter:Stamp}-47*{$DayNumber})">Mardi Gras</Event>
+	<Set Month="1">
+		<Event Day="1">New Year's Day</Event>
+		<Event Day="{$ThirdMon}">Martin Luther King, Jr. Day</Event>
+	</Set>
+	<Set Month="2">
+		<Event Day="2">Groundhog Day</Event>
+		<Event Day="14">Valentines Day</Event>
+		<Event Day="{$ThirdMon}">Presidents' Day</Event>
+	</Set>
+	<Set Month="3">
+		<Event Day="8">International Womens's Day</Event>
+		<Event Day="{$SecondSun}">Daylight Saving Time Begins</Event>
+		<Event Day="17">St. Patrick's Day</Event>
+	</Set>
+	<Set Month="4">
+		<Event Day="1">April Fool's Day</Event>
+		<Event Day="15">Tax Day</Event>
+		<Event Day="22">Earth Day</Event>
+		<Event Day="{$LastFri}">Arbor Day</Event>
+	</Set>
+	<Set Month="5">
+		<Event Day="5">Cinco de Mayo</Event>
+		<Event Day="{$SecondSun}">Mother's Day</Event>
+		<Event Day="{$LastMon}">Memorial Day</Event>
+	</Set>
+	<Set Month="6">
+		<Event Day="14">Flag Day</Event>
+		<Event Day="{$ThirdSun}">Father's Day</Event>
+		<Event Day="19">Juneteenth</Event>
+	</Set>
+	<Set Month="7">
+		<Event Day="4">Independence Day</Event>
+	</Set>
+	<Set Month="8">
+		<Event Day="26" Inactive="true">Women's Equality Day</Event>
+	</Set>
+	<Set Month="9">
+		<Event Day="{$FirstMon}">Labor Day</Event>
+		<Event Day="({$FirstMon}+6)">Grandparent's Day</Event>
+		<Event Day="11" Year="2001" Anniversary="true">Patriot Day</Event>
+		<Event Day="17">Citizen Day</Event>
+	</Set>
+	<Set Month="10">
+		<Event Day="9">Leif Erikson Day</Event>
+		<Event Day="{$SecondMon}">Columbus Day</Event>
+		<Event Day="31">Halloween</Event>
+	</Set>
+	<Set Month="11">
+		<Event Day="(({$FirstMon}+1)*(({$Year}%2)=0))">Election Day</Event>
+		<Event Day="{$FirstSun}">Daylight Saving Time Ends</Event>
+		<Event Day="11">Veterans Day</Event>
+		<Event Day="{$FourthThu}">Thanksgiving Day</Event>
+	</Set>
+	<Set Month="12">
+		<Event Day="7" Year="1941" Anniversary="true">Pearl Harbor Remembrance Day</Event>
+		<Event Day="21">Winter Solstice</Event>
+		<Event Day="24">Christmas Eve</Event>
+		<Event Day="25">Christmas Day</Event>
+		<Event Day="31">New Year's Eve</Event>
+	</Set>
+</EventFile>

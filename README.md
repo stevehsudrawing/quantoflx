@@ -22,7 +22,7 @@
 <!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a> -->
 		<br>
-		<a href="https://www.patreon.com/posts/119206461"><kbd>Changelog of Quanto Flx 2.00 Delta (Build 1101)</kbd></a><br>
+		<a href="https://www.patreon.com/posts/121170966"><kbd>Changelog of Quanto Flx 2.00 Epsilon (Build 1110)</kbd></a><br>
 	</p>
 </div>
 

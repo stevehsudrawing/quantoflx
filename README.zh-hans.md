@@ -22,7 +22,7 @@
 <!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=%E5%85%B3%E6%B3%A8"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/%E8%AE%A2%E9%98%85-_-999999?logo=patreon"></a> -->
 		<br>
-		<a href="https://www.patreon.com/posts/119206461"><kbd>Quanto Flx 2.00 Delta (构建 1101) 的更新日志</kbd></a><br>
+		<a href="https://www.patreon.com/posts/121170966"><kbd>Quanto Flx 2.00 Epsilon (构建 1110) 的更新日志</kbd></a><br>
 	</p>
 </div>
 
