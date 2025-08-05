@@ -28,7 +28,7 @@
 
 > [!WARNING]
 > 
-<!-- > This work and its changelog is **only** published on [Afdian](https://afdian.com/a/stevehsu), [DeviantArt](), [GitHub](https://github.com/stevehsudrawing/quantoflx), [Patreon](https://www.patreon.com/quantoseries), [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=45105), [X](https://x.com/quantoseries) and [ZhutiX](https://zhutix.com/skins/quanto-flx). We **do not have any** Discord channel or Telegram group. -->
+> <!-- This work and its changelog is **only** published on [Afdian](https://afdian.com/a/stevehsu), [DeviantArt](), [GitHub](https://github.com/stevehsudrawing/quantoflx), [Patreon](https://www.patreon.com/quantoseries), [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=45105), [X](https://x.com/quantoseries) and [ZhutiX](https://zhutix.com/skins/quanto-flx). We **do not have any** Discord channel or Telegram group. -->
 > This work and its changelog is **only** published on [Afdian](https://afdian.com/a/stevehsu), [GitHub](https://github.com/stevehsudrawing/quantoflx), [Patreon](https://www.patreon.com/quantoseries), [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=45105), [X](https://x.com/quantoseries) and [ZhutiX](https://zhutix.com/skins/quanto-flx). We **do not have any** Discord channel or Telegram group.
 > 
 > **Please do not download our work on other websites to avoid potential risks!**

@@ -28,7 +28,7 @@
 
 > [!WARNING]
 > 
-<!--  -->
+> <!--  -->
 > 本作品及其更新日志**只**发布于[爱发电](https://afdian.com/a/stevehsu)、[GitHub](https://github.com/stevehsudrawing/quantoflx)、[Patreon](https://www.patreon.com/quantoseries)、[Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=45105)、[X](https://x.com/quantoseries) 和[致美化网站](https://zhutix.com/skins/quanto-flx)上。我们**没有任何** Discord 频道或 Telegram 群组。
 > 
 > **请不要在其他网站上下载本作品，以避免潜在风险！**
