@@ -22,7 +22,7 @@
 <!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=%E5%85%B3%E6%B3%A8"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/%E8%AE%A2%E9%98%85-_-999999?logo=patreon"></a> -->
 		<br>
-		<a href="https://www.patreon.com/posts/121170966"><kbd>Quanto Flx 2.00 Epsilon (构建 1110) 的更新日志</kbd></a><br>
+		<a href="https://www.patreon.com/posts/live-changelog-5-134394802"><kbd>Quanto Flx 2.00 Release (构建 1111) 的更新日志</kbd></a><br>
 	</p>
 </div>
 
@@ -32,6 +32,14 @@
 > 本软件及其更新日志**仅**发布于[爱发电](https://afdian.com/a/stevehsu)、[GitHub](https://github.com/stevehsudrawing/quantoflx)、[Patreon](https://www.patreon.com/quantoseries)、[Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=45105)、[X](https://x.com/quantoseries) 和[致美化网站](https://zhutix.com/skins/quanto-flx)上。我们**没有任何** Discord 频道或 Telegram 群组。
 > 
 > **请不要在其他网站上下载本软件，以避免潜在风险！**
+
+> [!WARNING]
+> 
+> **The branch structure of this repository has changed.**
+> 
+> The `snapshot` branch has been rebuilt to be more suitable for development. Resource updates (such as `README.md`, `./.github/*`) will be pushed to the `snapshot` branch first, rather than the `main` branch.
+>
+> To participate in development, create a branch from the `snapshot` branch and name it `patch/...` or `translation/(language code)`, instead of the `main` branch.
 
 # 目录
 

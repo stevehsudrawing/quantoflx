@@ -22,7 +22,7 @@
 <!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a> -->
 		<br>
-		<a href="https://www.patreon.com/posts/121170966"><kbd>Changelog of Quanto Flx 2.00 Epsilon (Build 1110)</kbd></a><br>
+		<a href="https://www.patreon.com/posts/live-changelog-5-134394802"><kbd>Changelog of Quanto Flx 2.00 Release (Build 1111)</kbd></a><br>
 	</p>
 </div>
 
@@ -32,6 +32,14 @@
 > This software and its changelog is **only** published on [Afdian](https://afdian.com/a/stevehsu), [GitHub](https://github.com/stevehsudrawing/quantoflx), [Patreon](https://www.patreon.com/quantoseries), [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=45105), [X](https://x.com/quantoseries) and [ZhutiX](https://zhutix.com/skins/quanto-flx). We **do not have any** Discord channel or Telegram group.
 > 
 > **Please do not download this software on other websites to avoid potential risks!**
+
+> [!WARNING]
+> 
+> **The branch structure of this repository has changed.**
+> 
+> The `snapshot` branch has been rebuilt to be more suitable for development. Resource updates (such as `README.md`, `./.github/*`) will be pushed to the `snapshot` branch first, rather than the `main` branch.
+>
+> To participate in development, create a branch from the `snapshot` branch and name it `patch/...` or `translation/(language code)`, instead of the `main` branch.
 
 # Contents
 
