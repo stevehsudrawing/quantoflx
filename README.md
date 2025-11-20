@@ -28,10 +28,10 @@
 
 > [!WARNING]
 > 
-> <!-- This work and its changelog is **only** published on [Afdian](https://afdian.com/a/stevehsu), [DeviantArt](), [GitHub](https://github.com/stevehsudrawing/quantoflx), [Patreon](https://www.patreon.com/quantoseries), [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=45105), [X](https://x.com/quantoseries) and [ZhutiX](https://zhutix.com/skins/quanto-flx). We **do not have any** Discord channel or Telegram group. -->
-> This work and its changelog is **only** published on [Afdian](https://afdian.com/a/stevehsu), [GitHub](https://github.com/stevehsudrawing/quantoflx), [Patreon](https://www.patreon.com/quantoseries), [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=45105), [X](https://x.com/quantoseries) and [ZhutiX](https://zhutix.com/skins/quanto-flx). We **do not have any** Discord channel or Telegram group.
+> <!-- This software and its changelog is **only** published on [Afdian](https://afdian.com/a/stevehsu), [DeviantArt](), [GitHub](https://github.com/stevehsudrawing/quantoflx), [Patreon](https://www.patreon.com/quantoseries), [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=45105), [X](https://x.com/quantoseries) and [ZhutiX](https://zhutix.com/skins/quanto-flx). We **do not have any** Discord channel or Telegram group. -->
+> This software and its changelog is **only** published on [Afdian](https://afdian.com/a/stevehsu), [GitHub](https://github.com/stevehsudrawing/quantoflx), [Patreon](https://www.patreon.com/quantoseries), [Rainmeter Forum](https://forum.rainmeter.net/viewtopic.php?t=45105), [X](https://x.com/quantoseries) and [ZhutiX](https://zhutix.com/skins/quanto-flx). We **do not have any** Discord channel or Telegram group.
 > 
-> **Please do not download our work on other websites to avoid potential risks!**
+> **Please do not download this software on other websites to avoid potential risks!**
 
 # Contents
 
@@ -220,18 +220,6 @@ Quanto Flx supports Windows 7 and newer. As long as your device can install the 
 <div align="center">
 	<img alt="Quanto Flx Demo Overview" src=".github/images/Misc/Demo/Overview.png" width="400">
 </div>
-
-# Which version should I choose?
-
-You are currently browsing **the `main` branch**.
-
-- **`main`**
-	
-	This branch pushes **releases and pre-releases**. If you want **a stable and long-term available version**, you should check out [the Release page](https://github.com/stevehsudrawing/quantoflx/releases), and download the **final release** version. You can also download **the pre-release version** to **experience newer features**.
-
-- [`snapshot`](https://github.com/stevehsudrawing/quantoflx/tree/snapshot)
-	
-	This branch pushes **snapshot versions**. If you **pursue the latest features**, you can choose this branch. However, it should be noted that since this branch is **updated frequently** and **the version may be extremely unstable**, you should choose it with caution.
 
 # How to install for the first time
 

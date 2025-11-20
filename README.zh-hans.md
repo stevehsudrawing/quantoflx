@@ -29,9 +29,9 @@
 > [!WARNING]
 > 
 > <!--  -->
-> 本作品及其更新日志**只**发布于[爱发电](https://afdian.com/a/stevehsu)、[GitHub](https://github.com/stevehsudrawing/quantoflx)、[Patreon](https://www.patreon.com/quantoseries)、[Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=45105)、[X](https://x.com/quantoseries) 和[致美化网站](https://zhutix.com/skins/quanto-flx)上。我们**没有任何** Discord 频道或 Telegram 群组。
+> 本软件及其更新日志**仅**发布于[爱发电](https://afdian.com/a/stevehsu)、[GitHub](https://github.com/stevehsudrawing/quantoflx)、[Patreon](https://www.patreon.com/quantoseries)、[Rainmeter 官方论坛](https://forum.rainmeter.net/viewtopic.php?t=45105)、[X](https://x.com/quantoseries) 和[致美化网站](https://zhutix.com/skins/quanto-flx)上。我们**没有任何** Discord 频道或 Telegram 群组。
 > 
-> **请不要在其他网站上下载本作品，以避免潜在风险！**
+> **请不要在其他网站上下载本软件，以避免潜在风险！**
 
 # 目录
 
@@ -220,18 +220,6 @@ Quanto Flx 支持 Windows 7 以及更新的系统。只要你的设备能够安�
 <div align="center">
 	<img width="400" alt="Quanto Flx Demo 概览" src=".github/images/Misc/Demo/Overview.png">
 </div>
-
-# 我应该选择哪个版本？
-
-你当前正在浏览`main`分支。
-
-- **`main`**
-
-	此分支推送的是**发行版和预发行版**。如果您想要**稳定且长期可用的版本**，您应该查看[发行版页面](https://github.com/stevehsudrawing/quantoflx/releases)，并下载**最终发行**版本。您还可以下载**预发行版**以**体验新功能**。
-
-- [`snapshot`](https://github.com/stevehsudrawing/quantoflx/tree/snapshot)
-	
-	此分支推送的是**快照版本**，如果你**追求最新功能**，可以选择此分支，但需要注意的是，由于此分支**更新频繁**，**版本可能极不稳定**，请谨慎选择。
 
 # 初次使用，如何安装
 
