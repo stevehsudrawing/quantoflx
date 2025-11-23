@@ -22,7 +22,7 @@
 <!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=%E5%85%B3%E6%B3%A8"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/%E8%AE%A2%E9%98%85-_-999999?logo=patreon"></a> -->
 		<br>
-		<a href="https://www.patreon.com/posts/live-changelog-5-134394802"><kbd>Quanto Flx 2.00 Release (构建 1111) 的更新日志</kbd></a><br>
+		<a href="https://www.patreon.com/posts/live-changelog-5-134394802"><kbd>Quanto Flx 26H1 的更新日志</kbd></a><br>
 	</p>
 </div>
 

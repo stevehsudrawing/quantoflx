@@ -22,7 +22,7 @@
 <!-- 		<a href="https://x.com/quantoseries"><img alt="X Follow" src="https://img.shields.io/twitter/follow/quantoseries?style=flat&logo=X&label=follow"></a>
 		<a href="https://www.patreon.com/quantoseries"><img alt="Patreon Subscribe" src="https://img.shields.io/badge/subscribe-_-999999?logo=patreon"></a> -->
 		<br>
-		<a href="https://www.patreon.com/posts/live-changelog-5-134394802"><kbd>Changelog of Quanto Flx 2.00 Release (Build 1111)</kbd></a><br>
+		<a href="https://www.patreon.com/posts/live-changelog-5-134394802"><kbd>Changelog of Quanto Flx 26H1</kbd></a><br>
 	</p>
 </div>
 
